@@ -1,0 +1,11 @@
+{
+  "name": "project-integrator-multimedia-solutions",
+  "version": "1.0.0",
+  "description": "<p align=\"right\">\r   <samp>\r     <a href=\"https://www.figma.com/design/ZJsMPspRHxOqR2OkoRcmyu/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0?node-id=16-802&t=Gg3pXcFxL82EeLOF-0\">figma</a>✨ \r     <a href=\"#!\">file</a>📜 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki\">wiki</a>📚 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions\">discussions</a>📫 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/issues\">issues</a>💡 \r     <a href=\"#!\">metrics</a>🚀 \r     <a href=\"https://github.com/users/SinitsaBogdan/projects/34\">task-board</a>💻 \r     <a href=\"#!\">doc</a>🌱\r   </samp>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
