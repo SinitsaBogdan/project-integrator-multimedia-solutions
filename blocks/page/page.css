@@ -1,0 +1,5 @@
+.Page {
+  color: var(--main-text-color);
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+}
