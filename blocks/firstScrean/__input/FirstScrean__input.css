@@ -1,0 +1,7 @@
+.FirstScrean__input {
+	border-radius: 60px;
+	padding-inline-start: 40px;
+	padding-inline-end: 20px;
+	font-size: 14px;
+	color: var(--color-text-secondary-input);
+}
