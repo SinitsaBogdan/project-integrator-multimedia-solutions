@@ -1,18 +1,22 @@
 const menuItems = [
   {
-    name: "Products",
-    url: "#",
+    nameEng: "Products",
+    nameRu: "Продукты",
+    url: "#!",
   },
   {
-    name: "Features",
-    url: "#",
+    nameEng: "Features",
+    nameRu: "Особенности",
+    url: "#!",
   },
   {
-    name: "Pricing",
-    url: "#",
+    nameEng: "Pricing",
+    nameRu: "Расценка",
+    url: "#!",
   },
   {
-    name: "Support",
-    url: "#",
+    nameEng: "Support",
+    nameRu: "Поддержка",
+    url: "#!",
   }
 ]
