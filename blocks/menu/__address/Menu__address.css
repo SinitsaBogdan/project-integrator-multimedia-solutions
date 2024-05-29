@@ -1,5 +1,3 @@
-@import url(./_item/Menu__address_item.css);
-
 .Menu__address {
   display: flex;
   gap: 36px;
