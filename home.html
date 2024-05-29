@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
 
-    <title>IT trader Soft</title>
+		<title>IT trader Soft</title>
 
-    <link rel="stylesheet" href="./style/index.css">
+		<link rel="stylesheet" href="./style/normalize.css" />
+		<link rel="stylesheet" href="./style/fonts.css" />
+		<link rel="stylesheet" href="./pages/Home.css" />
 
-    <!-- <link rel="icon" href="svg/favicon.ico" />
-    <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="svg/mobile-favicon.png" /> -->
-    <!-- <script src="./scripts/set-theme.js"></script> -->
-</head>
-<body class="Page">
-    <header class="Header">
-        <div class="Header__menu Header__menu_blur">
-            <img class="Menu__logo" src="./assets/svg/logo.svg" alt="логотип">
-            <nav>
-                <ul class="Menu__navigation">
+		<!-- 
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+    -->
 
-                </ul>
-            </nav>
-            <address class="Menu__address">
-                <a href="tel:79999999999" class="Address__item">+7 (999)-999-99-99</a>
-                <a href="mailto:test@mail.ru" class="Address__item">test@mail.ru</a>
-            </address>
-            <button class="Button Button__color-border Menu__buttonr">Обсудить проект</button>
-        </div>
-    </header>
+		<script src="./scripts/set-theme.js"></script>
+	</head>
+	<body class="Page">
+		<header class="Header">
+			<div class="Wrapper Header__wrapper">
+				<img src="./assets/svg/logo.svg" alt="логотип" />
+				<menu class="Menu blur">
+					<ul class="Menu__list"></ul>
+				</menu>
+				<address class="Contacts">
+					<a href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button class="Button Button__isBorder Button__isBackground">Обсудить проект</button>
+			</div>
+		</header>
 
-    <script type="module" src="./scripts/index.js"></script>
-</body>
+		<script type="module" src="./scripts/index.js"></script>
+	</body>
 </html>

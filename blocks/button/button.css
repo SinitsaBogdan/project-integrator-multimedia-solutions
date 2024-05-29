@@ -2,8 +2,32 @@
 @import url(./__fill/Button__fill.css);
 
 .Button {
-  position: relative;
-  color: inherit;
-  background: none;
-  cursor: pointer;
+	border: none;
+	border-radius: 60px;
+	padding-inline: 26.5px;
+	padding-block: 12px;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+}
+
+.Button__isBackground {
+	background: var(--accent-gradient);
+}
+
+.Button__isBorder {
+	position: relative;
+}
+
+.Button__isBorder::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border: 1px solid transparent;
+	border-radius: inherit;
+	background: var(--accent-gradient) border-box;
+	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
 }

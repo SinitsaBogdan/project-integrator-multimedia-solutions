@@ -1,0 +1,7 @@
+.blur {
+	backdrop-filter: blur(5px);
+}
+
+.Wrapper {
+	margin-inline: 160px;
+}
