@@ -1,7 +1,7 @@
 .blur {
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(6px);
 }
 
 .Wrapper {
-	margin-inline: 160px;
+	margin-inline: var(--max-padding-inline);
 }
