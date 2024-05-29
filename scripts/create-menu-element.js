@@ -1,4 +1,6 @@
-function createMenuElements() {
+import { menuItems } from "./menu-data.js";
+
+export function createMenuElements() {
 	const menuList = document.querySelector('.Menu__navigation');
 
 	menuItems.forEach((item) => {
