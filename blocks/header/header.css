@@ -1,7 +1,9 @@
 @import url(./__wrapper/Header__wrapper.css);
-@import url(./__menu/Header__menu.css);
-
 
 .Header {
-    margin-block-start: 40px;
+	position: fixed;
+	top: 0;
+	margin-inline: auto;
+	margin-block-start: 40px;
+	inline-size: 100%;
 }
