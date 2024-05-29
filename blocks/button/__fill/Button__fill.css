@@ -1,0 +1,5 @@
+.Button__fill {
+  border: none;
+  border-radius: 60px;
+  background: var(--accent-gradient);
+}

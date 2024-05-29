@@ -1,0 +1,11 @@
+@import url(./_blur/Header__menu_blur.css);
+
+.Header__menu {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 60px;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin: 25px auto;
+}

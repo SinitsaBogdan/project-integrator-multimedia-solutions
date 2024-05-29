@@ -1,0 +1,7 @@
+.Menu__navigation {
+  display: flex;
+  gap: 50px;
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+}

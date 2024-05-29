@@ -1,0 +1,9 @@
+@import url(./__color-border/Button__color-border.css);
+@import url(./__fill/Button__fill.css);
+
+.Button {
+  position: relative;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}

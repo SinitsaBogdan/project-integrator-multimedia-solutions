@@ -1,0 +1,3 @@
+.Header__blur {
+  backdrop-filter: blur(5px);
+}

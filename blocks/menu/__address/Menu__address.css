@@ -1,0 +1,9 @@
+@import url(./_item/Menu__address_item.css);
+
+.Menu__address {
+  display: flex;
+  gap: 36px;
+  margin-right: 28px;
+  margin-left: 154px;
+  font-weight: 500;
+}
