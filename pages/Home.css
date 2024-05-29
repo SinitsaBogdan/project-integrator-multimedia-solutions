@@ -1,8 +1,11 @@
 @import url(../style/variables.css);
 @import url(../style/global.css);
 
-@import url(../blocks/page/page.css);
+@import url(../blocks/page/Page.css);
 @import url(../blocks/header/Header.css);
-@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/Menu.css);
 @import url(../blocks/contacts/Contacts.css);
-@import url(../blocks/button/button.css);
+@import url(../blocks/button/Button.css);
+
+@import url(../blocks/firstScrean/FirstScrean.css);
+@import url(../blocks/slider/Slider.css);
