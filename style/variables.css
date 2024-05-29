@@ -1,4 +1,4 @@
 :root {
-  --accent-border-color: linear-gradient(to right, #6DDCFF, #7F60F9);
+  --accent-gradient: linear-gradient(to right, #6DDCFF, #7F60F9);
   --main-text-color: #FFF;
 }
