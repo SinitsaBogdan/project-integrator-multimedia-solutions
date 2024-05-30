@@ -8,7 +8,7 @@
 }
 
 .Button__isBackground {
-	background: var(--accent-gradient);
+	background: var(--gradient-accent);
 }
 
 .Button__isBorder {
@@ -21,7 +21,7 @@
 	inset: 0;
 	border: 1px solid transparent;
 	border-radius: inherit;
-	background: var(--accent-gradient) border-box;
+	background: var(--gradient-accent) border-box;
 	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
 	mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
 	-webkit-mask-composite: destination-out;

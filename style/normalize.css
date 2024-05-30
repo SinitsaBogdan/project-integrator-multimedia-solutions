@@ -40,7 +40,7 @@ input {
 	border-radius: 8px;
 	padding-inline: var(--form-padding-size);
 	padding-block: 18px;
-	color: var(--accent-text-color);
+	color: var(--color-text-basic);
 	font-family: inherit;
 	font-size: inherit;
 	block-size: 55px;
