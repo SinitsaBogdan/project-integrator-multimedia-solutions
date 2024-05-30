@@ -1,4 +1,10 @@
 :root {
 	--accent-gradient: linear-gradient(to right, #6ddcff, #7f60f9);
+	--accent-text-color: rgba(255, 255, 255, 0.5);
 	--main-text-color: #fff;
+	--form-field-border-color: rgba(255, 255, 255, 0.1);
+
+	--dialog-heading-font-size: clamp(24px, calc(30px - (600px - 40vw) / 40), 30px);
+	--dialog-padding-size: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
+	--form-padding-size: clamp(14px, calc(23px - (600px - 40vw) / 26), 24px);
 }

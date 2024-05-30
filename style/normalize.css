@@ -34,3 +34,19 @@ h5,
 h6 {
 	font-size: inherit;
 }
+
+input {
+	border: 1px solid var(--form-field-border-color);
+	border-radius: 8px;
+	padding-inline: var(--form-padding-size);
+	padding-block: 18px;
+	color: var(--accent-text-color);
+	font-family: inherit;
+	font-size: inherit;
+	block-size: 55px;
+}
+
+input:focus {
+	outline: none;
+	opacity: 70%;
+}

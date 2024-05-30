@@ -1,7 +1,6 @@
 .Dialog__prompt {
-	padding-inline: 23px;
 	opacity: 70%;
-	font-size: clamp(14px, calc(16px - (600px - 40vw) / 120), 16px);
+	color: var(--accent-text-color);
 	text-align: center;
 	max-inline-size: 456px;
 }

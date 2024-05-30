@@ -1,6 +1,5 @@
 .Dialog__heading {
 	font-weight: 500;
-	font-size: clamp(24px, calc(30px - (600px - 40vw) / 40), 30px);
-	line-height: 117, 7%;
+	font-size: var(--dialog-heading-font-size);
 	text-transform: uppercase;
 }

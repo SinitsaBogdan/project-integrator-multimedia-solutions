@@ -1,10 +1,7 @@
-@import url(./__color-border/Button__color-border.css);
-@import url(./__fill/Button__fill.css);
-
 .Button {
 	border: none;
 	border-radius: 60px;
-	padding-inline: 26.5px;
+	padding-inline: 26px;
 	padding-block: 12px;
 	color: inherit;
 	background: none;

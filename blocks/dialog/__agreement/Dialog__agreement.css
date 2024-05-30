@@ -1,4 +1,5 @@
 .Dialog__agreement {
-	color: rgba(255, 255, 255, 0.3);
+	opacity: 30%;
+	color: var(--accent-text-color);
 	font-size: 12px;
 }

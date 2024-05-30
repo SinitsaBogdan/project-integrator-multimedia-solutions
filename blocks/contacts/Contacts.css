@@ -1,5 +1,3 @@
-@import url(./__item/Contacts__item.css);
-
 .Contacts {
 	display: flex;
 	column-gap: 36px;
