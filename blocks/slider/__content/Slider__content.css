@@ -9,8 +9,8 @@
 .Slider__content::after {
     content: "";
     position: absolute;
-    left: var(--max-margin-inline);
-    inline-size: calc(100% - (var(--max-margin-inline) * 2));
+    left: 0;
+    inline-size: 100%;
     block-size: 2px;
     background-color: var(--color-scroll-line);
 }
@@ -19,7 +19,7 @@
     content: "";
     position: absolute;
     top: -2px;
-    left: calc(160px + 400px);
+    left: 150px;
     inline-size: 100px;
     block-size: 4px;
     background: var(--gradient-accent);
