@@ -21,24 +21,53 @@
 	</head>
 	<body class="Page">
 		<header class="Header">
-			<div class="Wrapper Header__wrapper blur">
-				<img src="../../assets/svg/logo.svg" alt="логотип" />
-				<menu class="Menu">
-					<ul class="Menu__list"></ul>
-				</menu>
-				<address class="Contacts">
-					<a href="tel:79999999999">+7 (999)-999-99-99</a>
-					<a href="mailto:test@mail.ru">test@mail.ru</a>
-				</address>
-				<button
-					type="button"
-					onclick="window['Dialog-get-price'].showModal();"
-					class="Button Button__isBorder"
-				>
-					Обсудить проект
-				</button>
+			<div class="Wrapper Header__wrapper">
+				<div class=" Header__content blur">
+					<img src="../../assets/svg/logo.svg" alt="логотип" />
+					<menu class="Menu">
+						<ul class="Menu__list"></ul>
+					</menu>
+					<address class="Contacts">
+						<a href="tel:79999999999">+7 (999)-999-99-99</a>
+						<a href="mailto:test@mail.ru">test@mail.ru</a>
+					</address>
+					<button
+						type="button"
+						onclick="window['Dialog-get-price'].showModal();"
+						class="Button Button__isBorder"
+					>
+						Обсудить проект
+					</button>
+				</div>
 			</div>
 		</header>
+
+		<section class="FirstScrean">
+			<div class="Wrapper FirstScrean__wrapper">
+				<p class="FirstScrean__pre">Системный интегратор мультимедийных решений</p>
+				<h1 class="FirstScrean__title">
+					внедрение мультимедийных решений для конференц залов
+				</h1>
+				<p class="FirstScrean__text">
+					Комплексное оснащение конференц-залов, ситуационных центров, переговорных
+					комнат, учебных центров и пр.
+				</p>
+				<div class="FirstScrean__controller">
+					<button class="Button Button__isBackground">Обсудить проект</button>
+					<input
+						class="FirstScrean__input blur"
+						placeholder="Поиск решений. Например: Переговорные"
+						type="text"
+					/>
+				</div>
+			</div>
+			<div class="Wrapper Slider">
+				<div class="Slider__content">
+					<button class="Slider__arrow"></button>
+					<button class="Slider__arrow"></button>
+				</div>
+			</div>
+		</section>
 
 		<dialog class="Dialog" id="Dialog-get-price">
 			<h2 class="Dialog__heading">Получить расчет</h2>
