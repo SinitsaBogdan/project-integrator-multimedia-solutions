@@ -1,0 +1,26 @@
+.Slider__content {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+}
+
+.Slider__content::after {
+    content: "";
+    position: absolute;
+    left: var(--max-margin-inline);
+    inline-size: calc(100% - (var(--max-margin-inline) * 2));
+    block-size: 2px;
+    background-color: var(--color-scroll-line);
+}
+
+.Slider__content::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: calc(160px + 400px);
+    inline-size: 100px;
+    block-size: 4px;
+    background: var(--gradient-accent);
+}
