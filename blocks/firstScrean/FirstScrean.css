@@ -10,7 +10,9 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: self-start;
-	background: url(../../assets/image/FirstScrean/background-image-01.png) no-repeat center;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../../assets/image/FirstScrean/background-image-01.png);
 	background-size: cover;
 	block-size: 100vh;
 }
