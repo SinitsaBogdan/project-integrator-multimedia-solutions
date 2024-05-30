@@ -1,0 +1,7 @@
+.Section__heading {
+	grid-column: 1 / 3;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 66px;
+	text-transform: uppercase;
+}
