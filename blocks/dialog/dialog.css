@@ -1,0 +1,29 @@
+@import url(./__heading/Dialog__heading.css);
+@import url(./__prompt/Dialog__prompt.css);
+@import url(./__close-button/Dialog__close-button.css);
+@import url(./__form/Dialog__form.css);
+@import url(./__agreement/Dialog__agreement.css);
+
+.Dialog {
+  align-self: center;
+  justify-self: center;
+  border: none;
+  border-radius: 7px;
+  padding-block: 40px;
+  padding-inline: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
+  inline-size: 40vw;
+  max-inline-size: 600px;
+  min-inline-size: 360px;
+  text-align: center;
+}
+
+body:has(dialog[open]) .Dialog{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+.Dialog::backdrop {
+  backdrop-filter: blur(3px) brightness(0.8);
+}
