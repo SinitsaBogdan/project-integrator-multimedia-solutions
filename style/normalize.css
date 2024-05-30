@@ -13,6 +13,7 @@ a {
 
 button, input {
   color: inherit;
+  cursor: pointer;
   background-color: transparent;
   border: none;    
   font-size: inherit;
