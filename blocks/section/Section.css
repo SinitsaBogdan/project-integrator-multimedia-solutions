@@ -2,6 +2,6 @@
 @import url(./__heading/Section__heading.css);
 
 .Section {
+	display: grid;
 	padding-inline: 156px;
-    display: grid;
 }

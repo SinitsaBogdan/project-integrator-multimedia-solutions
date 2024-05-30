@@ -1,9 +1,9 @@
 .Card__moreButton {
-    margin-block-start: 19px;
-    justify-self: end;
-    transition: transform 0.7s;
+	justify-self: end;
+	margin-block-start: 19px;
+	transition: transform 0.7s;
 }
 
 .Card__moreButton:hover {
-    transform: rotate(45deg);
+	transform: rotate(45deg);
 }
