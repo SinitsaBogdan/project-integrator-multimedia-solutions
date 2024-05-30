@@ -1,4 +1,4 @@
-import { menuItems } from "./menu-data.js";
+import { menuItems } from './menu-data.js';
 
 export function createMenuElements() {
 	const menuList = document.querySelector('.Menu__list');

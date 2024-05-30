@@ -1,0 +1,6 @@
+.Dialog__prompt {
+	opacity: 70%;
+	color: var(--accent-text-color);
+	text-align: center;
+	max-inline-size: 456px;
+}
