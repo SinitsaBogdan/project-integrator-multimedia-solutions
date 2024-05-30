@@ -5,3 +5,7 @@
 .Wrapper {
 	margin-inline: 160px;
 }
+
+.underline {
+	text-decoration: underline;
+}
