@@ -1,0 +1,35 @@
+.Slider__controller {
+	position: relative;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	column-gap: 1rem;
+	block-size: 80px;
+}
+
+.Slider__controller::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--color-scroll-line);
+	inline-size: 100%;
+	block-size: 2px;
+}
+
+.Slider__controller::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	border-radius: 60px;
+	left: 150px;
+	background: var(--gradient-accent);
+	inline-size: 100px;
+	block-size: 4px;
+}
+
+.Slider__arrow_previous {
+}
+
+.Slider__arrow_next {
+}
