@@ -7,4 +7,10 @@
 	--color-scroll-line: #d9d9d920;
 
 	--max-margin-inline: 160px;
+
+	--form-field-border-color: rgba(255, 255, 255, 0.1);
+	--form-padding-size: clamp(14px, calc(23px - (600px - 40vw) / 26), 24px);
+
+	--dialog-heading-font-size: clamp(24px, calc(30px - (600px - 40vw) / 40), 30px);
+	--dialog-padding-size: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
 }

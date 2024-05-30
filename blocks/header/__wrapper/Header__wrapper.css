@@ -1,8 +1,11 @@
 .Header__wrapper {
+	position: sticky;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 60px;
-	inline-size: 100%;
+	padding-inline-start: 34px;
+	padding-inline-end: 20px;
 	background-color: rgba(255, 255, 255, 0.05);
+	min-inline-size: 1260px;
 }

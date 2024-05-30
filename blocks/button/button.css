@@ -1,11 +1,10 @@
 .Button {
 	border: none;
 	border-radius: 60px;
-	padding-inline: 26.5px;
+	padding-inline: 26px;
 	padding-block: 12px;
 	color: inherit;
 	background: none;
-	cursor: pointer;
 }
 
 .Button__isBackground {

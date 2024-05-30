@@ -1,0 +1,5 @@
+.Dialog__heading {
+	font-weight: 500;
+	font-size: var(--dialog-heading-font-size);
+	text-transform: uppercase;
+}

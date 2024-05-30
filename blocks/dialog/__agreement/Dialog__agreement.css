@@ -1,0 +1,5 @@
+.Dialog__agreement {
+	opacity: 30%;
+	color: var(--accent-text-color);
+	font-size: 12px;
+}

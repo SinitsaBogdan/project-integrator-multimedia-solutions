@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
+
+		<title>IT trader Soft</title>
+
+		<link rel="stylesheet" href="../../style/normalize.css" />
+		<link rel="stylesheet" href="../../style/fonts.css" />
+		<link rel="stylesheet" href="./Home.css" />
+
+		<!--
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+        -->
+
+		<script src="../../scripts/set-theme.js"></script>
+	</head>
+	<body class="Page">
+		<header class="Header">
+			<div class="Wrapper Header__wrapper blur">
+				<img src="../../assets/svg/logo.svg" alt="логотип" />
+				<menu class="Menu">
+					<ul class="Menu__list"></ul>
+				</menu>
+				<address class="Contacts">
+					<a href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button
+					type="button"
+					onclick="window['Dialog-get-price'].showModal();"
+					class="Button Button__isBorder"
+				>
+					Обсудить проект
+				</button>
+			</div>
+		</header>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button
+				type="button"
+				onclick="window['Dialog-get-price'].close();"
+				class="Dialog__close"
+			>
+				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">
+				Оставьте ваши контактные данные и получите полный расчет стоимости
+			</p>
+			<form class="FormFeedback">
+				<input type="text" class="FormFeedback__field" placeholder="Ваше имя" />
+				<input type="tel" class="FormFeedback__field" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="FormFeedback__field" placeholder="Ваш email" />
+				<button
+					type="submit"
+					onclick="window['Dialog-get-price'].close();"
+					class="Button Button__isBackground FormFeedback__button"
+				>
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a
+					class="underline"
+					target="_blank"
+					href="../../pages/personal_data_processing/personal_data_processing.html"
+					>условия обработки персональных данных</a
+				>
+			</p>
+		</dialog>
+
+		<script type="module" src="../../scripts/index.js"></script>
+	</body>
+</html>
