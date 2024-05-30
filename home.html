@@ -30,9 +30,33 @@
 					<a href="tel:79999999999">+7 (999)-999-99-99</a>
 					<a href="mailto:test@mail.ru">test@mail.ru</a>
 				</address>
-				<button class="Button Button__isBorder">Обсудить проект</button>
+				<button 
+				type="button"
+        onclick="window['Dialog-get-price'].showModal();"
+				class="Button Button__isBorder">Обсудить проект</button>
 			</div>
 		</header>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+      <h2 class="Dialog__heading">Получить расчет</h2>
+			<button
+			type="button"
+      onclick="window['Dialog-get-price'].close();" 
+			class="Dialog__close-button">
+				<img src="./assets/svg/Close.svg" alt="Закрыть окно">
+			</button>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
+      <form class="Dialog__form">
+        <input type="text" class="Dialog__form-field" placeholder="Ваше имя" />
+        <input type="tel" class="Dialog__form-field" placeholder="+7 (999)-999-99-99" />
+        <input type="email" class="Dialog__form-field" placeholder="Ваш email" />
+        <button 
+				type="submit"
+				onclick="window['Dialog-get-price'].close();"
+				class="Dialog__form-button Button Button__isBackground">Получить консультацию</button>
+      </form>
+			<p class="Dialog__agreement">Нажимая на кнопку, Вы принимаете <a class="underline" href="#!">условия обработки персональных данных</a></p>
+    </dialog>
 
 		<script type="module" src="./scripts/index.js"></script>
 	</body>
