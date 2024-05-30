@@ -1,9 +1,0 @@
-@import url(../style/variables.css);
-@import url(../style/global.css);
-
-@import url(../blocks/page/page.css);
-@import url(../blocks/header/Header.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/contacts/Contacts.css);
-@import url(../blocks/button/button.css);
-@import url(../blocks/dialog/dialog.css);

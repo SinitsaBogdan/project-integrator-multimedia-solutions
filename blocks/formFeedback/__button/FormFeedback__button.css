@@ -1,0 +1,7 @@
+.FormFeedback__button {
+	border-radius: 7px;
+	font-family: inherit;
+	font-weight: 600;
+	text-transform: uppercase;
+	block-size: 55px;
+}

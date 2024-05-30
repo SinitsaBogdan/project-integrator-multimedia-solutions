@@ -1,0 +1,10 @@
+@import url(./__field/FormFeedback__field.css);
+@import url(./__field/FormFeedback__field.css);
+
+.FormFeedback {
+	display: flex;
+	flex-direction: column;
+	row-gap: 9px;
+	font-size: clamp(14px, calc(16px - (600px - 40vw) / 120), 16px);
+	inline-size: 100%;
+}
