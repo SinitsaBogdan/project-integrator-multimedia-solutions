@@ -22,7 +22,7 @@
 	<body class="Page">
 		<header class="Header">
 			<div class="Wrapper Header__wrapper">
-				<div class=" Header__content blur">
+				<div class="Header__content blur">
 					<img src="../../assets/svg/logo.svg" alt="логотип" />
 					<menu class="Menu">
 						<ul class="Menu__list"></ul>
@@ -33,8 +33,8 @@
 					</address>
 					<button
 						type="button"
-						onclick="window['Dialog-get-price'].showModal();"
 						class="Button Button__isBorder"
+						onclick="window['Dialog-get-price'].showModal();"
 					>
 						Обсудить проект
 					</button>
@@ -53,11 +53,17 @@
 					комнат, учебных центров и пр.
 				</p>
 				<div class="FirstScrean__controller">
-					<button class="Button Button__isBackground">Обсудить проект</button>
+					<button
+						type="button"
+						class="Button Button__isBackground"
+						onclick="window['Dialog-get-price'].showModal();"
+					>
+						Обсудить проект
+					</button>
 					<input
+						type="text"
 						class="FirstScrean__input blur"
 						placeholder="Поиск решений. Например: Переговорные"
-						type="text"
 					/>
 				</div>
 			</div>
