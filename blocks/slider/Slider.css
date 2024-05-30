@@ -1,8 +1,8 @@
 @import url(./__arrow/Slider__arrow.css);
-@import url(./__content/Slider__content.css);
+@import url(./__controller/Slider__controller.css);
 
 .Slider {
 	margin-block-start: 44px;
 	margin-block-end: 30px;
-    inline-size: 100%;
+	inline-size: 100%;
 }
