@@ -1,0 +1,7 @@
+@import url(./__separator/Section__separator.css);
+@import url(./__heading/Section__heading.css);
+
+.Section {
+	display: grid;
+	padding-inline: 156px;
+}
