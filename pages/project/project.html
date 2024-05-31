@@ -23,7 +23,9 @@
 		<header class="Header">
 			<div class="Wrapper Header__wrapper">
 				<div class="Header__content blur">
-					<img src="../../assets/svg/logo.svg" alt="логотип" />
+					<a href="../home/home.html">
+						<img class="Logo" src="../../assets/svg/logo.svg" alt="логотип" />
+					</a>
 					<menu class="Menu">
 						<ul class="Menu__list"></ul>
 					</menu>
@@ -51,11 +53,7 @@
 					<h2 class="SimilarProjects__title">Смотрите похожие проекты</h2>
 					<div class="SimilarProjects__list">
 						<article class="Project">
-							<img
-								src="../../assets/image/card__corporate_sector.png"
-								alt="Офис"
-								class="Project__img"
-							/>
+							<img src="../../assets/image/card__corporate_sector.png" alt="Офис" class="Project__img" />
 							<div class="Project__content">
 								<h3 class="Project__title">Корпоративный сектор</h3>
 								<button class="Project__btn">
@@ -84,8 +82,7 @@
 								</button>
 							</div>
 							<p class="Project__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 							</p>
 						</article>
 						<article class="Project">
@@ -122,8 +119,7 @@
 								</button>
 							</div>
 							<p class="Project__description">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
 							</p>
 						</article>
 					</div>
@@ -131,18 +127,88 @@
 			</section>
 		</main>
 
+		<footer class="Footer">
+			<div class="Wrapper Footer__wrapper">
+				<div class="Separator"></div>
+				<div class="Footer__content">
+					<img class="Logo" src="../../assets/svg/logo.svg" alt="логотип" />
+					<div class="Footer__info">
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="#!">о компании</a>
+							<a class="Footer__link Footer__link_title" href="#!">контакты</a>
+							<a class="Footer__link Footer__link_title" href="#!">лицензии</a>
+						</div>
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="#!">Решения</a>
+							<a class="Footer__link" href="#!">Ситуационный центр</a>
+							<a class="Footer__link" href="#!">Диспетчерский пункт</a>
+							<a class="Footer__link" href="#!">Зал совещаний</a>
+							<a class="Footer__link" href="#!">Конференц зал</a>
+							<a class="Footer__link" href="#!">Переговорная комната</a>
+							<a class="Footer__link" href="#!">Видеоконференцсвязь</a>
+							<a class="Footer__link" href="#!">Кабинет руководителя</a>
+							<a class="Footer__link" href="#!">Digital Signage</a>
+							<a class="Footer__link" href="#!">Медиафасады</a>
+							<a class="Footer__link" href="#!">Учебные аудитории</a>
+						</div>
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="#!">Отрасли</a>
+							<a class="Footer__link" href="#!">Корпоративный сектор</a>
+							<a class="Footer__link" href="#!">Государственные учреждения</a>
+							<a class="Footer__link" href="#!">Медицинские учреждения</a>
+							<a class="Footer__link" href="#!">Образование и наука</a>
+							<a class="Footer__link" href="#!">Спортивные и фитнес центры, стадионы</a>
+							<a class="Footer__link" href="#!">Финансовый сектор</a>
+							<a class="Footer__link" href="#!">Гостиничные комплексы</a>
+							<a class="Footer__link" href="#!">Транспорт</a>
+							<a class="Footer__link" href="#!">Торговые центры</a>
+							<a class="Footer__link" href="#!">Клубы, бары, рестораны</a>
+							<a class="Footer__link" href="#!">Учреждения культуры и искусства</a>
+							<a class="Footer__link" href="#!">Промышленные предприятия</a>
+						</div>
+						<div class="Footer__column">
+							<address class="Contacts">
+								<a href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a href="mailto:test@mail.ru">test@mail.ru</a>
+							</address>
+							<article class="Social">
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/WhatsApp.png" alt="" />
+								</a>
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/YouTube.png" alt="" />
+								</a>
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/Telegram App.png" alt="" />
+								</a>
+							</article>
+							<address class="Contacts">
+								<p class="Contacts__info">Центральный офис</p>
+								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+							</address>
+							<button
+								type="button"
+								class="Button Button__isBorder"
+								onclick="window['Dialog-get-price'].showModal();"
+							>
+								Остались вопросы
+							</button>
+						</div>
+					</div>
+					<div class="Footer__politics">
+						<a href="#!">Политика конфиденциальности</a>
+						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
 		<dialog class="Dialog" id="Dialog-get-price">
 			<h2 class="Dialog__heading">Получить расчет</h2>
-			<button
-				type="button"
-				onclick="window['Dialog-get-price'].close();"
-				class="Dialog__close"
-			>
+			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
 				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
 			</button>
-			<p class="Dialog__prompt">
-				Оставьте ваши контактные данные и получите полный расчет стоимости
-			</p>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
 			<form class="FormFeedback">
 				<input type="text" class="FormFeedback__field" placeholder="Ваше имя" />
 				<input type="tel" class="FormFeedback__field" placeholder="+7 (999)-999-99-99" />
