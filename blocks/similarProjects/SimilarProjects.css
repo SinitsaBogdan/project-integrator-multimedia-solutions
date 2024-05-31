@@ -1,7 +1,8 @@
-@import url(./__heading/SimilarProjects__heading.css);
-@import url(./__separator/SimilarProject__separator.css);
+@import url(./__title/SimilarProjects__title.css);
+@import url(./__list/SimilarProjects__list.css);
 
 .SimilarProjects {
-	padding-inline: 0;
-	padding-block-start: 90px;
+	display: flex;
+	align-items: center;
+	block-size: 100vh;
 }
