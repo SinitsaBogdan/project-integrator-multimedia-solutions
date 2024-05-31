@@ -1,9 +1,9 @@
-@import url(./__wrapper/Header__wrapper.css);
 @import url(./__content/Header__content.css);
 
 .Header {
 	position: fixed;
 	top: 0;
+	z-index: 100;
 	margin-block-start: 40px;
 	inline-size: 100%;
 }

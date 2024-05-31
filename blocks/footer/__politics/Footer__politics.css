@@ -1,0 +1,8 @@
+.Footer__politics {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-block-start: 4rem;
+	padding-block-end: 2rem;
+	opacity: 0.2;
+}
