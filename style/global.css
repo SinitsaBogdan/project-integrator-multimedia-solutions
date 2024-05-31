@@ -1,9 +1,11 @@
 .blur {
-	backdrop-filter: blur(2px);
+	backdrop-filter: blur(6px);
 }
 
 .Wrapper {
-	margin-inline: 160px;
+	max-inline-size: 1200px;
+	margin-inline: auto;
+	padding-inline: 40px;
 }
 
 .underline {
