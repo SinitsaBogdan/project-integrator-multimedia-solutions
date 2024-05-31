@@ -1,6 +1,0 @@
-<svg id="arrow_more" width="25" height="25" viewBox="0 0 29 29" xmlns="http://www.w3.org/2000/svg" stroke-width="2.5">
-    <ellipse ry="13" rx="13" cy="14.5" cx="14.5" fill="none"/>
-    <line y2="8" x2="14.43289" y1="21" x1="14.56711"/>
-    <line y2="14.07656" x2="8.59396" y1="7.49937" x1="15.17114"/>
-    <line transform="rotate(-90 17.050334930419925, 8.586624145507814)" y2="12.00944" x2="11.76174" y1="5.1638" x1="18.33893"/>
-</svg>
