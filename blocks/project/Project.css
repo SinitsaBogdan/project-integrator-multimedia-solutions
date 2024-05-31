@@ -1,0 +1,65 @@
+@import url(./__btn/Project__btn.css);
+@import url(./__content/Project__content.css);
+@import url(./__img/Project__img.css);
+@import url(./__title/Project__title.css);
+@import url(./__description/Project__description.css);
+
+.Project {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid #191919;
+	padding-block-end: 18px;
+	filter: saturate(0);
+	transition: filter 0.5s;
+	inline-size: 49%;
+}
+
+.Project .Icon_Arrow {
+	transform: rotate(-45deg);
+	transition: all 0.4s;
+	stroke: white;
+}
+
+.Project:hover {
+	filter: saturate(1.2);
+}
+
+.Project:hover .Icon_Arrow {
+	transform: rotate(0deg);
+	stroke: url(#linear-gradient);
+}
+
+.Project span {
+	font-weight: bold;
+	animation: outTextShine 0.4s ease-in-out forwards;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: var(--gradient-accent);
+}
+
+.Project:hover span {
+	animation: inTextShine 0.4s ease-in-out forwards;
+}
+
+@keyframes inTextShine {
+	0% {
+		opacity: 0;
+		background-position: 0% 50%;
+	}
+	100% {
+		opacity: 1;
+		background-position: 50% 100%;
+	}
+}
+
+@keyframes outTextShine {
+	0% {
+		opacity: 1;
+		background-position: 0% 50%;
+	}
+	100% {
+		opacity: 0;
+		background-position: 50% 100%;
+	}
+}
