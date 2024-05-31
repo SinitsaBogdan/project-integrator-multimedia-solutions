@@ -1,7 +1,7 @@
 @import url(./__heading/SimilarProjects__heading.css);
+@import url(./__separator/SimilarProject__separator.css);
 
 .SimilarProjects {
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(3, fit-content);
-	column-gap: 14px;
+	padding-inline: 0;
+	padding-block-start: 90px;
 }

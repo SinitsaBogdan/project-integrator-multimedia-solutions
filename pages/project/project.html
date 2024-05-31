@@ -20,47 +20,122 @@
 		<script src="../../scripts/set-theme.js"></script>
 	</head>
 	<body class="Page">
+		<header class="Header">
+			<div class="Wrapper Header__wrapper">
+				<div class="Header__content blur">
+					<img src="../../assets/svg/logo.svg" alt="логотип" />
+					<menu class="Menu">
+						<ul class="Menu__list"></ul>
+					</menu>
+					<address class="Contacts">
+						<a href="tel:79999999999">+7 (999)-999-99-99</a>
+						<a href="mailto:test@mail.ru">test@mail.ru</a>
+					</address>
+					<button
+						type="button"
+						class="Button Button__isBorder"
+						onclick="window['Dialog-get-price'].showModal();"
+					>
+						Обсудить проект
+					</button>
+				</div>
+			</div>
+		</header>
+
 		<main class="Main">
-			<section class="Section SimilarProjects">
-				<div class="Section__separator">
-					<p class="Section__separator_number">06</p>
-					<img src="../../assets/svg/Circle.svg" class="Section__separator_circle" />
+			<section class="Wrapper SimilarProjects">
+				<div class="Separator">
+					<p class="Separator__number"></p>
+					<img src="../../assets/svg/Circle.svg" class="Separator_circle" />
 				</div>
 
-				<h2 class="Section__heading SimilarProjects__heading">Смотрите похожие проекты</h2>
+				<h2 class="SimilarProjects__heading">Смотрите похожие проекты</h2>
 
-				<article class="Card">
-					<img
-						src="../../assets/image/card__corporate_sector.png"
-						alt="Офис"
-						class="Card__image"
-					/>
-					<h3 class="Card__name">Корпоративный сектор</h3>
-					<p class="Card__description">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor.
-					</p>
-					<button class="Card__moreButton">
-						<img src="../../assets/svg/Arrow_more.svg" />
-					</button>
-				</article>
+				<div class="CardList__wrapper">
+					<article class="Card">
+						<img
+							src="../../assets/image/card__corporate_sector.png"
+							alt="Офис"
+							class="Card__image"
+						/>
+						<div class="Wrapper Card__wrapper">
+							<h3 class="Card__name">Корпоративный сектор</h3>
+							<button class="Card__moreButton">
+								<svg width="25px" height="25px">
+									<use
+										class="Card__arrow"
+										href="../../assets/svg/Arrow_more.svg#arrow_more"
+									></use>
+								</svg>
+							</button>
+						</div>
+						<p class="Card__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor.
+						</p>
+					</article>
 
-				<article class="Card">
-					<img
-						src="../../assets/image/card__government_establishment.png"
-						alt="Здание"
-						class="Card__image"
-					/>
-					<h3 class="Card__name">Государственные учреждения</h3>
-					<p class="Card__description">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor.
-					</p>
-					<button class="Card__moreButton">
-						<img src="../../assets/svg/Arrow_more.svg" />
-					</button>
-				</article>
+					<article class="Card">
+						<img
+							src="../../assets/image/card__government_establishment.png"
+							alt="Здание"
+							class="Card__image"
+						/>
+						<div class="Wrapper Card__wrapper">
+							<h3 class="Card__name">Государственные учреждения</h3>
+							<button class="Card__moreButton">
+								<svg width="25px" height="25px">
+									<use
+										class="Card__arrow"
+										href="../../assets/svg/Arrow_more.svg#arrow_more"
+									/>
+								</svg>
+							</button>
+						</div>
+						<p class="Card__description">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							tempor.
+						</p>
+					</article>
+				</div>
 			</section>
 		</main>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button
+				type="button"
+				onclick="window['Dialog-get-price'].close();"
+				class="Dialog__close"
+			>
+				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">
+				Оставьте ваши контактные данные и получите полный расчет стоимости
+			</p>
+			<form class="FormFeedback">
+				<input type="text" class="FormFeedback__field" placeholder="Ваше имя" />
+				<input type="tel" class="FormFeedback__field" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="FormFeedback__field" placeholder="Ваш email" />
+				<button
+					type="submit"
+					onclick="window['Dialog-get-price'].close();"
+					class="Button Button__isBackground FormFeedback__button"
+				>
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a
+					class="underline"
+					target="_blank"
+					href="../../pages/personal_data_processing/personal_data_processing.html"
+					>условия обработки персональных данных</a
+				>
+			</p>
+		</dialog>
+
+		<script type="module" src="../../scripts/index.js"></script>
 	</body>
 </html>
