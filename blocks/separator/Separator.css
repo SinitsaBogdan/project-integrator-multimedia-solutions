@@ -1,12 +1,21 @@
+@import url(./__number/Separator__number.css);
+
 .Separator {
+	position: relative;
 	display: flex;
-	justify-content: space-between;
-	border-top: 2px solid #fff;
+	justify-content: flex-start;
+	border-top: 2px solid #afafaf;
 	padding-block: 10px;
-	opacity: 20%;
 }
 
-.Separator__number {
-	font-weight: 600;
-	font-size: 24px;
+.Separator::before {
+	content: '';
+	position: absolute;
+	top: calc(50% - 9px);
+	right: 0;
+	border: 2px solid #afafaf;
+	border-radius: 50%;
+	background-color: transparent;
+	block-size: 18px;
+	inline-size: 18px;
 }
