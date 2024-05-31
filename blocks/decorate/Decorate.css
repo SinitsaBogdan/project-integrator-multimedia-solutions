@@ -1,0 +1,16 @@
+.Decorate {
+	position: relative;
+}
+
+.Decorate::before {
+	content: '';
+	position: absolute;
+	top: 12px;
+	right: 0;
+	z-index: 10;
+	border: 2px solid #afafaf;
+	border-radius: 50%;
+	background-color: transparent;
+	block-size: 16px;
+	inline-size: 16px;
+}
