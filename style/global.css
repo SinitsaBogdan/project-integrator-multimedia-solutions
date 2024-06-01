@@ -11,3 +11,26 @@
 .underline {
 	text-decoration: underline;
 }
+
+.text__style__isNormal {
+}
+
+.text__style__isTransparent {
+	color: transparent;
+	text-shadow: 0px 1px #ccc, -1px 1px #ccc, 1px 1px #ccc, 0px -1px #ccc, -1px -1px #ccc, 1px -1px #ccc;
+}
+
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+	.text__style__isTransparent {
+		text-shadow: none;
+		-webkit-text-stroke: 1px #ccc;
+		text-stroke: 1px #ccc;
+	}
+}
+
+.text__style__isGradient {
+	background-image: var(--gradient-accent);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

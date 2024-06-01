@@ -1,8 +1,8 @@
-import { dataSliders } from './data-sliders.js';
+import { dataSliders } from '../data/data-sliders-firstscrean.js';
 
 let idSlider = 0;
 
-export function vievSliders() {
+export function vievSlidersFirstscrean() {
 	const btnSliderPrevious = document.querySelector('.Slider__arrow_previous');
 	const btnSliderNext = document.querySelector('.Slider__arrow_next');
 
