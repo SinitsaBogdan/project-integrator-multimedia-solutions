@@ -3,7 +3,6 @@
 @import url(../../style/variables.css);
 @import url(../../style/global.css);
 @import url(../../blocks/page/page.css);
-@import url(../../blocks/separator/Separator.css);
 
 /* POPUP ----------------------------------------------------- */
 
@@ -21,6 +20,9 @@
 
 @import url(../../blocks/firstScrean/FirstScrean.css);
 @import url(../../blocks/slider/Slider.css);
+
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/separator/Separator.css);
 
 /* FOOTER ---------------------------------------------------- */
 
