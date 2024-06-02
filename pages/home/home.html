@@ -33,13 +33,7 @@
 						<a href="tel:79999999999">+7 (999)-999-99-99</a>
 						<a href="mailto:test@mail.ru">test@mail.ru</a>
 					</address>
-					<button
-						type="button"
-						class="Button Button__isBorder"
-						onclick="window['Dialog-get-price'].showModal();"
-					>
-						Обсудить проект
-					</button>
+					<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">Обсудить проект</button>
 				</div>
 			</div>
 		</header>
@@ -50,22 +44,13 @@
 					<p class="FirstScrean__pre">Системный интегратор мультимедийных решений</p>
 					<h1 class="FirstScrean__title">внедрение мультимедийных решений для конференц залов</h1>
 					<p class="FirstScrean__text">
-						Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных
-						центров и пр.
+						Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.
 					</p>
 					<div class="FirstScrean__controller">
-						<button
-							type="button"
-							class="Button Button__isBackground"
-							onclick="window['Dialog-get-price'].showModal();"
-						>
+						<button type="button" class="Button Button__isBackground" onclick="window['Dialog-get-price'].showModal();">
 							Обсудить проект
 						</button>
-						<input
-							type="text"
-							class="FirstScrean__input blur"
-							placeholder="Поиск решений. Например: Переговорные"
-						/>
+						<input type="text" class="FirstScrean__input blur" placeholder="Поиск решений. Например: Переговорные" />
 					</div>
 				</div>
 				<div class="Wrapper Slider">
@@ -94,6 +79,40 @@
 								></path>
 							</svg>
 						</button>
+					</div>
+				</div>
+			</section>
+			<section class="Applications">
+				<div class="Wrapper Applications__wrapper">
+					<div class="Separator">
+						<span class="Separator__number">08</span>
+					</div>
+					<div class="Applications__content">
+						<div>
+							<h2 class="Applications__title">Расчитайте стоимость проекта</h2>
+							<p class="Applications__text">
+								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
+							</p>
+						</div>
+						<form class="Form FormApplications blur" action="">
+							<input class="Form__input" type="text" placeholder="Ваше имя" />
+							<input class="Form__input" type="text" placeholder="+7 (999)-999-99-99" />
+							<input class="Form__input" type="text" placeholder="Ваш email" />
+							<div class="LoadFile">
+								<p>Прикрепите файлы с техническим заданием (необязательно)</p>
+								<label class="Form__file">
+									<input type="file" name="file" />
+									<span>Выберите файл</span>
+								</label>
+							</div>
+							<div class="FormApplications__controller">
+								<button class="Button Button__isNormal" type="submit">Расчитать стоимость</button>
+								<p>
+									Нажимая на кнопку, Вы принимаете
+									<a class="FormApplications__link" href="#!">условия обработки персональных данных</a>
+								</p>
+							</div>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -158,11 +177,7 @@
 								<p class="Contacts__info">Центральный офис</p>
 								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 							</address>
-							<button
-								type="button"
-								class="Button Button__isBorder"
-								onclick="window['Dialog-get-price'].showModal();"
-							>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
 								Остались вопросы
 							</button>
 						</div>
@@ -181,26 +196,17 @@
 				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
 			</button>
 			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
-			<form class="FormFeedback">
-				<input type="text" class="FormFeedback__field" placeholder="Ваше имя" />
-				<input type="tel" class="FormFeedback__field" placeholder="+7 (999)-999-99-99" />
-				<input type="email" class="FormFeedback__field" placeholder="Ваш email" />
-				<button
-					type="submit"
-					onclick="window['Dialog-get-price'].close();"
-					class="Button Button__isBackground FormFeedback__button"
-				>
+			<form class="Form FormFeedback">
+				<input type="text" class="Form__input" placeholder="Ваше имя" />
+				<input type="tel" class="Form__input" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="Form__input" placeholder="Ваш email" />
+				<button type="submit" onclick="window['Dialog-get-price'].close();" class="Button Button__isBackground FormFeedback__button">
 					Получить консультацию
 				</button>
 			</form>
 			<p class="Dialog__agreement">
 				Нажимая на кнопку, Вы принимаете
-				<a
-					class="underline"
-					target="_blank"
-					href="../../pages/agreement/Аgreement.html"
-					>условия обработки персональных данных</a
-				>
+				<a class="underline" target="_blank" href="../../pages/agreement/Аgreement.html">условия обработки персональных данных</a>
 			</p>
 		</dialog>
 

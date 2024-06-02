@@ -1,0 +1,12 @@
+@import url(./__controller/FormApplications__controller.css);
+@import url(./__link/FormApplications__link.css);
+
+.FormApplications {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	border-radius: 20px;
+	padding-inline: 34px;
+	padding-block: 42px;
+	min-inline-size: 514px;
+}

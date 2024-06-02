@@ -15,6 +15,18 @@
 	position: relative;
 }
 
+.Button__isWhite {
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+}
+
+.Button__isNormal {
+	border-radius: 10px;
+	background: var(--gradient-accent);
+	inline-size: 100%;
+}
+
 .Button__isBorder::before {
 	content: '';
 	position: absolute;
