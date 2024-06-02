@@ -1,0 +1,8 @@
+.Stage__num {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 20%;
+	font-size: 150px;
+	line-height: 80%;
+}

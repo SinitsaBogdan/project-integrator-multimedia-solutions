@@ -1,0 +1,7 @@
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 26px;
+	block-size: 100vh;
+}

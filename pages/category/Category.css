@@ -15,12 +15,6 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../blocks/firstScrean/FirstScrean.css);
-@import url(../../blocks/slider/Slider.css);
-
-@import url(../../blocks/applications/Applications.css);
-@import url(../../blocks/formApplications/FormApplications.css);
-@import url(../../blocks/loadFile/LoadFile.css);
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);

@@ -2,7 +2,7 @@ export const menuItems = [
 	{
 		nameEng: 'Projects',
 		nameRu: 'Проекты',
-		url: '../project/project.html',
+		url: '../projects/Projects.html',
 	},
 	{
 		nameEng: 'Features',
