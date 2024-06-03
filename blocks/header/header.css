@@ -1,4 +1,5 @@
 @import url(./__content/Header__content.css);
+@import url(./__wrapper/Header__wrapper.css);
 
 .Header {
 	position: fixed;
