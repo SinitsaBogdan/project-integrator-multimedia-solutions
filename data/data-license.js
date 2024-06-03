@@ -1,6 +1,6 @@
 export const licenses = [
     {
-        url: '../assets/images/License/license.png',
+        url: '../../assets/image/Licenses/license.png',
         alt: 'Лицензия на осуществление оценочной деятельности',
     },
 ];
