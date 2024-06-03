@@ -9,5 +9,5 @@
 .Integration {
 	display: flex;
 	align-items: center;
-	padding-block-start: 12rem;
+	block-size: 100vh;
 }
