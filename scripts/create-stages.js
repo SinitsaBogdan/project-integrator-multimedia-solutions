@@ -1,7 +1,5 @@
-import { stageElements as elements } from '../data/data-stage.js';
-
-export function createStageElements() {
-	const list = document.querySelector('.Integration__list');
+export function createStageElements(id, elements) {
+	const list = document.getElementById(id);
 
 	elements.forEach((e) => {
 		const li = document.createElement('li');
@@ -10,7 +8,7 @@ export function createStageElements() {
 		const h3 = document.createElement('h3');
 		const p = document.createElement('p');
 
-		li.classList.add('Integration__item');
+		li.classList.add('Features__item');
 		article.classList.add('Stage');
 		span.classList.add('Stage__num', 'text__style__isTransparent');
 		h3.classList.add('Stage__title');

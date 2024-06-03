@@ -33,37 +33,90 @@
 						<a href="tel:79999999999">+7 (999)-999-99-99</a>
 						<a href="mailto:test@mail.ru">test@mail.ru</a>
 					</address>
-					<button
-						type="button"
-						class="Button Button__isBorder"
-						onclick="window['Dialog-get-price'].showModal();"
-					>
-						Обсудить проект
-					</button>
+					<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">Обсудить проект</button>
 				</div>
 			</div>
 		</header>
 
 		<main class="Content">
-			<section class="Integration">
-				<div class="Wrapper Integration__wrapper">
+			<section class="Features">
+				<div class="Wrapper Features__wrapper">
+					<div class="Separator">
+						<span class="Separator__number">01</span>
+					</div>
+					<header class="Features__header">
+						<span class="Features__sub">как мы работаем</span>
+						<h2 class="Features__title">
+							<span class="text__style__isNormal">преимущества</span>
+							<br />
+							<span class="text__style__isTransparent">находятся</span>
+							<span class="text__style__isNormal">здесь</span>
+						</h2>
+					</header>
+					<ul id="advantages" class="Features__list">
+						<p class="Features__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam
+						</p>
+					</ul>
+				</div>
+			</section>
+
+			<section class="Features">
+				<div class="Wrapper Features__wrapper">
 					<div class="Separator">
 						<span class="Separator__number">06</span>
 					</div>
-					<header class="Integration__header">
-						<span class="Integration__sub">как мы работаем</span>
-						<h2 class="Integration__title">
-							<span class="Integration__number">#4</span>
+					<header class="Features__header">
+						<span class="Features__sub">как мы работаем</span>
+						<h2 class="Features__title">
+							<span class="Features__number">#4</span>
 							<span class="text__style__isNormal">простых шага</span>
-							</br>
+							<br />
 							<span class="text__style__isTransparent">от расчета</span>
 							<span class="text__style__isGradient">до внедрения</span>
 						</h2>
-						<p class="Integration__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<p class="Features__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam
+						</p>
 					</header>
-					<ul class="Integration__list">
+					<ul id="integration" class="Features__list"></ul>
+				</div>
+			</section>
 
-					</ul>
+			<section class="Applications">
+				<div class="Wrapper Applications__wrapper">
+					<div class="Separator">
+						<span class="Separator__number">07</span>
+					</div>
+					<div class="Applications__content">
+						<div>
+							<h2 class="Applications__title">Расчитайте стоимость проекта</h2>
+							<p class="Applications__text">
+								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
+							</p>
+						</div>
+						<form class="Form FormApplications blur" action="">
+							<input class="Form__input" type="text" placeholder="Ваше имя" />
+							<input class="Form__input" type="text" placeholder="+7 (999)-999-99-99" />
+							<input class="Form__input" type="text" placeholder="Ваш email" />
+							<div class="LoadFile">
+								<p>Прикрепите файлы с техническим заданием (необязательно)</p>
+								<label class="Form__file">
+									<input type="file" name="file" />
+									<span>Выберите файл</span>
+								</label>
+							</div>
+							<div class="FormApplications__controller">
+								<button class="Button Button__isNormal" type="submit">Расчитать стоимость</button>
+								<p>
+									Нажимая на кнопку, Вы принимаете
+									<a class="FormApplications__link" href="#!">условия обработки персональных данных</a>
+								</p>
+							</div>
+						</form>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -93,7 +146,7 @@
 							<a class="Footer__link" href="../decision/Decision.html">Учебные аудитории</a>
 						</div>
 						<div class="Footer__column">
-							<a class="Footer__link Footer__link_title" href="../category/Category.html">Отрасли</a>
+							<a class="Footer__link Footer__link_title" href="../sectors/Sectors.html">Отрасли</a>
 							<a class="Footer__link" href="../projects/Projects.html">Корпоративный сектор</a>
 							<a class="Footer__link" href="../projects/Projects.html">Государственные учреждения</a>
 							<a class="Footer__link" href="../projects/Projects.html">Медицинские учреждения</a>
@@ -127,11 +180,7 @@
 								<p class="Contacts__info">Центральный офис</p>
 								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 							</address>
-							<button
-								type="button"
-								class="Button Button__isBorder"
-								onclick="window['Dialog-get-price'].showModal();"
-							>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
 								Остались вопросы
 							</button>
 						</div>
@@ -144,7 +193,7 @@
 			</div>
 		</footer>
 
-				<dialog class="Dialog" id="Dialog-get-price">
+		<dialog class="Dialog" id="Dialog-get-price">
 			<h2 class="Dialog__heading">Получить расчет</h2>
 			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
 				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
@@ -163,7 +212,6 @@
 				<a class="underline" target="_blank" href="../../pages/agreement/Аgreement.html">условия обработки персональных данных</a>
 			</p>
 		</dialog>
-
 
 		<script type="module" src="./Decision.js"></script>
 	</body>

@@ -12,12 +12,16 @@
 	border: 2px solid #2b2b2b;
 	border-radius: 10px;
 	padding-inline-start: 12px;
-	padding-block-end: 12px;
-	animation: in-gradient-shift 1.2s ease-in forwards;
+	padding-block-end: 22px;
 	block-size: 252px;
 }
 
 .Stage:hover {
 	border: 2px solid #2b2b2b !important;
 	background: var(--gradient-accent);
+}
+
+.Stage:hover .Stage__num,
+.Stage:hover .Stage__text {
+	opacity: 100%;
 }

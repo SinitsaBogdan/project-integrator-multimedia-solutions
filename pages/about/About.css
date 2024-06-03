@@ -23,8 +23,15 @@
 @import url(../../blocks/slider/Slider.css);
 @import url(../../blocks/license/Licenses.css);
 
+@import url(../../blocks/features/Features.css);
+
+@import url(../../blocks/applications/Applications.css);
+@import url(../../blocks/formApplications/FormApplications.css);
+@import url(../../blocks/loadFile/LoadFile.css);
+
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/stage/Stage.css);
 
 /* FOOTER ---------------------------------------------------- */
 

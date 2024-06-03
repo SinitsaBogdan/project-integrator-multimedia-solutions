@@ -18,6 +18,7 @@
 @import url(../../blocks/firstScrean/FirstScrean.css);
 @import url(../../blocks/slider/Slider.css);
 
+@import url(../../blocks/features/Features.css);
 @import url(../../blocks/license/Licenses.css);
 
 @import url(../../blocks/applications/Applications.css);
@@ -26,6 +27,7 @@
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/stage/Stage.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);
