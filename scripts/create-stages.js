@@ -1,6 +1,4 @@
-import { stageElements as elements } from '../data/data-stage.js';
-
-export function createStageElements() {
+export function createStageElements(elements) {
 	const list = document.querySelector('.Integration__list');
 
 	elements.forEach((e) => {
