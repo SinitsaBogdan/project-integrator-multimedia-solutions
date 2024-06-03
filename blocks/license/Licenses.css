@@ -1,0 +1,10 @@
+@import url(./__title/Licenses__title.css);
+@import url(./__list/Licenses__list.css);
+@import url(./__img/Licenses__img.css);
+
+.Licenses__wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 68px;
+	padding-block: 160px;
+}
