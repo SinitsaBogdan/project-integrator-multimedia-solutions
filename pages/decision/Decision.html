@@ -33,37 +33,56 @@
 						<a href="tel:79999999999">+7 (999)-999-99-99</a>
 						<a href="mailto:test@mail.ru">test@mail.ru</a>
 					</address>
-					<button
-						type="button"
-						class="Button Button__isBorder"
-						onclick="window['Dialog-get-price'].showModal();"
-					>
-						Обсудить проект
-					</button>
+					<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">Обсудить проект</button>
 				</div>
 			</div>
 		</header>
 
 		<main class="Content">
-			<section class="Integration">
-				<div class="Wrapper Integration__wrapper">
+
+			<section class="Features">
+				<div class="Wrapper Features__wrapper">
+					<div class="Separator">
+						<span class="Separator__number">01</span>
+					</div>
+					<header class="Features__header">
+						<span class="Features__sub">как мы работаем</span>
+						<h2 class="Features__title">
+							<span class="text__style__isNormal">преимущества</span>
+							<br />
+							<span class="text__style__isTransparent">находятся</span>
+							<span class="text__style__isNormal">здесь</span>
+						</h2>
+					</header>
+					<ul id="advantages" class="Features__list">
+						<p class="Features__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam
+						</p>
+					</ul>
+				</div>
+			</section>
+
+			<section class="Features">
+				<div class="Wrapper Features__wrapper">
 					<div class="Separator">
 						<span class="Separator__number">06</span>
 					</div>
-					<header class="Integration__header">
-						<span class="Integration__sub">как мы работаем</span>
-						<h2 class="Integration__title">
-							<span class="Integration__number">#4</span>
+					<header class="Features__header">
+						<span class="Features__sub">как мы работаем</span>
+						<h2 class="Features__title">
+							<span class="Features__number">#4</span>
 							<span class="text__style__isNormal">простых шага</span>
-							</br>
+							<br />
 							<span class="text__style__isTransparent">от расчета</span>
 							<span class="text__style__isGradient">до внедрения</span>
 						</h2>
-						<p class="Integration__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+						<p class="Features__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam
+						</p>
 					</header>
-					<ul class="Integration__list">
-
-					</ul>
+					<ul id="integration" class="Features__list"></ul>
 				</div>
 			</section>
 		</main>
@@ -127,11 +146,7 @@
 								<p class="Contacts__info">Центральный офис</p>
 								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 							</address>
-							<button
-								type="button"
-								class="Button Button__isBorder"
-								onclick="window['Dialog-get-price'].showModal();"
-							>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
 								Остались вопросы
 							</button>
 						</div>
@@ -144,7 +159,7 @@
 			</div>
 		</footer>
 
-				<dialog class="Dialog" id="Dialog-get-price">
+		<dialog class="Dialog" id="Dialog-get-price">
 			<h2 class="Dialog__heading">Получить расчет</h2>
 			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
 				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
@@ -163,7 +178,6 @@
 				<a class="underline" target="_blank" href="../../pages/agreement/Аgreement.html">условия обработки персональных данных</a>
 			</p>
 		</dialog>
-
 
 		<script type="module" src="./Decision.js"></script>
 	</body>

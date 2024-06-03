@@ -1,4 +1,37 @@
-export const stageElements = [
+export const stageElementsAdvantages = [
+	{
+		number: '01',
+		title: 'Сначала аудит',
+		content: 'Идем от потребностей заказчика.',
+		style: 'gray',
+	},
+	{
+		number: '02',
+		title: 'Опыт федеральных проектов',
+		content: 'Двукратный рост проектов и команды.',
+		style: 'normal',
+	},
+	{
+		number: '03',
+		title: 'Оперативное взаимодействие',
+		content: 'Работаем на территории заказчика.',
+		style: 'gray',
+	},
+	{
+		number: '04',
+		title: 'Правильные решения',
+		content: 'Смело беремся за новые и сложные задачи.',
+		style: 'normal',
+	},
+	{
+		number: '05',
+		title: 'Сервис и поддержка',
+		content: 'Смело беремся за новые и сложные задачи.',
+		style: 'gray',
+	},
+];
+
+export const stageElementsIntegration = [
 	{
 		number: '01',
 		title: 'Обследование',

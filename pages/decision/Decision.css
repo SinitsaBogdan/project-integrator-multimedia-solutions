@@ -15,7 +15,7 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../blocks/integration/Integration.css);
+@import url(../../blocks/features/Features.css);
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
