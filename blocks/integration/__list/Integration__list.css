@@ -2,5 +2,9 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
-	padding-block-start: 6rem;
+	padding-block-start: 4rem;
+}
+
+.Integration__list .Integration__text {
+	inline-size: 32%;
 }
