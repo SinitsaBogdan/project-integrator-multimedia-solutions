@@ -1,10 +1,11 @@
 .Solutions__list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1rem;
+	row-gap: 2rem;
+	column-gap: 1%;
 	padding-block-start: 4rem;
 }
 
 .Solutions__list .Solutions__text {
-	inline-size: 32%;
+	inline-size: 24%;
 }
