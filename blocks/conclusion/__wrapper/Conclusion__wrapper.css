@@ -1,0 +1,6 @@
+.Conclusion__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	block-size: 100%;
+}

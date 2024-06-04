@@ -1,0 +1,10 @@
+@import url(./__wrapper/Conclusion__wrapper.css);
+@import url(./__content/Conclusion__content.css);
+@import url(./__list/Conclusion__list.css);
+@import url(./__info/Conclusion__info.css);
+@import url(./__title/Conclusion__title.css);
+@import url(./__paragraph/Conclusion__paragraph.css);
+
+.Conclusion {
+	block-size: 100vh;
+}
