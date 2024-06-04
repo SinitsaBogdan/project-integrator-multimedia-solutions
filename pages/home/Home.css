@@ -20,6 +20,7 @@
 
 @import url(../../blocks/features/Features.css);
 @import url(../../blocks/license/Licenses.css);
+@import url(../../blocks/solutions/Solutions.css);
 
 @import url(../../blocks/conclusion/Conclusion.css);
 @import url(../../blocks/infoBar/InfoBar.css);
@@ -31,6 +32,7 @@
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
 @import url(../../blocks/stage/Stage.css);
+@import url(../../blocks/solutionStage/SolutionStage.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);

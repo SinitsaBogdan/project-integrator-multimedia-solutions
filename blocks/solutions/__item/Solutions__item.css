@@ -1,0 +1,10 @@
+.Solutions__item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-radius: 10px;
+	border-bottom: 1px solid #191919;
+	padding-block-end: 20px;
+	cursor: pointer;
+	inline-size: 37%;
+}
