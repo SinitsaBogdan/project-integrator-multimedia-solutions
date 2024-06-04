@@ -5,6 +5,11 @@
 @import url(../../blocks/page/page.css);
 @import url(../../blocks/form/Form.css);
 
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/stage/Stage.css);
+@import url(../../blocks/crumbs/Crumbs.css);
+
 /* POPUP ----------------------------------------------------- */
 
 @import url(../../blocks/dialog/dialog.css);
@@ -19,6 +24,9 @@
 
 /* SECTIONS -------------------------------------------------- */
 
+@import url(../../blocks/conclusion/Conclusion.css);
+@import url(../../blocks/infoBar/InfoBar.css);
+
 @import url(../../blocks/firstScrean/FirstScrean.css);
 @import url(../../blocks/slider/Slider.css);
 @import url(../../blocks/license/Licenses.css);
@@ -29,11 +37,18 @@
 @import url(../../blocks/formApplications/FormApplications.css);
 @import url(../../blocks/loadFile/LoadFile.css);
 
-/* COMPONENTS ------------------------------------------------ */
-@import url(../../blocks/separator/Separator.css);
-@import url(../../blocks/stage/Stage.css);
-
 /* FOOTER ---------------------------------------------------- */
 
 @import url(../../blocks/footer/Footer.css);
 @import url(../../blocks/social/Social.css);
+
+/* MAIN ------------------------------------------------------ */
+
+.AboutPage .Conclusion {
+	justify-content: start;
+	margin-block-start: 4rem;
+}
+
+.AboutPage .Conclusion .InfoBar {
+	block-size: 120%;
+}
