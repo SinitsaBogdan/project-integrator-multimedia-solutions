@@ -1,4 +1,5 @@
 .Features__title {
-	font-weight: bold;
+	font-weight: inherit;
 	font-size: 60px;
+	text-transform: uppercase;
 }
