@@ -69,3 +69,22 @@ export const stageElementsIntegration = [
 		style: 'normal',
 	},
 ];
+
+export const stageElementsSolutions = [
+	{
+		title: 'Ситуационные центры',
+		img: 'http://127.0.0.1:5500/assets/image/Card/card__situation_center.png',
+	},
+	{
+		title: 'Конференц залы',
+		img: 'http://127.0.0.1:5500/assets/image/Card/card__conference_hall.png',
+	},
+	{
+		title: 'Диспетчерский пункт',
+		img: 'http://127.0.0.1:5500/assets/image/Card/card__control_center.png',
+	},
+	{
+		title: 'Зал совещаний',
+		img: 'http://127.0.0.1:5500/assets/image/Card/card__meeting_room.png',
+	},
+];
