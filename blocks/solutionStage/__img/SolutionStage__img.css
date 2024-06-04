@@ -1,0 +1,14 @@
+.SolutionStage__img {
+    margin-block-end: 22px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(0);
+    transition: filter 0.5s;
+    inline-size: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.Solutions__item:hover .SolutionStage__img {
+    filter: saturate(1.2);
+}
