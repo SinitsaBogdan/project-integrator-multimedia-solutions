@@ -1,0 +1,10 @@
+.Solutions__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding-block-start: 4rem;
+}
+
+.Solutions__list .Solutions__text {
+	inline-size: 32%;
+}
