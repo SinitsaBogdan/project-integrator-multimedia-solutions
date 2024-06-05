@@ -18,6 +18,8 @@
 @import url(../../blocks/firstScrean/FirstScrean.css);
 @import url(../../blocks/slider/Slider.css);
 
+@import url(../../blocks/presentMap/PresentMap.css);
+
 @import url(../../blocks/features/Features.css);
 @import url(../../blocks/license/Licenses.css);
 @import url(../../blocks/solutions/Solutions.css);
