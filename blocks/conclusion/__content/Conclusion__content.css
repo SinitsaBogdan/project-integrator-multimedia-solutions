@@ -1,4 +1,5 @@
 .Conclusion__content {
 	display: flex;
 	column-gap: 2rem;
+	block-size: 40vh;
 }
