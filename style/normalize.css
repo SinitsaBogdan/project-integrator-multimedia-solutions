@@ -8,6 +8,10 @@ html {
 	background-color: #0D0D0D;
 }
 
+body {
+	overflow-x: hidden;
+}
+
 a {
 	color: inherit;
 	font-style: normal;

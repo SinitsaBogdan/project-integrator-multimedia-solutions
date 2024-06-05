@@ -22,6 +22,8 @@
 @import url(../../blocks/license/Licenses.css);
 @import url(../../blocks/solutions/Solutions.css);
 
+@import url(../../blocks/forWhom/ForWhom.css);
+
 @import url(../../blocks/conclusion/Conclusion.css);
 @import url(../../blocks/infoBar/InfoBar.css);
 

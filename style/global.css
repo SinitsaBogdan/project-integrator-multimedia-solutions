@@ -11,9 +11,6 @@
 	text-decoration: underline;
 }
 
-.text__style__isNormal {
-}
-
 .text__style__isTransparent {
 	color: transparent;
 	font-weight: 700;
