@@ -3,13 +3,18 @@
 @import url(./__link/PresentMap__link.css);
 @import url(./__count/PresentMap__count.css);
 @import url(./__text/PresentMap__text.css);
+@import url(./__geo/PresentMap__geo.css);
 
 .PresentMap {
+	position: relative;
 	display: flex;
 	align-items: center;
 	background-image: url(../../assets/image/maps.png);
 	background-repeat: no-repeat;
 	background-position: center right;
-	background-size: 64%;
+	/* background-size: 1000px; */
+	/* background-size: 1480px; */
+	background-size: calc(clamp(37.5rem, 98.434vw - 25.621rem, 92.5rem));
+	object-fit: cover;
 	block-size: 100vh;
 }
