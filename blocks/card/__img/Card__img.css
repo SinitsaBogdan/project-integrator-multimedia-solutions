@@ -1,9 +1,7 @@
-.Project__img {
+.Card__img {
 	border-radius: 10px;
 	object-fit: cover;
 	object-position: center;
-	overflow: hidden;
-	max-block-size: 500px;
-	block-size: 100%;
+	block-size: 360px;
 	inline-size: 100%;
 }

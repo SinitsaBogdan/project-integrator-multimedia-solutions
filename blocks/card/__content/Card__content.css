@@ -1,6 +1,8 @@
-.Project__content {
+.Card__content {
 	display: flex;
 	justify-content: space-between;
 	margin-inline: 0;
+	align-items: center;
+	margin-block: 1rem;
 	padding-inline: 0;
 }

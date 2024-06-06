@@ -1,35 +1,35 @@
-@import url(./__btn/Project__btn.css);
-@import url(./__content/Project__content.css);
-@import url(./__img/Project__img.css);
-@import url(./__title/Project__title.css);
-@import url(./__description/Project__description.css);
+@import url(./__btn/Card__btn.css);
+@import url(./__content/Card__content.css);
+@import url(./__img/Card__img.css);
+@import url(./__title/Card__title.css);
+@import url(./__description/Card__description.css);
 
-.Project {
+.Card {
 	display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid #191919;
 	padding-block-end: 18px;
 	filter: saturate(0);
 	transition: filter 0.5s;
-	inline-size: 49%;
+	inline-size: auto;
 }
 
-.Project .Icon_Arrow {
+.Card .Icon_Arrow {
 	transform: rotate(-45deg);
 	transition: all 0.4s;
 	stroke: white;
 }
 
-.Project:hover {
+.Card:hover {
 	filter: saturate(1.2);
 }
 
-.Project:hover .Icon_Arrow {
+.Card:hover .Icon_Arrow {
 	transform: rotate(0deg);
 	stroke: url(#linear-gradient);
 }
 
-.Project span {
+.Card span {
 	font-weight: bold;
 	animation: outTextShine 0.4s ease-in-out forwards;
 	-webkit-background-clip: text;
@@ -38,7 +38,7 @@
 	background-image: var(--gradient-accent);
 }
 
-.Project:hover span {
+.Card:hover span {
 	animation: inTextShine 0.4s ease-in-out forwards;
 }
 

@@ -1,6 +1,7 @@
-.Project__btn {
+.Card__btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	column-gap: 0.6rem;
+	font-size: 18px;
 }
