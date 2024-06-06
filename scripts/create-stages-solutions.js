@@ -1,4 +1,4 @@
-import { stageElementsSolutions as elements } from '../data/data-stage.js';
+import { stageElementsSolutions as elements } from '../data/data-solution.js';
 
 export function createStageSolutionElements() {
 	const list = document.querySelector('.Solutions__list');
