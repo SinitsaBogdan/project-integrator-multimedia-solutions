@@ -20,7 +20,7 @@
 @import url(../../blocks/loadFile/LoadFile.css);
 
 @import url(../../blocks/similarProjects/SimilarProjects.css);
-@import url(../../blocks/project/Project.css);
+@import url(../../blocks/card/Card.css);
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
