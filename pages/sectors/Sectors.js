@@ -1,6 +1,6 @@
 import { createMenuElements } from '../../scripts/create-menu-element.js';
 import { dataElementsIndustries as list } from '../../data/data-industries.js';
-import { createElementsIndustries } from '../../scripts/create-elements-industries.js';
+import { createElementsCard } from '../../scripts/create-elements-card.js';
 
 createMenuElements();
-createElementsIndustries(list);
+createElementsCard('Industries', list);
