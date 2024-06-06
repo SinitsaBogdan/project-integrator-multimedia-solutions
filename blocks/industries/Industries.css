@@ -1,0 +1,15 @@
+@import url(./__wrapper/Industries__wrapper.css);
+@import url(./__list/Industries__list.css);
+@import url(./__item/Industries__item.css);
+
+.Industries {
+	display: flex;
+	align-items: center;
+	padding-block: 22vh 2vh;
+}
+
+
+
+
+
+
