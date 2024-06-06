@@ -4,21 +4,3 @@
 
 .HeaderSection {
 }
-
-.HeaderSection__title {
-    margin-inline-start: 10px;
-    font-size: 60px;
-    text-transform: uppercase;
-}
-
-.HeaderSection__decor__number {
-    position: relative;
-    color: #7A7A7A;
-    font-weight: normal;
-}
-
-.HeaderSection__text {
-    inline-size: 36%;
-    margin-block-start: 2vh;
-    color: #A1A1AA;
-}
