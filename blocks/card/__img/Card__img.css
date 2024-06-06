@@ -1,0 +1,7 @@
+.Card__img {
+	border-radius: 10px;
+	object-fit: cover;
+	object-position: center;
+	block-size: 360px;
+	inline-size: 100%;
+}
