@@ -1,0 +1,16 @@
+.Indicators__link {
+	position: relative;
+	padding-block-end: 4px;
+}
+
+.Indicators__link::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	border-bottom: 2px solid transparent;
+	background: var(--gradient-accent) border-box;
+	-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+	-webkit-mask-composite: destination-out;
+	mask-composite: exclude;
+}
