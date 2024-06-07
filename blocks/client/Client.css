@@ -1,0 +1,19 @@
+@import url(./__project/Client__project.css);
+@import url(./__img/Client__img.css);
+
+.Client {
+	display: flex;
+	flex-direction: column;
+	row-gap: 12px;
+	border: 1px solid #383838;
+	border-radius: 10px;
+	padding-inline: 27px;
+	padding-block: 36px;
+	transition: opacity 0.5s;
+	cursor: pointer;
+	inline-size: 32.5%;
+}
+
+.Client:hover {
+	opacity: 30%;
+}
