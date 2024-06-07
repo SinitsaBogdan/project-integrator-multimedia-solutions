@@ -1,0 +1,25 @@
+.Slider__line {
+	display: flex;
+	column-gap: 1rem;
+	inline-size: 100%;
+}
+
+.Slider__line span {
+	z-index: 10;
+	border-radius: 50px;
+	background-color: #d9d9d970;
+	block-size: 4px;
+}
+
+.Slider__line span:first-child {
+	inline-size: 20%;
+}
+
+.Slider__line span:last-child {
+	inline-size: 70%;
+}
+
+.Slider__line__accent {
+	background: var(--gradient-accent);
+	inline-size: 10%;
+}
