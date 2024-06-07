@@ -6,20 +6,28 @@ export function createClients() {
 	clients.forEach((item) => {
 		for (let i = 0; i < 12; i++) {
 			const client = document.createElement('li');
+			const company = document.createElement('div');
 			const logo = document.createElement('img');
+			const name = document.createElement('h3');
+			const link = document.createElement('a');
 			const project = document.createElement('p');
 
 			client.classList.add('Client');
-			logo.classList.add('Client__img');
+			company.classList.add('Client__wrapper');
+			logo.classList.add('Client__logo');
+			name.classList.add('Client__name');
+			link.classList.add('Clients__list-item');
 			project.classList.add('Client__project');
 
 			logo.src = item.logo;
 			project.textContent = item.product;
+			link.href = item.link;
+			name.textContent = item.name;
 
-			client.append(logo);
-			client.append(project);
-
-			clientsList.append(client);
+			company.append(logo, name);
+			client.append(company, project);
+			link.append(client);
+			clientsList.append(link);
 		}
 	});
 }

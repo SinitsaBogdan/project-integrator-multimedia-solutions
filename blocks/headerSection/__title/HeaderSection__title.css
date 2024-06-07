@@ -1,5 +1,6 @@
 .HeaderSection__title {
     margin-inline-start: 10px;
+    font-weight: 600;
     font-size: 60px;
     text-transform: uppercase;
 }
