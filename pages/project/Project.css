@@ -15,6 +15,7 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
+@import url(../../blocks/indicators/Indicators.css);
 @import url(../../blocks/applications/Applications.css);
 @import url(../../blocks/formApplications/FormApplications.css);
 @import url(../../blocks/loadFile/LoadFile.css);
@@ -24,6 +25,7 @@
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/headerSection/HeaderSection.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);
