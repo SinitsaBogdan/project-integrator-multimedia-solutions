@@ -1,0 +1,7 @@
+.Galery__wrapper {
+	position: relative;
+	display: flex;
+	align-items: end;
+	margin-block-start: 2rem;
+	block-size: 100%;
+}

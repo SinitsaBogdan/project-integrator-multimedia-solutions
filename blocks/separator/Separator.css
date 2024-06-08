@@ -12,7 +12,6 @@
 .Separator::before {
 	content: '';
 	position: absolute;
-	top: 12px;
 	right: 0;
 	border: 2px solid #afafaf;
 	border-radius: 50%;

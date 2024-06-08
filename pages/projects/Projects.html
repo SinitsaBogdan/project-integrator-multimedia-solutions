@@ -39,7 +39,53 @@
 		</header>
 
 		<main class="Content">
-			<section class="Projects"></section>
+			<section class="ListProjects">
+				<div class="Wrapper ListProjects__wrapper">
+					<header class="HeaderSection">
+						<h2 class="HeaderSection__title">
+							<span class="HeaderSection__decor__number">#</span>
+							Проекты
+						</h2>
+						<p class="HeaderSection__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet
+						</p>
+					</header>
+					<div class="Filters">
+						<p class="Filters__title">Фильтр по проектам</p>
+						<form class="Filters__controller">
+							<select class="Filters__selected" name="decisions" id="decisions-select" autofocus>
+								<option selected>Ситуационные центры</option>
+								<option>Диспетчерский пункт</option>
+								<option>Зал совещаний</option>
+								<option>Конференц зал</option>
+								<option>Переговорная комната</option>
+								<option>Видеоконференцсвязь</option>
+								<option>Кабинет руководителя</option>
+								<option>Digital Signage</option>
+								<option>Медиафасады</option>
+								<option>Учебные аудитории</option>
+							</select>
+
+							<select class="Filters__selected" name="branch" id="branch-select" autofocus>
+								<option selected>Корпоративный сектор</option>
+								<option>Государственные учреждения</option>
+								<option>Медицинские учреждения</option>
+								<option>Образование и наука</option>
+								<option>Спортивные и фитнес центры, стадионы</option>
+								<option>Финансовый сектор</option>
+								<option>Гостиничные комплексы</option>
+								<option>Транспорт</option>
+								<option>Торговые центры</option>
+								<option>Клубы, бары, рестораны</option>
+								<option>Учреждения культуры и искусства</option>
+								<option>Промышленные предприятия</option>
+							</select>
+						</form>
+					</div>
+					<ul class="ListProjects__list"></ul>
+				</div>
+			</section>
 		</main>
 
 		<footer class="Footer">

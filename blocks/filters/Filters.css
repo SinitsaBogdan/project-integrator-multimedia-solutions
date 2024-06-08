@@ -1,0 +1,7 @@
+@import url(./__title/Filters__title.css);
+@import url(./__controller/Filters__controller.css);
+@import url(./__selected/Filters__selected.css);
+
+.Filters {
+	margin-block: 3rem;
+}

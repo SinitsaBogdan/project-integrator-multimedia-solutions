@@ -10,7 +10,9 @@
 	border-radius: 8px;
 	padding-inline: var(--dialog-padding-size);
 	padding-block: 40px;
+	color: #FFF;
 	text-align: center;
+	background-color: var(--background-color-main);
 	inline-size: 40vw;
 	max-inline-size: 600px;
 	min-inline-size: 360px;

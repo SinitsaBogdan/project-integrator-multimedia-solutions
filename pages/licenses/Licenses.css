@@ -16,7 +16,6 @@
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../blocks/similarProjects/SimilarProjects.css);
-@import url(../../blocks/project/Project.css);
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
