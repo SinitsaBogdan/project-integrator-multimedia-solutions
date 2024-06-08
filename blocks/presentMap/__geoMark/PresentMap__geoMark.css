@@ -1,0 +1,62 @@
+.PresentMap__geoMark {
+	position: absolute;
+	opacity: 0;
+	animation: appear 0.7s linear forwards paused;
+	inline-size: 3.5%;
+}
+
+.PresentMap__geoMark::after {
+	position: absolute;
+    content: url(../../../assets/svg/geo-mark.svg);
+}
+
+.PresentMap:hover .PresentMap__geoMark {
+	animation-play-state: running;
+}
+
+.PresentMap__geoMark:nth-child(2) {
+	top: 65.2%;
+	left: 4%;
+}
+
+.PresentMap__geoMark:nth-child(3) {
+	top: 70%;
+	left: 8%;
+	animation-delay: 0.7s;
+}
+
+.PresentMap__geoMark:nth-child(4) {
+	top: 67.2%;
+	left: 20%;
+	animation-delay: 1.4s;
+}
+
+.PresentMap__geoMark:nth-child(5) {
+	top: 63%;
+	left: 28.5%;
+	animation-delay: 2.1s;
+}
+
+.PresentMap__geoMark:nth-child(6) {
+	top: 73%;
+	left: 37.2%;
+	animation-delay: 2.8s;
+}
+
+.PresentMap__geoMark:nth-child(7) {
+	top: 82%;
+	left: 42.2%;
+	animation-delay: 3.5s;
+}
+
+.PresentMap__geoMark:nth-child(8) {
+	top: 83%;
+	left: 52%;
+	animation-delay: 4.2s;
+}
+
+@keyframes appear {
+	to {
+		opacity: 100%;
+	}
+}

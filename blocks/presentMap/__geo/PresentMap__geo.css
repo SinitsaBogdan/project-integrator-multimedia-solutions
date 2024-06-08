@@ -1,0 +1,20 @@
+.Map__wrapper {
+	position: absolute;
+	top: 0;
+	left: 30%;
+	z-index: -1;
+	inline-size: 100%;
+}
+
+.PresentMap__geo {
+	position: relative;
+	aspect-ratio: 1 / 0.5;
+}
+
+.PresentMap__geoMap {
+	position: absolute;
+	z-index: -1;
+	opacity: 20%;
+	filter: contrast(2) brightness(0.7);
+	inline-size: 105%;
+}
