@@ -1,48 +1,20 @@
-.PresentMap__geo {
-}
-
-.PresentMap__geo span {
+.Map__wrapper {
 	position: absolute;
-	block-size: 26px;
-	inline-size: 26px;
-	background-image: url(../../../assets/image/geo-mark.png);
-	background-size: cover;
-	background-position: center;
+	top: 0;
+	left: 30%;
+	z-index: -1;
+	inline-size: 100%;
 }
 
-.PresentMap__geo span:nth-child(1) {
-	/* right: 928px; */
-	right: calc(clamp(58rem, 48.993vw + 26.583rem, 85.375rem));
-	/* top: 736px; */
-	top: calc(clamp(46rem, 4.027vw + 43.418rem, 48.25rem));
+.PresentMap__geo {
+	position: relative;
+	aspect-ratio: 1 / 0.5;
 }
 
-.PresentMap__geo span:nth-child(2) {
-	right: 878px;
-	top: 766px;
-}
-
-.PresentMap__geo span:nth-child(3) {
-	right: 744px;
-	top: 750px;
-}
-
-.PresentMap__geo span:nth-child(4) {
-	right: 644px;
-	top: 728px;
-}
-
-.PresentMap__geo span:nth-child(5) {
-	right: 548px;
-	top: 784px;
-}
-
-.PresentMap__geo span:nth-child(6) {
-	right: 488px;
-	top: 838px;
-}
-
-.PresentMap__geo span:nth-child(7) {
-	right: 382px;
-	top: 842px;
+.PresentMap__geoMap {
+	position: absolute;
+	z-index: -1;
+	opacity: 20%;
+	filter: contrast(2) brightness(0.7);
+	inline-size: 105%;
 }
