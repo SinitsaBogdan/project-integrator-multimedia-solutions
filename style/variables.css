@@ -1,5 +1,6 @@
 :root {
 	--gradient-accent: linear-gradient(to right, #6ddcff, #7f60f9);
+	--background-color-main: #0D0D0D;
 
 	--color-text-basic: #fff;
 	--color-text-secondary: #a1a1aa;

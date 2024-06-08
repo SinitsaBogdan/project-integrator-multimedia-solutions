@@ -5,9 +5,11 @@ import { addLicenses } from '../../scripts/create-license-list.js';
 import { createStageElements } from '../../scripts/create-stages.js';
 import { stageElementsAdvantages as advantages } from '../../data/data-stage.js';
 import { createStageSolutionElements } from '../../scripts/create-stages-solutions.js';
+import { createClients } from '../../scripts/create-clients-list.js';
 
 createMenuElements();
 vievSlidersFirstscrean();
 createStageElements("advantages", advantages);
 addLicenses();
 createStageSolutionElements();
+createClients();
