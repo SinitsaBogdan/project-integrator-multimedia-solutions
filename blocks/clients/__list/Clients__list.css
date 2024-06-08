@@ -1,0 +1,10 @@
+.Clients__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 14px;
+}
+
+.Clients__list-item {
+	inline-size: 32.5%;
+}

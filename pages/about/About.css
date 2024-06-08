@@ -9,6 +9,7 @@
 @import url(../../blocks/separator/Separator.css);
 @import url(../../blocks/stage/Stage.css);
 @import url(../../blocks/crumbs/Crumbs.css);
+@import url(../../blocks/client/Client.css);
 
 /* POPUP ----------------------------------------------------- */
 
@@ -32,10 +33,12 @@
 @import url(../../blocks/license/Licenses.css);
 
 @import url(../../blocks/features/Features.css);
+@import url(../../blocks/clients/Clients.css);
 
 @import url(../../blocks/applications/Applications.css);
 @import url(../../blocks/formApplications/FormApplications.css);
 @import url(../../blocks/loadFile/LoadFile.css);
+@import url(../../blocks/headerSection/HeaderSection.css);
 
 /* FOOTER ---------------------------------------------------- */
 
