@@ -39,3 +39,21 @@
 	-webkit-mask-composite: destination-out;
 	mask-composite: exclude;
 }
+
+.ButtonVideo {
+	overflow: hidden;
+	border: 1px solid #ffffff20;
+	inline-size: max-content;
+	border-radius: 20px;
+}
+
+.ButtonVideo__content {
+	padding-inline-start: 30px;
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+
+.ButtonVideo__text {
+	margin-inline-end: 10px;
+}

@@ -1,0 +1,6 @@
+@import url(./__link/Controller__link.css);
+
+.Controller {
+	display: flex;
+	column-gap: 1rem;
+}
