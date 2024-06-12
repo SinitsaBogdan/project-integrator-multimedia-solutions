@@ -1,0 +1,11 @@
+@import url(./__img/Section__img.css);
+@import url(./__title/Section__title.css);
+@import url(./__text/Section__text.css);
+
+.Section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
