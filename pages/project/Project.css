@@ -26,7 +26,15 @@
 
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/separator/Separator.css);
-@import url(../../blocks/headerSection/HeaderSection.css);
+
+/* @import url(../../blocks/headerSection/HeaderSection.css); */
+@import url(../../blocks/section/Section.css);
+@import url(../../blocks/screan/Screan.css);
+@import url(../../blocks/controller/Controller.css);
+@import url(../../blocks/list/List.css);
+@import url(../../blocks/logo/Logo.css);
+@import url(../../blocks/content/Content.css);
+
 @import url(../../blocks/slider/Slider.css);
 
 /* FOOTER ---------------------------------------------------- */
