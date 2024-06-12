@@ -31,3 +31,11 @@
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.isBackground {
+	background-color: #ffffff10;
+}
+
+.isBorder {
+	border: 2px solid #ffffff10;
+}
