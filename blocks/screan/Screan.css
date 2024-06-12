@@ -3,3 +3,7 @@
 .Screan {
 	block-size: 100vh;
 }
+
+.Screan__isSmall {
+	block-size: 70vh;
+}
