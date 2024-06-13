@@ -25,7 +25,7 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../blocks/industries/Industries.css);
+@import url(../../blocks/listCards/ListCards.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);
