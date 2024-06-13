@@ -21,6 +21,11 @@
 	</head>
 	<body class="Page">
 		<header class="Header">
+			<!-- 	TODO: Оптимизация
+						Переработать структуру Header.
+						Header - должен стать оберткой для первого экрана.
+						Menu - должно стать не зависимой оберткой статического меню страницы.
+			-->
 			<div class="Wrapper Header__wrapper">
 				<div class="Header__content blur">
 					<a href="../home/Home.html">
@@ -40,15 +45,17 @@
 
 		<main class="Content">
 			<section class="Section Screan Screan__isSmall">
-				<!--
-                    TODO: Глобальный класс Screan
-                    Данный класс использобать как глобальный шаблон для всех первых экранов проекта.
-
-                    TODO: Глобальный класс Section
-                    Данный класс использобать как глобальный шаблон для всех секций.
+				<!-- 	TODO: Глобальный класс Screan
+						Данный класс использовать как глобальный шаблон для всех первых экранов проекта.
+				-->
+				<!-- 	TODO: Глобальный класс Section
+                    	Данный класс использовать как глобальный шаблон для всех секций.
                 -->
 				<img class="Section__img Section__img__isSmall" src="../../assets/image/FirstScrean/background-image-13.png" alt="" />
 				<div class="Wrapper Content">
+					<!-- 	TODO: Глобальный класс Content
+                    		Данный класс использовать как глобальный класс обертку для содержимого секций.
+                	-->
 					<div class="Controller">
 						<a class="Controller__link isBorder" href="#!">Ситуационный центр</a>
 						<a class="Controller__link isBorder" href="#!">Финансовый сектор</a>
@@ -76,6 +83,9 @@
 			<section class="Indicators">
 				<div class="Wrapper Indicators__wrapper">
 					<header class="HeaderSection">
+						<!-- 	TODO: Оптимизация
+						 		Элемент можно упростить
+						-->
 						<span class="HeaderSection__sub">
 							<span class="HeaderSection__decor__number">#</span>
 							ключевые цифры проекта
