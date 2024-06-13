@@ -1,8 +1,15 @@
 /* GLOBAL ---------------------------------------------------- */
 @import url(../../style/variables.css);
 @import url(../../style/global.css);
-@import url(../../blocks/page/page.css);
+
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/page/Page.css);
+@import url(../../blocks/main/Main.css);
+@import url(../../blocks/section/Section.css);
+@import url(../../blocks/screan/Screan.css);
+@import url(../../blocks/content/Content.css);
 @import url(../../blocks/form/Form.css);
+@import url(../../blocks/separator/Separator.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
@@ -16,9 +23,6 @@
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../blocks/similarProjects/SimilarProjects.css);
-
-/* COMPONENTS ------------------------------------------------ */
-@import url(../../blocks/separator/Separator.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);

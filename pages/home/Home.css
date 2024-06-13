@@ -1,8 +1,19 @@
 /* GLOBAL ---------------------------------------------------- */
 @import url(../../style/variables.css);
 @import url(../../style/global.css);
-@import url(../../blocks/page/page.css);
+
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/page/Page.css);
+@import url(../../blocks/main/Main.css);
+@import url(../../blocks/section/Section.css);
+@import url(../../blocks/screan/Screan.css);
+@import url(../../blocks/content/Content.css);
 @import url(../../blocks/form/Form.css);
+@import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/stage/Stage.css);
+@import url(../../blocks/solutionStage/SolutionStage.css);
+@import url(../../blocks/headerSection/HeaderSection.css);
+@import url(../../blocks/client/Client.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
@@ -17,29 +28,17 @@
 /* SECTIONS -------------------------------------------------- */
 @import url(../../blocks/firstScrean/FirstScrean.css);
 @import url(../../blocks/slider/Slider.css);
-
 @import url(../../blocks/presentMap/PresentMap.css);
-
 @import url(../../blocks/features/Features.css);
 @import url(../../blocks/license/Licenses.css);
 @import url(../../blocks/solutions/Solutions.css);
-
 @import url(../../blocks/forWhom/ForWhom.css);
-
 @import url(../../blocks/conclusion/Conclusion.css);
 @import url(../../blocks/infoBar/InfoBar.css);
-
 @import url(../../blocks/applications/Applications.css);
 @import url(../../blocks/formApplications/FormApplications.css);
 @import url(../../blocks/loadFile/LoadFile.css);
 @import url(../../blocks/clients/Clients.css);
-
-/* COMPONENTS ------------------------------------------------ */
-@import url(../../blocks/separator/Separator.css);
-@import url(../../blocks/stage/Stage.css);
-@import url(../../blocks/solutionStage/SolutionStage.css);
-@import url(../../blocks/headerSection/HeaderSection.css);
-@import url(../../blocks/client/Client.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../blocks/footer/Footer.css);
