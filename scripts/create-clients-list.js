@@ -16,7 +16,7 @@ export function createClients() {
 			company.classList.add('Client__wrapper');
 			logo.classList.add('Client__logo');
 			name.classList.add('Client__name');
-			link.classList.add('Clients__list-item');
+			link.classList.add('Clients__item');
 			project.classList.add('Client__project');
 
 			logo.src = item.logo;
