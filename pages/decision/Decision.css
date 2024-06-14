@@ -2,6 +2,9 @@
 @import url(../../style/variables.css);
 @import url(../../style/global.css);
 
+/* PAGE ------------------------------------------------------ */
+@import url(./root.css);
+
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/page/Page.css);
 @import url(../../blocks/main/Main.css);
@@ -27,7 +30,6 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../blocks/screanProject/ScreanProject.css);
 @import url(../../blocks/features/Features.css);
 @import url(../../blocks/applications/Applications.css);
 @import url(../../blocks/formApplications/FormApplications.css);

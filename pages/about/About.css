@@ -3,6 +3,9 @@
 @import url(../../style/variables.css);
 @import url(../../style/global.css);
 
+/* PAGE ------------------------------------------------------ */
+@import url(./root.css);
+
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../blocks/page/Page.css);
 @import url(../../blocks/main/Main.css);
@@ -43,12 +46,3 @@
 @import url(../../blocks/social/Social.css);
 
 /* MAIN ------------------------------------------------------ */
-
-.AboutPage .Conclusion {
-	justify-content: start;
-	margin-block-start: 4rem;
-}
-
-.AboutPage .Conclusion .InfoBar {
-	block-size: 120%;
-}
