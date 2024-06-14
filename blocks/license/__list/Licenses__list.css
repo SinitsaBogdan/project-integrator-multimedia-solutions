@@ -4,6 +4,7 @@
     border-radius: 10px;
     overflow: scroll;
     max-block-size: 300px;
+    margin-block-start: 4vh;
 }
 
 .Licenses__list::-webkit-scrollbar {
