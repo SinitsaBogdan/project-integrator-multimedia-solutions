@@ -6,3 +6,8 @@
 .Crumbs__link:hover {
 	border-bottom: 2px solid currentColor;
 }
+
+.Crumbs__link:not(:last-child):after {
+	content: '-';
+	margin-inline-start: 10px;
+}
