@@ -14,4 +14,7 @@
 
 	--dialog-heading-font-size: clamp(24px, calc(30px - (600px - 40vw) / 40), 30px);
 	--dialog-padding-size: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
+
+	--section-screan-size: 100vh;
+    --section-screan-img-size: 100%;
 }
