@@ -2,6 +2,8 @@
 @import url(./__img/Galery__img.css);
 
 .Galery {
-	margin-block: 2vh 20vh;
-	block-size: 70vh;
+	align-self: start;
+	inline-size: 100%;
+	block-size: 60vh;
+	justify-content: end;
 }
