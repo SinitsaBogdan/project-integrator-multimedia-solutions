@@ -1,21 +1,13 @@
 .Clients__list {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
 	row-gap: 14px;
-	margin-block: 36px;
-}
-
-.Clients__list-item {
-	inline-size: 32.5%;
-}
-
-.Clients__rowList {
-	flex-wrap: nowrap;
 	column-gap: 14px;
+	margin-block: 36px;
 	overflow: scroll;
 }
 
-.Clients__rowList::-webkit-scrollbar {
-    display: none;
-  }
+.Clients__list::-webkit-scrollbar {
+	display: none;
+}
