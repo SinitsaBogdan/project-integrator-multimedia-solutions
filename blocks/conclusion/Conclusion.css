@@ -6,5 +6,7 @@
 @import url(./__paragraph/Conclusion__paragraph.css);
 
 .Conclusion {
-	block-size: 100vh;
+	display: flex;
+	align-items: center;
+	padding-block-start: 22vh;
 }
