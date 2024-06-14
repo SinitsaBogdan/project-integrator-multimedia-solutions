@@ -7,7 +7,5 @@
 @import url(./__wrapper/Screan__wrapper.css);
 
 .Screan {
-	position: relative;
-	justify-content: end;
 	block-size: 100vh;
 }
