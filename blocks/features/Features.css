@@ -7,6 +7,4 @@
 @import url(./__header/Features__header.css);
 
 .Features {
-	display: flex;
-	align-items: center;
 }
