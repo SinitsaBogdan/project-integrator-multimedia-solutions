@@ -1,7 +1,28 @@
-.content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 26px;
-	block-size: 100vh;
-}
+/* GLOBAL ---------------------------------------------------- */
+@import url(../../style/variables.css);
+@import url(../../style/global.css);
+
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/page/Page.css);
+@import url(../../blocks/main/Main.css);
+@import url(../../blocks/section/Section.css);
+@import url(../../blocks/screan/Screan.css);
+@import url(../../blocks/content/Content.css);
+
+/* POPUP ----------------------------------------------------- */
+@import url(../../blocks/dialog/dialog.css);
+@import url(../../blocks/formFeedback/FormFeedback.css);
+
+/* HEADER ---------------------------------------------------- */
+@import url(../../blocks/header/Header.css);
+@import url(../../blocks/menu/Menu.css);
+@import url(../../blocks/contacts/Contacts.css);
+@import url(../../blocks/button/button.css);
+
+/* SECTIONS -------------------------------------------------- */
+
+/* FOOTER ---------------------------------------------------- */
+@import url(../../blocks/footer/Footer.css);
+@import url(../../blocks/social/Social.css);
+
+/* MAIN ------------------------------------------------------ */
