@@ -25,12 +25,12 @@ function toNext() {
 }
 
 function refactorFirstLayer(element) {
-	const firstScrean = document.querySelector('.FirstScrean');
-	const pre = firstScrean.querySelector('.FirstScrean__pre');
-	const title = firstScrean.querySelector('.FirstScrean__title');
-	const text = firstScrean.querySelector('.FirstScrean__text');
+	const screan = document.querySelector('.Screan');
+	const pre = screan.querySelector('.Screan__pre');
+	const title = screan.querySelector('.Screan__title');
+	const text = screan.querySelector('.Screan__text');
 
-	firstScrean.style.backgroundImage = `url(${element.img})`;
+	screan.style.backgroundImage = `url(${element.img})`;
 	pre.textContent = element.pre;
 	title.textContent = element.title;
 	text.textContent = element.text;
