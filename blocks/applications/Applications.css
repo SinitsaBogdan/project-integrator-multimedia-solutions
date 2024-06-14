@@ -2,6 +2,7 @@
 @import url(./__content/Applications__content.css);
 @import url(./__title/Applications__title.css);
 @import url(./__text/Applications__text.css);
+@import url(./__info/Applications__info.css);
 
 .Applications {
 	display: flex;
@@ -13,5 +14,4 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	block-size: 100vh;
 }
