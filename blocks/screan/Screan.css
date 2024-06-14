@@ -7,5 +7,6 @@
 @import url(./__wrapper/Screan__wrapper.css);
 
 .Screan {
-	block-size: 100vh;
+	justify-content: end;
+	block-size: var(--section-screan-size);
 }
