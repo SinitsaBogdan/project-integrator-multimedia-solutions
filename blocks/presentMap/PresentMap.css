@@ -7,7 +7,6 @@
 @import url(./__geoMark/PresentMap__geoMark.css);
 
 .PresentMap {
-	display: flex;
-	align-items: center;
-	block-size: 100vh;
+    block-size: 70vh;
+    justify-content: start;
 }
