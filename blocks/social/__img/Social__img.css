@@ -1,0 +1,6 @@
+.Social__img {
+	object-fit: cover;
+	object-position: center;
+	block-size: 28px;
+	inline-size: 28px;
+}
