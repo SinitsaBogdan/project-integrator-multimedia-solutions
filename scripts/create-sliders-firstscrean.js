@@ -26,7 +26,7 @@ function toNext() {
 
 function refactorFirstLayer(element) {
 	const screan = document.querySelector('.Screan');
-	const pre = screan.querySelector('.Screan__pre');
+	const pre = screan.querySelector('.Title__isPre');
 	const title = screan.querySelector('.Screan__title');
 	const text = screan.querySelector('.Screan__text');
 
