@@ -1,0 +1,6 @@
+.Title__isGradient {
+	background-image: var(--gradient-accent);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
