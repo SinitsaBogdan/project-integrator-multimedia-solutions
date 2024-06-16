@@ -40,7 +40,7 @@
 @import url(../../components/applications/Applications.css);
 @import url(../../components/formApplications/FormApplications.css);
 @import url(../../components/loadFile/LoadFile.css);
-@import url(../../components/clients/Clients.css);
+@import url(../../components/widgets/clients/Clients.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../components/widgets/footer/Footer.css);
