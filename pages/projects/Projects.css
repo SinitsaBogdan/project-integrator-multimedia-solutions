@@ -16,6 +16,7 @@
 @import url(../../components/separator/Separator.css);
 @import url(../../components/filters/Filters.css);
 @import url(../../components/card/Card.css);
+@import url(../../components/list/List.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../components/dialog/Dialog.css);

@@ -3,4 +3,4 @@ import { dataElementsIndustries as list } from '../../data/data-industries.js';
 import { createElementsCard } from '../../scripts/create-elements-card.js';
 
 createMenuElements();
-createElementsCard('ListCards', list);
+createElementsCard('List', list);

@@ -1,7 +1,0 @@
-.ListCards__list {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: space-between;
-	margin-block-start: 4vh;
-}

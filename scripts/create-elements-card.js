@@ -1,5 +1,5 @@
 export function createElementsCard(className, elements) {
-	const list = document.querySelector('.' + className + '__list');
+	const list = document.querySelector('.' + className);
 
 	elements.forEach((e) => {
 		const li = document.createElement('li');
