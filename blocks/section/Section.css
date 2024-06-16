@@ -1,6 +1,3 @@
-@import url(./__img/Section__img.css);
-@import url(./__title/Section__title.css);
-
 .Section {
 	position: relative;
 	display: flex;
