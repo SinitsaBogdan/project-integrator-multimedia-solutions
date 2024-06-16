@@ -1,12 +1,12 @@
 .Filters__title {
 	position: relative;
 	margin-block-end: 2rem;
-	padding-inline-start: 2.8rem;
+	padding-inline-start: 3vw;
 	font-size: 20px;
 }
 
 .Filters__title::before {
-	content: url(../../assets/image/Funnel.png);
+	content: url(../../../assets/image/Funnel.png);
 	position: absolute;
 	top: -4px;
 	left: 0;
