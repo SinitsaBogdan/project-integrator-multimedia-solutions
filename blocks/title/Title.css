@@ -1,3 +1,7 @@
+@import url(./__isPre/Title__isPre.css);
+@import url(./__isTransparent/Title__isTransparent.css);
+@import url(./__isGradient/Title__isGradient.css);
+
 .Title {
 	font-weight: 800;
 	font-size: 60px;
@@ -14,30 +18,4 @@
 	font-weight: normal;
 	font-size: 16px;
 	text-transform: lowercase;
-}
-
-.Title__isPre {
-	font-weight: normal;
-	font-size: 24px;
-}
-
-.Title__isTransparent {
-	color: transparent;
-	font-weight: 700;
-	text-shadow: 0px 2px #848484, -2px 2px #848484, 2px 2px #848484, 0px -2px #848484, -2px -2px #848484, 2px -2px #848484;
-}
-
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
-	.Title__isTransparent {
-		text-shadow: none;
-		-webkit-text-stroke: 2px #848484;
-		text-stroke: 2px #848484;
-	}
-}
-
-.Title__isGradient {
-	background-image: var(--gradient-accent);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
