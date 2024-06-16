@@ -1,6 +1,7 @@
 .ListCards__list {
-	margin-block-start: 4rem;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2rem;
+	gap: 20px;
+	justify-content: space-between;
+	margin-block-start: 4vh;
 }
