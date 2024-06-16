@@ -1,0 +1,5 @@
+.Button__isNormal {
+	border-radius: 10px;
+	background: var(--gradient-accent);
+	inline-size: 100%;
+}
