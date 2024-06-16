@@ -12,7 +12,7 @@ export function createStageElements(id, elements) {
 		article.classList.add('Stage');
 		span.classList.add('Stage__num', 'text__style__isTransparent');
 		h3.classList.add('Stage__title');
-		p.classList.add('Stage__text');
+		p.classList.add('Text', 'Stage__text');
 
 		if (element.style === 'normal') article.classList.add('Stage__isNormal');
 		else if (element.style === 'gray') article.classList.add('Stage__isGrey');
