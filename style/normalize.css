@@ -24,6 +24,7 @@ input {
 	border: none;
 	outline: none;
 	color: inherit;
+	font-family: inherit;
 	font-size: inherit;
 	background-color: transparent;
 	cursor: pointer;
@@ -41,12 +42,6 @@ h3,
 h4,
 h5,
 h6 {
-	font-size: inherit;
-}
-
-input {
-	color: inherit;
-	font-family: inherit;
 	font-size: inherit;
 }
 
