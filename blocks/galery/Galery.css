@@ -1,8 +1,6 @@
-@import url(./__wrapper/Galery__wrapper.css);
 @import url(./__img/Galery__img.css);
 
 .Galery {
-	align-self: start;
 	inline-size: 100%;
 	block-size: 60vh;
 	justify-content: end;
