@@ -1,11 +1,4 @@
-@import url(./__wrapper/ForWhom__wrapper.css);
 @import url(./__content/ForWhom__content.css);
-@import url(./__sub/ForWhom__sub.css);
-@import url(./__title/ForWhom__title.css);
 @import url(./__text/ForWhom__text.css);
 @import url(./__list/ForWhom__list.css);
-
-.ForWhom {
-	position: relative;
-	display: flex;
-}
+@import url(./__baclgrountText/ForWhom__baclgrountText.css);
