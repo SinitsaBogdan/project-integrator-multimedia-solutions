@@ -1,11 +1,6 @@
+@import url(./__img/Social__img.css);
+
 .Social {
 	display: flex;
 	column-gap: 1rem;
-}
-
-.Social__img {
-	object-fit: cover;
-	object-position: center;
-	block-size: 28px;
-	inline-size: 28px;
 }
