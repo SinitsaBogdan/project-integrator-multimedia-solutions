@@ -1,5 +1,5 @@
 .Main {
-    display: flex;
+	display: flex;
 	align-items: stretch;
 	flex-direction: column;
 	justify-content: start;
