@@ -1,6 +1,7 @@
 @import url(./__wrapper/ListCards__wrapper.css);
 @import url(./__list/ListCards__list.css);
 @import url(./__item/ListCards__item.css);
+@import url(./__text/ListCards__text.css);
 
 .ListCards {
 	display: flex;
