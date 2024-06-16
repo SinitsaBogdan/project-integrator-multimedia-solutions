@@ -74,15 +74,7 @@
 
 			<section class="Section Indicators">
 				<div class="Wrapper Indicators__wrapper">
-					<header class="HeaderSection">
-						<!-- 	TODO: Оптимизация
-						 		Элемент можно упростить
-						-->
-						<span class="HeaderSection__sub">
-							<span class="HeaderSection__decor__number">#</span>
-							ключевые цифры проекта
-						</span>
-					</header>
+					<h2 class="Title" data-title-sub="# ключевые цифры проекта"></h2>
 					<div class="Indicators__content">
 						<div class="Indicators__column">
 							<p class="Indicators__title">$11M+</p>
@@ -106,13 +98,12 @@
 			</section>
 
 			<section class="Section Galery">
+				<!--
+                    TODO: Оптимизация
+                    Проблемы с структурой блока (отображение Title)
+                -->
+				<h2 class="Title Wrapper" data-title-sub="# галерея проекта"></h2>
 				<div class="Galery__wrapper">
-					<header class="Wrapper HeaderSection">
-						<span class="HeaderSection__sub">
-							<span class="HeaderSection__decor__number">#</span>
-							галерея проекта
-						</span>
-					</header>
 					<div class="Wrapper Slider">
 						<img class="Galery__img" src="../../assets/image/Screan/background-image-01.png" alt="" />
 						<div class="Slider__controller">
@@ -155,7 +146,9 @@
 					<span class="Separator" data-number="05"></span>
 					<div class="Applications__content">
 						<div>
-							<h2 class="Applications__title">Расчитайте стоимость проекта</h2>
+							<h2 class="Title Applications__title">
+								<p class="Title__row">Расчитайте стоимость проекта</p>
+							</h2>
 							<p class="Applications__text">
 								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
 							</p>
@@ -190,8 +183,9 @@
 				-->
 				<div class="Wrapper Similar__wrapper">
 					<span class="Separator" data-number="06"></span>
-
-					<h2 class="Similar__title">Смотрите похожие проекты</h2>
+					<h2 class="Title Similar__title">
+						<p class="Title__row">Смотрите похожие проекты</p>
+					</h2>
 					<div class="Similar__list">
 						<article class="Card">
 							<img src="../../assets/image/Industries/item-01.jpg" alt="Офис" class="Card__img" />
