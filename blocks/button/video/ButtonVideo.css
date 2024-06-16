@@ -1,0 +1,9 @@
+@import url(./__content/ButtonVideo__content.css);
+@import url(./__text/ButtonVideo__text.css);
+
+.ButtonVideo {
+	overflow: hidden;
+	border: 1px solid #ffffff20;
+	inline-size: max-content;
+	border-radius: 20px;
+}
