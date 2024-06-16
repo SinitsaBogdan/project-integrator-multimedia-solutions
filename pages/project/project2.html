@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
+
+		<title>IT trader Soft - Project</title>
+
+		<link rel="stylesheet" href="../../style/normalize.css" />
+		<link rel="stylesheet" href="../../style/fonts.css" />
+		<link rel="stylesheet" href="./Project.css" />
+
+		<!--
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+        -->
+
+		<script src="../../scripts/set-theme.js"></script>
+	</head>
+	<body class="Page">
+		<header class="Header">
+			<div class="Header__wrapper blur">
+				<a class="Logo" href="../home/Home.html">
+					<img src="../../assets/svg/logo.svg" alt="логотип" />
+				</a>
+				<menu class="Menu">
+					<ul class="Menu__list"></ul>
+				</menu>
+				<address class="Contacts">
+					<a href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">Обсудить проект</button>
+			</div>
+		</header>
+		<main class="Main">
+			<section class="Section Screan">
+				<!-- 	TODO: Глобальный класс Screan
+						Данный класс использовать как глобальный шаблон для всех первых экранов проекта.
+				-->
+				<!-- 	TODO: Глобальный класс Section
+                    	Данный класс использовать как глобальный шаблон для всех секций.
+                -->
+				<img class="Screan__img" src="../../assets/image/Screan/background-image-13.png" alt="" />
+				<div class="Wrapper Content">
+					<!-- 	TODO: Глобальный класс Content
+                    		Данный класс использовать как глобальный класс обертку для содержимого секций.
+                	-->
+					<div class="Controller">
+						<a class="Controller__link isBorder" href="#!">Ситуационный центр</a>
+						<a class="Controller__link isBorder" href="#!">Финансовый сектор</a>
+					</div>
+					<ul class="List">
+						<li>
+							<img src="../../assets/svg/sber.svg" alt="" />
+						</li>
+					</ul>
+					<h1 class="Section__title">Название проекта по интеграции находится здесь</h1>
+					<p class="Section__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam
+					</p>
+					<button class="ButtonVideo" name="button" type="button" autofocus>
+						<div class="ButtonVideo__content">
+							<p class="ButtonVideo__text">Смотреть видео</p>
+							<img class="ButtonVideo__icon" src="../../assets/image/Button/Play.png" alt="" />
+							<img class="ButtonVideo__img" src="../../assets/image/Button/item-01.png" alt="" />
+						</div>
+					</button>
+				</div>
+			</section>
+
+			<section class="Section Indicators">
+				<div class="Wrapper Indicators__wrapper">
+					<h2 class="Title" data-title-sub="# ключевые цифры проекта"></h2>
+					<div class="Indicators__content">
+						<div class="Indicators__column">
+							<p class="Indicators__title">$11M+</p>
+							<p class="Indicators__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.</p>
+						</div>
+						<div class="Indicators__column">
+							<p class="Indicators__title">79.14%</p>
+							<p class="Indicators__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.</p>
+						</div>
+						<div class="Indicators__column">
+							<p class="Indicators__title">$299/y</p>
+							<p class="Indicators__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.</p>
+						</div>
+						<div class="Indicators__column">
+							<p class="Indicators__title">34k+</p>
+							<p class="Indicators__text">Lorem ipsum dolor sit amet, consec tetur adipiscing elit ges aliquam.</p>
+						</div>
+					</div>
+					<a href="#!" class="Indicators__link">Узнать подробнее о проекте</a>
+				</div>
+			</section>
+
+			<section class="Section Galery">
+				<!--
+                    TODO: Оптимизация
+                    Проблемы с структурой блока (отображение Title)
+                -->
+				<h2 class="Title Wrapper" data-title-sub="# галерея проекта"></h2>
+				<div class="Galery__wrapper">
+					<div class="Wrapper Slider">
+						<img class="Galery__img" src="../../assets/image/Screan/background-image-01.png" alt="" />
+						<div class="Slider__controller">
+							<button type="button" class="Slider__arrow Slider__arrow_previous">
+								<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z"
+										fill="#d9d9d9"
+									></path>
+									<path
+										d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z"
+										fill="#d9d9d9"
+									></path>
+								</svg>
+							</button>
+							<button type="button" class="Slider__arrow Slider__arrow_next">
+								<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z"
+										fill="#d9d9d9"
+									></path>
+									<path
+										d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z"
+										fill="#d9d9d9"
+									></path>
+								</svg>
+							</button>
+						</div>
+						<div class="Slider__line">
+							<span class="Slider__line__left"></span>
+							<span class="Slider__line__accent"></span>
+							<span class="Slider__line__right"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="Section Applications">
+				<div class="Wrapper Applications__wrapper">
+					<span class="Separator" data-number="05"></span>
+					<div class="Applications__content">
+						<div>
+							<h2 class="Title Applications__title">
+								<p class="Title__row">Расчитайте стоимость проекта</p>
+							</h2>
+							<p class="Applications__text">
+								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
+							</p>
+						</div>
+						<form class="Form FormApplications blur" action="">
+							<input class="Form__input" type="text" placeholder="Ваше имя" />
+							<input class="Form__input" type="text" placeholder="+7 (999)-999-99-99" />
+							<input class="Form__input" type="text" placeholder="Ваш email" />
+							<div class="LoadFile">
+								<p>Прикрепите файлы с техническим заданием (необязательно)</p>
+								<label class="Form__file">
+									<input type="file" name="file" />
+									<span>Выберите файл</span>
+								</label>
+							</div>
+							<div class="FormApplications__controller">
+								<button class="Button Button__isNormal" type="submit">Расчитать стоимость</button>
+								<p>
+									Нажимая на кнопку, Вы принимаете
+									<a class="FormApplications__link" href="#!">условия обработки персональных данных</a>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<section class="Section Similar">
+				<!-- TODO : Оптимизация
+				 			Упростить имя класса до Similar
+							Использовать глобальный класс List
+				-->
+				<div class="Wrapper Similar__wrapper">
+					<span class="Separator" data-number="06"></span>
+					<h2 class="Title Similar__title">
+						<p class="Title__row">Смотрите похожие проекты</p>
+					</h2>
+					<div class="Similar__list">
+						<article class="Card">
+							<img src="../../assets/image/Industries/item-01.jpg" alt="Офис" class="Card__img" />
+							<div class="Card__content">
+								<h3 class="Card__title">Корпоративный сектор</h3>
+								<a class="Card__btn" href="../project/project.html" alt="">
+									<span>Подробнее</span>
+									<svg
+										class="Icon_Arrow"
+										xmlns="http://www.w3.org/2000/svg"
+										width="32px"
+										height="32px"
+										viewBox="0 0 24 24"
+										fill="transparent"
+									>
+										<linearGradient id="linear-gradient">
+											<stop offset="0%" stop-color="#6DDCFF" />
+											<stop offset="100%" stop-color="#7F60F9" />
+										</linearGradient>
+										<path
+											d="M13 15L16 12M16 12L13 9M16 12H8M21 12C21 16.9706
+										16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944
+										3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<p class="Card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+						</article>
+						<article class="Card">
+							<img src="../../assets/image/Industries/item-01.jpg" alt="Здание" class="Card__img" />
+							<div class="Card__content">
+								<h3 class="Card__title">Государственные учреждения</h3>
+								<a class="Card__btn" href="../project/project.html" alt="">
+									<span>Подробнее</span>
+									<svg
+										class="Icon_Arrow"
+										xmlns="http://www.w3.org/2000/svg"
+										width="32px"
+										height="32px"
+										viewBox="0 0 24 24"
+										fill="transparent"
+									>
+										<linearGradient id="linear-gradient">
+											<stop offset="0%" stop-color="#6DDCFF" />
+											<stop offset="100%" stop-color="#7F60F9" />
+										</linearGradient>
+										<path
+											d="M13 15L16 12M16 12L13 9M16 12H8M21 12C21 16.9706
+										16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944
+										3 12 3C16.9706 3 21 7.02944 21 12Z"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</a>
+							</div>
+							<p class="Card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="Footer">
+			<div class="Wrapper Footer__wrapper">
+				<div class="Separator"></div>
+				<div class="Footer__content">
+					<img class="Logo" src="../../assets/svg/logo.svg" alt="логотип" />
+					<div class="Footer__info">
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="../about/About.html">о компании</a>
+							<a class="Footer__link Footer__link_title" href="../contacts/Contacts.html">контакты</a>
+							<a class="Footer__link Footer__link_title" href="../licenses/Licenses.html">лицензии</a>
+						</div>
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="../decisions/Decisions.html">Решения</a>
+							<a class="Footer__link" href="../decision/Decision.html">Ситуационный центр</a>
+							<a class="Footer__link" href="../decision/Decision.html">Диспетчерский пункт</a>
+							<a class="Footer__link" href="../decision/Decision.html">Зал совещаний</a>
+							<a class="Footer__link" href="../decision/Decision.html">Конференц зал</a>
+							<a class="Footer__link" href="../decision/Decision.html">Переговорная комната</a>
+							<a class="Footer__link" href="../decision/Decision.html">Видеоконференцсвязь</a>
+							<a class="Footer__link" href="../decision/Decision.html">Кабинет руководителя</a>
+							<a class="Footer__link" href="../decision/Decision.html">Digital Signage</a>
+							<a class="Footer__link" href="../decision/Decision.html">Медиафасады</a>
+							<a class="Footer__link" href="../decision/Decision.html">Учебные аудитории</a>
+						</div>
+						<div class="Footer__column">
+							<a class="Footer__link Footer__link_title" href="../sectors/Sectors.html">Отрасли</a>
+							<a class="Footer__link" href="../projects/Projects.html	">Корпоративный сектор</a>
+							<a class="Footer__link" href="../projects/Projects.html">Государственные учреждения</a>
+							<a class="Footer__link" href="../projects/Projects.html">Медицинские учреждения</a>
+							<a class="Footer__link" href="../projects/Projects.html">Образование и наука</a>
+							<a class="Footer__link" href="../projects/Projects.html">Спортивные и фитнес центры, стадионы</a>
+							<a class="Footer__link" href="../projects/Projects.html">Финансовый сектор</a>
+							<a class="Footer__link" href="../projects/Projects.html">Гостиничные комплексы</a>
+							<a class="Footer__link" href="../projects/Projects.html">Транспорт</a>
+							<a class="Footer__link" href="../projects/Projects.html">Торговые центры</a>
+							<a class="Footer__link" href="../projects/Projects.html">Клубы, бары, рестораны</a>
+							<a class="Footer__link" href="../projects/Projects.html">Учреждения культуры и искусства</a>
+							<a class="Footer__link" href="../projects/Projects.html">Промышленные предприятия</a>
+						</div>
+						<div class="Footer__column">
+							<address class="Contacts">
+								<a href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a href="mailto:test@mail.ru">test@mail.ru</a>
+							</address>
+							<article class="Social">
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/WhatsApp.png" alt="" />
+								</a>
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/YouTube.png" alt="" />
+								</a>
+								<a href="#!">
+									<img class="Social__img" src="../../assets/image/Social/Telegram App.png" alt="" />
+								</a>
+							</article>
+							<address class="Contacts">
+								<p class="Contacts__info">Центральный офис</p>
+								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+							</address>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
+								Остались вопросы
+							</button>
+						</div>
+					</div>
+					<div class="Footer__politics">
+						<a href="#!">Политика конфиденциальности</a>
+						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
+				<img src="../../assets/svg/Close.svg" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
+			<form class="Form FormFeedback">
+				<input type="text" class="Form__input" placeholder="Ваше имя" />
+				<input type="tel" class="Form__input" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="Form__input" placeholder="Ваш email" />
+				<button type="submit" onclick="window['Dialog-get-price'].close();" class="Button Button__isBackground FormFeedback__button">
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a class="underline" target="_blank" href="../../pages/agreement/Аgreement.html">условия обработки персональных данных</a>
+			</p>
+		</dialog>
+
+		<script type="module" src="./Project.js"></script>
+	</body>
+</html>
