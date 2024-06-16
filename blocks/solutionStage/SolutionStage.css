@@ -11,5 +11,5 @@
 }
 
 .item__isBordered:hover {
-    background: var(--gradient-accent);
+	background: var(--gradient-accent);
 }
