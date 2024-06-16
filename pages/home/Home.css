@@ -14,9 +14,9 @@
 @import url(../../blocks/separator/Separator.css);
 @import url(../../blocks/stage/Stage.css);
 @import url(../../blocks/solutionStage/SolutionStage.css);
-@import url(../../blocks/headerSection/HeaderSection.css);
 @import url(../../blocks/client/Client.css);
 @import url(../../blocks/slider/Slider.css);
+@import url(../../blocks/title/Title.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
