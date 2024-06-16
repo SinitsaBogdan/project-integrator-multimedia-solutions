@@ -1,9 +1,0 @@
-@import url(./__wrapper/ScreanProject__wrapper.css);
-@import url(./__title/ScreanProject__title.css);
-@import url(./__text/ScreanProject__text.css);
-@import url(./__controller/ScreanProject__controller.css);
-@import url(./__link/ScreanProject__link.css);
-
-.ScreanProject {
-	block-size: 90vh;
-}
