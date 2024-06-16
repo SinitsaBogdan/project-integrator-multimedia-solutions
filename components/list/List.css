@@ -1,3 +1,5 @@
+@import url(./__item/List__item.css);
+
 .List {
 	display: flex;
 	flex-wrap: wrap;
