@@ -1,0 +1,5 @@
+.Button__isWhite {
+	border: 2px solid white;
+	border-radius: 10px;
+	color: white;
+}
