@@ -26,12 +26,12 @@
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
-@import url(../../components/indicators/Indicators.css);
-@import url(../../components/galery/Galery.css);
-@import url(../../components/applications/Applications.css);
+@import url(../../components/widgets/indicators/Indicators.css);
+@import url(../../components/widgets/galery/Galery.css);
+@import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/formApplications/FormApplications.css);
 @import url(../../components/loadFile/LoadFile.css);
-@import url(../../components/similar/Similar.css);
+@import url(../../components/widgets/similar/Similar.css);
 @import url(../../components/card/Card.css);
 @import url(../../components/controller/Controller.css);
 @import url(../../components/list/List.css);

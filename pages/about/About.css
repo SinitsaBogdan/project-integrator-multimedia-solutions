@@ -33,10 +33,10 @@
 @import url(../../components/widgets/conclusion/Conclusion.css);
 @import url(../../components/infoBar/InfoBar.css);
 @import url(../../components/slider/Slider.css);
-@import url(../../components/license/Licenses.css);
+@import url(../../components/widgets/licenses/Licenses.css);
 @import url(../../components/widgets/features/Features.css);
 @import url(../../components/widgets/clients/Clients.css);
-@import url(../../components/applications/Applications.css);
+@import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/formApplications/FormApplications.css);
 @import url(../../components/loadFile/LoadFile.css);
 
