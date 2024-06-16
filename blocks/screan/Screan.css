@@ -5,6 +5,7 @@
 @import url(./__text/Screan__text.css);
 @import url(./__title/Screan__title.css);
 @import url(./__wrapper/Screan__wrapper.css);
+@import url(./__button/Screan__button.css);
 
 .Screan {
 	justify-content: end;
