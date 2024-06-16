@@ -1,11 +1,10 @@
 .PresentMap__link {
-    display: flex;
-    column-gap: 16px;
-    align-items: center;
-    justify-content: center;
-    padding-inline: 30px 20px;
-    padding-block: 10px;
-    border: 2px solid #ffffff40;
-    border-radius: 50px;
-    inline-size: 350px;
+	display: flex;
+	column-gap: 16px;
+	align-items: center;
+	padding-inline: 30px 20px;
+	padding-block: 10px;
+	border: 2px solid #ffffff40;
+	border-radius: 50px;
+	inline-size: 350px;
 }
