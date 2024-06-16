@@ -3,7 +3,7 @@ import { stageElementsSolutions as elements } from '../data/data-solution.js';
 export function createStageSolutionElements() {
 	const list = document.querySelector('.Solutions__list');
 
-	elements.forEach((e) => {
+	elements.forEach((element) => {
 		const li = document.createElement('li');
 		const img = document.createElement('img');
 		const h3 = document.createElement('h3');
@@ -15,8 +15,8 @@ export function createStageSolutionElements() {
 		h3.classList.add('SolutionStage__title');
 		btn.classList.add('SolutionStage__button');
 
-		h3.textContent = e.title;
-		img.src = e.img;
+		h3.textContent = element.title;
+		img.src = element.img;
 		arrow.src = '../../assets/svg/more.svg';
 		arrow.alt = 'Подробнее';
 
