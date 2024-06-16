@@ -6,28 +6,26 @@
 @import url(./root.css);
 
 /* COMPONENTS ------------------------------------------------ */
-@import url(../../blocks/title/Title.css);
-@import url(../../blocks/text/Text.css);
-@import url(../../blocks/page/Page.css);
-@import url(../../blocks/main/Main.css);
-@import url(../../blocks/section/Section.css);
-@import url(../../blocks/content/Content.css);
-@import url(../../blocks/form/Form.css);
-@import url(../../blocks/separator/Separator.css);
+@import url(../../components/title/Title.css);
+@import url(../../components/text/Text.css);
+@import url(../../components/page/Page.css);
+@import url(../../components/main/Main.css);
+@import url(../../components/section/Section.css);
+@import url(../../components/form/Form.css);
+@import url(../../components/separator/Separator.css);
 
 /* POPUP ----------------------------------------------------- */
-@import url(../../blocks/dialog/Dialog.css);
-@import url(../../blocks/formFeedback/FormFeedback.css);
+@import url(../../components/dialog/Dialog.css);
+@import url(../../components/formFeedback/FormFeedback.css);
 
 /* HEADER ---------------------------------------------------- */
-@import url(../../blocks/header/Header.css);
-@import url(../../blocks/menu/Menu.css);
-@import url(../../blocks/contacts/Contacts.css);
-@import url(../../blocks/button/Button.css);
+@import url(../../components/header/Header.css);
+@import url(../../components/menu/Menu.css);
+@import url(../../components/contacts/Contacts.css);
+@import url(../../components/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../blocks/screan/Screan.css);
 
 /* FOOTER ---------------------------------------------------- */
-@import url(../../blocks/footer/Footer.css);
-@import url(../../blocks/social/Social.css);
+@import url(../../components/footer/Footer.css);
+@import url(../../components/social/Social.css);
