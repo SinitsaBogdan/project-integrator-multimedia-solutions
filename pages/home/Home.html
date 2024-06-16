@@ -120,7 +120,6 @@
 			<section class="Section ForWhom">
 				<!-- 	TODO: Оптимизировать
 						Сделать загрузку тегов в html через js.
-                        Создать класс Title__isNormal
 				 -->
 				<div class="Wrapper ForWhom__wrapper">
 					<span class="Separator" data-number="02"></span>
@@ -233,8 +232,7 @@
 						<p class="Text PresentMap__text">регионов, где реализовали проекты</p>
 					</a>
 					<div class="Map__wrapper">
-						<!--
-                            TODO : Рефактор
+						<!-- TODO : Рефактор
                             Переработать структуру классов
                         -->
 						<div class="PresentMap__geo">
@@ -269,16 +267,15 @@
 				</div>
 			</section>
 			<section class="Section Licenses">
-				<!-- TODO : Оптимизация
-				 			Переименовать класс в LicensesGalery
-				-->
 				<div class="Wrapper Licenses__wrapper">
 					<span class="Separator" data-number="07"></span>
 					<h2 class="Title Licenses__title">
 						<p>Лицензии</p>
 					</h2>
-					<h2 class="Licenses__title"></h2>
-					<div class="Licenses__list"></div>
+					<!-- TODO : Оптимизация
+                        Создать класс в GaleryLicenses
+                    -->
+					<ul class="Licenses__list"></ul>
 				</div>
 			</section>
 			<section class="Section Applications">
