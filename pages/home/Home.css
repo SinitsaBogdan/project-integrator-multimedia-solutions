@@ -6,6 +6,8 @@
 @import url(./root.css);
 
 /* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/title/Title.css);
+@import url(../../blocks/text/Text.css);
 @import url(../../blocks/page/Page.css);
 @import url(../../blocks/main/Main.css);
 @import url(../../blocks/section/Section.css);
@@ -16,7 +18,6 @@
 @import url(../../blocks/solutionStage/SolutionStage.css);
 @import url(../../blocks/client/Client.css);
 @import url(../../blocks/slider/Slider.css);
-@import url(../../blocks/title/Title.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
