@@ -13,6 +13,7 @@
 @import url(../../blocks/content/Content.css);
 @import url(../../blocks/form/Form.css);
 @import url(../../blocks/separator/Separator.css);
+@import url(../../blocks/title/Title.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
@@ -32,8 +33,6 @@
 @import url(../../blocks/loadFile/LoadFile.css);
 @import url(../../blocks/similar/Similar.css);
 @import url(../../blocks/card/Card.css);
-
-/* @import url(../../blocks/headerSection/HeaderSection.css); */
 @import url(../../blocks/controller/Controller.css);
 @import url(../../blocks/list/List.css);
 @import url(../../blocks/logo/Logo.css);
