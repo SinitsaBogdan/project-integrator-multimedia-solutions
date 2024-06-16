@@ -20,7 +20,3 @@
 	flex-direction: column;
 	row-gap: 2rem;
 }
-
-.Footer .Button {
-	inline-size: 60%;
-}
