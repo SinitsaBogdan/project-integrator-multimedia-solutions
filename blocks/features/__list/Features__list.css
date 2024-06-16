@@ -2,9 +2,5 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1rem;
-	padding-block-start: 4rem;
-}
-
-.Features__list .Features__text {
-	inline-size: 32%;
+	padding-block-start: 2rem;
 }
