@@ -12,20 +12,20 @@
 	inline-size: max-content;
 }
 
-.ForWhom__list p {
+.ForWhom__list h3 {
 	line-height: 80%;
 	animation: animation-transform 40s linear infinite alternate;
 }
 
-.ForWhom__list p:nth-child(1) {
+.ForWhom__list h3:nth-child(1) {
 	animation-duration: 60s;
 }
 
-.ForWhom__list p:nth-child(2) {
+.ForWhom__list h3:nth-child(2) {
 	animation-duration: 80s;
 }
 
-.ForWhom__list p:nth-child(3) {
+.ForWhom__list h3:nth-child(3) {
 	animation-duration: 100s;
 }
 
