@@ -1,0 +1,26 @@
+@import url(./__wrapper/Footer__wrapper.css);
+@import url(./__link/Footer__link.css);
+@import url(./__link_title/Footer__link_title.css);
+@import url(./__info/Footer__info.css);
+@import url(./__column/Footer__column.css);
+@import url(./__politics/Footer__politics.css);
+
+.Footer {
+	display: flex;
+	align-items: center;
+	block-size: 100vh;
+}
+
+.Footer .Logo {
+	padding-block-end: 3rem;
+}
+
+.Footer .Contacts {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+}
+
+.Footer .Button {
+	inline-size: 60%;
+}
