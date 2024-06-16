@@ -19,7 +19,7 @@
 @import url(../../components/formFeedback/FormFeedback.css);
 
 /* HEADER ---------------------------------------------------- */
-@import url(../../components/header/Header.css);
+@import url(../../components/widgets/header/Header.css);
 @import url(../../components/menu/Menu.css);
 @import url(../../components/contacts/Contacts.css);
 @import url(../../components/button/Button.css);
@@ -27,5 +27,5 @@
 /* SECTIONS -------------------------------------------------- */
 
 /* FOOTER ---------------------------------------------------- */
-@import url(../../components/footer/Footer.css);
+@import url(../../components/widgets/footer/Footer.css);
 @import url(../../components/social/Social.css);
