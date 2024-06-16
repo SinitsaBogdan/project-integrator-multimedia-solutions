@@ -5,13 +5,10 @@
 @import url(./__description/Card__description.css);
 
 .Card {
-	display: flex;
-	flex-direction: column;
 	border-bottom: 1px solid #191919;
 	padding-block-end: 18px;
 	filter: saturate(0);
 	transition: filter 0.5s;
-	inline-size: auto;
 }
 
 .Card .Icon_Arrow {
