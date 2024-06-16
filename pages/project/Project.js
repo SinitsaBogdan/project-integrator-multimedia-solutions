@@ -1,5 +1,6 @@
 import { createMenuElements } from '../../scripts/create-menu-element.js';
-import { createStageElements } from '../../scripts/create-stages.js';
+import { searchSimilarProject } from '../../scripts/search-similar-project.js';
+import { dataElementsProjects as list } from '../../data/data-projects.js';
 
 createMenuElements();
-createStageElements();
+searchSimilarProject(2, list);
