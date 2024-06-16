@@ -1,8 +1,9 @@
 .Galery__img {
 	position: absolute;
-	inset: 0;
+	left: calc((100vw - 1200px) / 2 * -1);
+	top: 0;
 	object-fit: cover;
 	object-position: center;
-	inline-size: 100%;
+	inline-size: 100vw;
 	block-size: 100%;
 }
