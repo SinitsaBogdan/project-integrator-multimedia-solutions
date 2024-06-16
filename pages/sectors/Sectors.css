@@ -6,16 +6,16 @@
 @import url(./root.css);
 
 /* COMPONENTS ------------------------------------------------ */
+@import url(../../blocks/title/Title.css);
+@import url(../../blocks/text/Text.css);
+
 @import url(../../blocks/page/Page.css);
 @import url(../../blocks/main/Main.css);
 @import url(../../blocks/section/Section.css);
-@import url(../../blocks/screan/Screan.css);
 @import url(../../blocks/content/Content.css);
-
 @import url(../../blocks/form/Form.css);
 @import url(../../blocks/separator/Separator.css);
 @import url(../../blocks/card/Card.css);
-@import url(../../blocks/title/Title.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../blocks/dialog/dialog.css);
@@ -28,6 +28,7 @@
 @import url(../../blocks/button/button.css);
 
 /* SECTIONS -------------------------------------------------- */
+@import url(../../blocks/screan/Screan.css);
 @import url(../../blocks/listCards/ListCards.css);
 
 /* FOOTER ---------------------------------------------------- */
