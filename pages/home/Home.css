@@ -31,7 +31,7 @@
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
 @import url(../../components/presentMap/PresentMap.css);
-@import url(../../components/features/Features.css);
+@import url(../../components/widgets/features/Features.css);
 @import url(../../components/license/Licenses.css);
 @import url(../../components/solutions/Solutions.css);
 @import url(../../components/forWhom/ForWhom.css);

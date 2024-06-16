@@ -30,7 +30,7 @@
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
-@import url(../../components/features/Features.css);
+@import url(../../components/widgets/features/Features.css);
 @import url(../../components/applications/Applications.css);
 @import url(../../components/formApplications/FormApplications.css);
 @import url(../../components/clients/Clients.css);
