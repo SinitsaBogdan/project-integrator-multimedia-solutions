@@ -27,7 +27,7 @@
 @import url(../../blocks/header/Header.css);
 @import url(../../blocks/menu/Menu.css);
 @import url(../../blocks/contacts/Contacts.css);
-@import url(../../blocks/button/button.css);
+@import url(../../blocks/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../blocks/screan/Screan.css);
