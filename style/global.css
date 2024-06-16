@@ -5,6 +5,7 @@
 .Wrapper {
 	margin-inline: auto;
 	max-inline-size: 1200px;
+	inline-size: 100%;
 }
 
 .underline {
