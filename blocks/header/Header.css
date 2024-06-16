@@ -4,7 +4,7 @@
 	position: fixed;
 	top: 2vh;
 	left: -50px;
-	z-index: 10;
+	z-index: 100;
 	display: flex;
 	margin-inline: calc((100% - 1200px) / 2);
 	inline-size: calc(1200px + 100px);
