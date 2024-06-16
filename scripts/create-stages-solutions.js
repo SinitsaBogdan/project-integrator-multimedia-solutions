@@ -1,6 +1,10 @@
 import { stageElementsSolutions as elements } from '../data/data-solution.js';
 
 export function createStageSolutionElements() {
+	// TODO : Устранение ошибок
+	// Не работает появление кнопки Подробнее
+	// Создать обертку controller для заголовка и кнопки
+
 	const list = document.querySelector('.Solutions__list');
 
 	elements.forEach((element) => {
