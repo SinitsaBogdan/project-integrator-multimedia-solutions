@@ -7,6 +7,6 @@
 @import url(./__geoMark/PresentMap__geoMark.css);
 
 .PresentMap {
-    block-size: 70vh;
-    justify-content: start;
+	block-size: 62vh;
+	justify-content: start;
 }
