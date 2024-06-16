@@ -120,11 +120,11 @@
 			<section class="Section ForWhom">
 				<!-- 	TODO: Оптимизировать
 						Сделать загрузку тегов в html через js.
+                        Создать класс Title__isNormal
 				 -->
 				<div class="Wrapper ForWhom__wrapper">
 					<span class="Separator" data-number="02"></span>
 					<div class="ForWhom__content">
-						<!-- <span class="ForWhom__sub">как мы работаем</span> -->
 						<h2 class="Title ForWhom__title" data-title-sub="для кого">
 							<p class="Title__row"># имеем готовые решения</p>
 							<p class="Title__row">
@@ -138,17 +138,29 @@
 						</p>
 					</div>
 					<div class="ForWhom__list">
-						<p class="text__style__isTransparent">
-							#корпоративный сектор #ситуационный центр #торговые комплексы #медицинские учреждения
-						</p>
-						<p>
-							#спортивные залы #медицинские учреждения #торговые комплексы #корпоративный сектор #ситуационный центр #диспетчерский
-							пункт #зал совещаний
-						</p>
-						<p class="text__style__isTransparent">
-							#диспетчерский пункт #зал совещаний #видеоконференцсвязь #медицинские учреждения #корпоративный сектор
-							#видеоконференцсвязь #государственные учреждения #торговые комплексы
-						</p>
+						<h3 class="Title ForWhom__baclgrountText">
+							<p class="Title__row">
+								<span class="Title__isTransparent">
+									#корпоративный сектор #ситуационный центр #торговые комплексы #медицинские учреждения
+								</span>
+							</p>
+						</h3>
+						<h3 class="Title ForWhom__baclgrountText">
+							<p class="Title__row">
+								<span>
+									#спортивные залы #медицинские учреждения #торговые комплексы #корпоративный сектор #ситуационный центр
+									#диспетчерский пункт #зал совещаний
+								</span>
+							</p>
+						</h3>
+						<h3 class="Title ForWhom__baclgrountText">
+							<p class="Title__row">
+								<span class="Title__isTransparent">
+									#диспетчерский пункт #зал совещаний #видеоконференцсвязь #медицинские учреждения #корпоративный сектор
+									#видеоконференцсвязь #государственные учреждения #торговые комплексы
+								</span>
+							</p>
+						</h3>
 					</div>
 				</div>
 			</section>
@@ -176,15 +188,15 @@
 					<div class="Conclusion__content">
 						<div class="Conclusion__list">
 							<div class="InfoBar InfoBar__isGradient">
-								<h3 class="InfoBar__title">5 лет</h3>
+								<h3 class="Title InfoBar__title">5 лет</h3>
 								<p class="Text InfoBar__text">Успешной работы</p>
 							</div>
 							<div class="InfoBar InfoBar__isGray">
-								<h3 class="InfoBar__title">3 467</h3>
+								<h3 class="Title InfoBar__title">3 467</h3>
 								<p class="Text InfoBar__text">Довольных клиентов</p>
 							</div>
 							<div class="InfoBar">
-								<h3 class="InfoBar__title">30</h3>
+								<h3 class="Title InfoBar__title">30</h3>
 								<p class="Text InfoBar__text">партнеров-поставщиков оборудования</p>
 							</div>
 						</div>
@@ -221,6 +233,10 @@
 						<p class="Text PresentMap__text">регионов, где реализовали проекты</p>
 					</a>
 					<div class="Map__wrapper">
+						<!--
+                            TODO : Рефактор
+                            Переработать структуру классов
+                        -->
 						<div class="PresentMap__geo">
 							<img class="PresentMap__geoMap" src="../../assets/image/maps.png" alt="" />
 							<span class="PresentMap__geoMark"></span>
