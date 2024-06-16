@@ -1,7 +1,7 @@
 export function createStageElements(id, elements) {
 	const list = document.getElementById(id);
 
-	elements.forEach((e) => {
+	elements.forEach((element) => {
 		const li = document.createElement('li');
 		const article = document.createElement('article');
 		const span = document.createElement('span');
@@ -14,12 +14,12 @@ export function createStageElements(id, elements) {
 		h3.classList.add('Stage__title');
 		p.classList.add('Stage__text');
 
-		if (e.style === 'normal') article.classList.add('Stage__isNormal');
-		else if (e.style === 'gray') article.classList.add('Stage__isGrey');
+		if (element.style === 'normal') article.classList.add('Stage__isNormal');
+		else if (element.style === 'gray') article.classList.add('Stage__isGrey');
 
-		span.textContent = e.number;
-		h3.textContent = e.title;
-		p.textContent = e.content;
+		span.textContent = element.number;
+		h3.textContent = element.title;
+		p.textContent = element.content;
 
 		li.append(article);
 		article.append(span);
