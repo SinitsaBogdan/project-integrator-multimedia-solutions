@@ -1,7 +1,5 @@
 .Form__file {
-	position: relative;
-	display: inline-block;
-	margin-block-start: 1rem;
+	inline-size: max-content;
 	cursor: pointer;
 }
 
