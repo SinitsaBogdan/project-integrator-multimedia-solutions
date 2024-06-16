@@ -1,7 +1,6 @@
 @import url(./__num/Stage__num.css);
 @import url(./__title/Stage__title.css);
 @import url(./__text/Stage__text.css);
-@import url(./__isNormal/Stage__isNormal.css);
 @import url(./__isGrey/Stage__isGrey.css);
 
 .Stage {
