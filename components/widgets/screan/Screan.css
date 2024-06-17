@@ -8,6 +8,4 @@
 @import url(./__button/Screan__button.css);
 
 .Screan {
-	justify-content: end;
-	block-size: var(--section-screan-size);
 }
