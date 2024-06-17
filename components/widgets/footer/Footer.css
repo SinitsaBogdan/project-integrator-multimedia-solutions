@@ -9,8 +9,9 @@
 
 .Footer {
 	display: flex;
-	align-items: center;
-	margin-block: 14vh 4vh;
+	align-items: end;
+	block-size: 100vh;
+	padding-block-end: 4vh;
 }
 
 .Footer .Logo {
