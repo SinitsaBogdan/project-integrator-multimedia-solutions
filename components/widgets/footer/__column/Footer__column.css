@@ -1,10 +1,10 @@
 .Footer__column {
 	display: flex;
 	flex-direction: column;
-	row-gap: 1rem;
+	row-gap: 1.6rem;
 }
 
 .Footer__column:last-child {
+	inline-size: 30%;
 	row-gap: 2rem;
-	inline-size: max-content;
 }
