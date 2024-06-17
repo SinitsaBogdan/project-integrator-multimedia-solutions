@@ -4,6 +4,8 @@
 @import url(./__info/Footer__info.css);
 @import url(./__column/Footer__column.css);
 @import url(./__politics/Footer__politics.css);
+@import url(./__content/Footer__content.css);
+
 
 .Footer {
 	display: flex;
