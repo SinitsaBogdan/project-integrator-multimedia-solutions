@@ -1,4 +1,4 @@
-import { dataSliders } from '../data/data-sliders-firstscrean.js';
+import { dataHomeScreanSliders } from '../data/data-sliders.js';
 
 let idSlider = 0;
 
@@ -13,14 +13,14 @@ export function vievSlidersFirstscrean() {
 function toPrevious() {
 	if (idSlider > 0) {
 		idSlider--;
-		refactorFirstLayer(dataSliders[idSlider]);
+		refactorFirstLayer(dataHomeScreanSliders[idSlider]);
 	}
 }
 
 function toNext() {
-	if (idSlider < dataSliders.length - 1) {
+	if (idSlider < dataHomeScreanSliders.length - 1) {
 		idSlider++;
-		refactorFirstLayer(dataSliders[idSlider]);
+		refactorFirstLayer(dataHomeScreanSliders[idSlider]);
 	}
 }
 
