@@ -1,9 +1,9 @@
-import { menuItems } from '../data/data-top-navigations.js';
+import { menu } from '../data/data-navigations.js';
 
 export function createMenuElements() {
 	const menuList = document.querySelector('.Menu__list');
 
-	menuItems.forEach((item) => {
+	menu.forEach((item) => {
 		const menuListItem = document.createElement('li');
 		const menuItemElment = document.createElement('a');
 
