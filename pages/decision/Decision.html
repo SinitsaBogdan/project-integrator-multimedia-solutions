@@ -25,7 +25,7 @@
 				<a class="Logo" href="../home/Home.html">
 					<img src="../../assets/svg/logo.svg" alt="логотип" />
 				</a>
-				<menu class="Header__menu"></menu>
+				<menu id="Header__menu"></menu>
 				<address class="Contacts">
 					<a href="tel:79999999999">+7 (999)-999-99-99</a>
 					<a href="mailto:test@mail.ru">test@mail.ru</a>
@@ -158,39 +158,13 @@
 				<div class="Footer__content">
 					<img class="Logo" src="../../assets/svg/logo.svg" alt="логотип" />
 					<div class="Footer__info">
-						<div class="Footer__column">
-							<a class="Footer__link Footer__link_title" href="../about/About.html">о компании</a>
-							<a class="Footer__link Footer__link_title" href="../contacts/Contacts.html">контакты</a>
-							<a class="Footer__link Footer__link_title" href="../licenses/Licenses.html">лицензии</a>
-						</div>
-						<div class="Footer__column">
-							<a class="Footer__link Footer__link_title" href="../decisions/Decisions.html">Решения</a>
-							<a class="Footer__link" href="../decision/Decision.html">Ситуационный центр</a>
-							<a class="Footer__link" href="../decision/Decision.html">Диспетчерский пункт</a>
-							<a class="Footer__link" href="../decision/Decision.html">Зал совещаний</a>
-							<a class="Footer__link" href="../decision/Decision.html">Конференц зал</a>
-							<a class="Footer__link" href="../decision/Decision.html">Переговорная комната</a>
-							<a class="Footer__link" href="../decision/Decision.html">Видеоконференцсвязь</a>
-							<a class="Footer__link" href="../decision/Decision.html">Кабинет руководителя</a>
-							<a class="Footer__link" href="../decision/Decision.html">Digital Signage</a>
-							<a class="Footer__link" href="../decision/Decision.html">Медиафасады</a>
-							<a class="Footer__link" href="../decision/Decision.html">Учебные аудитории</a>
-						</div>
-						<div class="Footer__column">
-							<a class="Footer__link Footer__link_title" href="../sectors/Sectors.html">Отрасли</a>
-							<a class="Footer__link" href="../projects/Projects.html">Корпоративный сектор</a>
-							<a class="Footer__link" href="../projects/Projects.html">Государственные учреждения</a>
-							<a class="Footer__link" href="../projects/Projects.html">Медицинские учреждения</a>
-							<a class="Footer__link" href="../projects/Projects.html">Образование и наука</a>
-							<a class="Footer__link" href="../projects/Projects.html">Спортивные и фитнес центры, стадионы</a>
-							<a class="Footer__link" href="../projects/Projects.html">Финансовый сектор</a>
-							<a class="Footer__link" href="../projects/Projects.html">Гостиничные комплексы</a>
-							<a class="Footer__link" href="../projects/Projects.html">Транспорт</a>
-							<a class="Footer__link" href="../projects/Projects.html">Торговые центры</a>
-							<a class="Footer__link" href="../projects/Projects.html">Клубы, бары, рестораны</a>
-							<a class="Footer__link" href="../projects/Projects.html">Учреждения культуры и искусства</a>
-							<a class="Footer__link" href="../projects/Projects.html">Промышленные предприятия</a>
-						</div>
+						<menu id="Footer__menu_global" class="Footer__column"></menu>
+						<menu id="Header__menu_decisions" class="Footer__column">
+							<h2 class="Footer__title">Решения</h2>
+						</menu>
+						<menu id="Header__menu_industries" class="Footer__column">
+							<h2 class="Footer__title">Отрасли</h2>
+						</menu>
 						<div class="Footer__column">
 							<address class="Contacts">
 								<a href="tel:79999999999">+7 (999)-999-99-99</a>
@@ -207,7 +181,7 @@
 									<img class="Social__img" src="../../assets/image/Social/Telegram App.png" alt="" />
 								</a>
 							</article>
-							<address class="Contacts">
+							<address class="Contacts__address">
 								<p class="Contacts__info">Центральный офис</p>
 								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 							</address>
