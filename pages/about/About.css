@@ -21,7 +21,7 @@
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../components/widgets/dialog/Dialog.css);
-@import url(../../components/formFeedback/FormFeedback.css);
+@import url(../../components/forms/feedback/Feedback.css);
 
 /* HEADER ---------------------------------------------------- */
 @import url(../../components/widgets/header/Header.css);
@@ -38,7 +38,7 @@
 @import url(../../components/widgets/features/Features.css);
 @import url(../../components/widgets/clients/Clients.css);
 @import url(../../components/widgets/applications/Applications.css);
-@import url(../../components/formApplications/FormApplications.css);
+@import url(../../components/forms/paymentRequest/PaymentRequest.css);
 @import url(../../components/loadFile/LoadFile.css);
 
 /* FOOTER ---------------------------------------------------- */

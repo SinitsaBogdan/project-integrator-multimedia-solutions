@@ -1,14 +1,14 @@
-.FormApplications__controller {
+.PaymentRequest__controller {
 	display: flex;
 	column-gap: 1rem;
 }
 
-.FormApplications__controller p {
+.PaymentRequest__controller p {
 	opacity: 30%;
 	font-size: 12px;
 }
 
-.FormApplications__controller button {
+.PaymentRequest__controller button {
 	padding-inline: 25px;
 	padding-block: 21px;
 	font-size: 16px;
