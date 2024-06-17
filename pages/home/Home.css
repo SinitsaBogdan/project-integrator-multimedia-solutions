@@ -37,7 +37,7 @@
 @import url(../../components/widgets/solutions/Solutions.css);
 @import url(../../components/widgets/forWhom/ForWhom.css);
 @import url(../../components/widgets/conclusion/Conclusion.css);
-@import url(../../components/infoBar/InfoBar.css);
+@import url(../../components/shared/infoBar/InfoBar.css);
 @import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/forms/paymentRequest/PaymentRequest.css);
 @import url(../../components/loadFile/LoadFile.css);

@@ -32,7 +32,7 @@
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
 @import url(../../components/widgets/conclusion/Conclusion.css);
-@import url(../../components/infoBar/InfoBar.css);
+@import url(../../components/shared/infoBar/InfoBar.css);
 @import url(../../components/features/slider/Slider.css);
 @import url(../../components/widgets/licenses/Licenses.css);
 @import url(../../components/widgets/features/Features.css);
