@@ -1,6 +1,4 @@
 .Screan__wrapper {
-	display: flex;
-	flex-direction: column;
-	row-gap: 1rem;
-	block-size: 100vh;
+    block-size: var(--section-screan-size);
+	justify-content: end;
 }
