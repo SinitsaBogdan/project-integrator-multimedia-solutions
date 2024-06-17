@@ -1,0 +1,36 @@
+.ForWhom__rows {
+	position: absolute;
+	display: flex;
+	row-gap: 12vh;
+	flex-direction: column;
+	text-transform: uppercase;
+	z-index: -1;
+	bottom: 70px;
+	left: 0;
+	opacity: 10%;
+}
+
+.ForWhom__rows .ForWhom__list {
+	line-height: 80%;
+	animation: animation-transform 40s linear infinite alternate;
+}
+
+.ForWhom__rows .ForWhom__list:nth-child(2) {
+	animation-duration: 60s;
+}
+
+.ForWhom__rows .ForWhom__list:nth-child(3) {
+	animation-duration: 80s;
+}
+
+@keyframes animation-transform {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(-100vw);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
