@@ -8,7 +8,7 @@
 /* COMPONENTS ------------------------------------------------ */
 @import url(../../components/title/Title.css);
 @import url(../../components/text/Text.css);
-@import url(../../components/logo/Logo.css);
+@import url(../../components/shared/logo/Logo.css);
 @import url(../../components/page/Page.css);
 @import url(../../components/main/Main.css);
 @import url(../../components/section/Section.css);
@@ -36,7 +36,7 @@
 @import url(../../components/entities/card/Card.css);
 @import url(../../components/controller/Controller.css);
 @import url(../../components/shared/list/List.css);
-@import url(../../components/logo/Logo.css);
+@import url(../../components/shared/logo/Logo.css);
 @import url(../../components/slider/Slider.css);
 
 /* FOOTER ---------------------------------------------------- */
