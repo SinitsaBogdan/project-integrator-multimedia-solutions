@@ -7,7 +7,7 @@
 @import url(./root.css);
 
 /* COMPONENTS ------------------------------------------------ */
-@import url(../../components/title/Title.css);
+@import url(../../components/shared/title/Title.css);
 @import url(../../components/shared/text/Text.css);
 @import url(../../components/shared/logo/Logo.css);
 @import url(../../components/shared/page/Page.css);
