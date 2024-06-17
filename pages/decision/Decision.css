@@ -27,7 +27,7 @@
 @import url(../../components/widgets/header/Header.css);
 @import url(../../components/menu/Menu.css);
 @import url(../../components/features/contacts/Contacts.css);
-@import url(../../components/features/button/Button.css);
+@import url(../../components/shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
