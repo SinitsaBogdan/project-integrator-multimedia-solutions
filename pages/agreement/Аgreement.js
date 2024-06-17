@@ -1,3 +1,12 @@
-import { createMenuElements } from '../../scripts/create-menu-element.js';
+// import { createMenuElements } from '../../scripts/create-menu-element.js';
 
-createMenuElements();
+// createMenuElements();
+
+// ----------------------------------------------------------------------
+
+import * as project from '../../scripts/general-project.js'
+
+project.createNavigationsHeader()
+project.createNavigationsFooter()
+project.createNavigationsDecisions()
+project.createNavigationsIndustries()
