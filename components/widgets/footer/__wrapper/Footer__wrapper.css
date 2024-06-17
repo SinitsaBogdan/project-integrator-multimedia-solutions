@@ -1,4 +1,4 @@
 .Footer__wrapper {
-	block-size: min-content;
+	block-size: 80vh;
 	inline-size: 100%;
 }
