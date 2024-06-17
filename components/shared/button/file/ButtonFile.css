@@ -1,11 +1,12 @@
-.LoadFile {
+/* LoadFile */
+.ButtonFile {
 	padding-block: 20px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;
 }
 
-.LoadFile p {
+.ButtonFile p {
 	padding-block-end: 1rem;
 	font-size: 16px;
 	inline-size: 60%;

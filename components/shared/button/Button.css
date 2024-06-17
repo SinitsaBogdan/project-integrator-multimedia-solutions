@@ -4,6 +4,7 @@
 @import url(./__isNormal/Button__isNormal.css);
 
 @import url(./video/ButtonVideo.css);
+@import url(./file/ButtonFile.css);
 
 .Button {
 	padding-inline: 26px;

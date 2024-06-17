@@ -39,7 +39,7 @@
 @import url(../../components/widgets/clients/Clients.css);
 @import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/features/forms/paymentRequest/PaymentRequest.css);
-@import url(../../components/loadFile/LoadFile.css);
+@import url(../../components/shared/button/file/ButtonFile.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../components/widgets/footer/Footer.css);

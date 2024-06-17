@@ -17,7 +17,7 @@
 @import url(../../components/shared/separator/Separator.css);
 @import url(../../components/stage/Stage.css);
 @import url(../../components/entities/client/Client.css);
-@import url(../../components/loadFile/LoadFile.css);
+@import url(../../components/shared/button/file/ButtonFile.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../components/widgets/dialog/Dialog.css);

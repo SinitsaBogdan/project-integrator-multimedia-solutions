@@ -31,7 +31,7 @@
 @import url(../../components/widgets/galery/Galery.css);
 @import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/features/forms/paymentRequest/PaymentRequest.css);
-@import url(../../components/loadFile/LoadFile.css);
+@import url(../../components/shared/button/file/ButtonFile.css);
 @import url(../../components/widgets/similar/Similar.css);
 @import url(../../components/entities/card/Card.css);
 @import url(../../components/features/controller/Controller.css);

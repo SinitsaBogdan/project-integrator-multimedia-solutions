@@ -40,7 +40,7 @@
 @import url(../../components/shared/infoBar/InfoBar.css);
 @import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/features/forms/paymentRequest/PaymentRequest.css);
-@import url(../../components/loadFile/LoadFile.css);
+@import url(../../components/shared/button/file/ButtonFile.css);
 @import url(../../components/widgets/clients/Clients.css);
 
 /* FOOTER ---------------------------------------------------- */
