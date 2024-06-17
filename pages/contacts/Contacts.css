@@ -22,7 +22,7 @@
 
 /* HEADER ---------------------------------------------------- */
 @import url(../../components/widgets/header/Header.css);
-@import url(../../components/menu/Menu.css);
+@import url(../../components/shared/menu/Menu.css);
 @import url(../../components/features/contacts/Contacts.css);
 @import url(../../components/shared/button/Button.css);
 
