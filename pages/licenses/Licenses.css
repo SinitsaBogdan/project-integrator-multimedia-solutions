@@ -16,7 +16,7 @@
 @import url(../../components/separator/Separator.css);
 
 /* POPUP ----------------------------------------------------- */
-@import url(../../components/dialog/Dialog.css);
+@import url(../../components/widgets/dialog/Dialog.css);
 @import url(../../components/formFeedback/FormFeedback.css);
 
 /* HEADER ---------------------------------------------------- */

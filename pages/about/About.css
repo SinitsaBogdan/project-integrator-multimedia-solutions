@@ -16,11 +16,11 @@
 @import url(../../components/form/Form.css);
 @import url(../../components/separator/Separator.css);
 @import url(../../components/stage/Stage.css);
-@import url(../../components/crumbs/Crumbs.css);
+@import url(../../components/shared/crumbs/Crumbs.css);
 @import url(../../components/entities/client/Client.css);
 
 /* POPUP ----------------------------------------------------- */
-@import url(../../components/dialog/Dialog.css);
+@import url(../../components/widgets/dialog/Dialog.css);
 @import url(../../components/formFeedback/FormFeedback.css);
 
 /* HEADER ---------------------------------------------------- */
