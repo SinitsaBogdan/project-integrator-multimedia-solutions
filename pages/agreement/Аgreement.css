@@ -15,7 +15,7 @@
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../components/widgets/dialog/Dialog.css);
-@import url(../../components/forms/feedback/Feedback.css);
+@import url(../../components/features/forms/feedback/Feedback.css);
 
 /* HEADER ---------------------------------------------------- */
 @import url(../../components/widgets/header/Header.css);
