@@ -37,7 +37,7 @@
 @import url(../../components/features/controller/Controller.css);
 @import url(../../components/shared/list/List.css);
 @import url(../../components/shared/logo/Logo.css);
-@import url(../../components/slider/Slider.css);
+@import url(../../components/features/slider/Slider.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../components/widgets/footer/Footer.css);
