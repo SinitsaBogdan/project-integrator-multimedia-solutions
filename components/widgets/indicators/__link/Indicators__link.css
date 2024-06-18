@@ -1,6 +1,7 @@
 .Indicators__link {
 	position: relative;
 	padding-block-end: 4px;
+	inline-size: max-content;
 }
 
 .Indicators__link::before {

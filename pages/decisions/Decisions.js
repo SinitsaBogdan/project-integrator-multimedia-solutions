@@ -1,12 +1,27 @@
-// import { createMenuElements } from '../../scripts/create-menu-element.js';
+// IMPORT PROJECT ------------------------------------------------------------------------------------------
 
-// createMenuElements();
+import * as project from '../../scripts/general-project.js';
 
-// ----------------------------------------------------------------------
+// IMPORT DATA ---------------------------------------------------------------------------------------------
 
-import * as project from '../../scripts/general-project.js'
+import { dataDecisions as decisions } from '../../data/data-decisions.js';
 
-project.createNavigationsHeader()
-project.createNavigationsFooter()
-project.createNavigationsDecisions()
-project.createNavigationsIndustries()
+// IMPORT CREATE -------------------------------------------------------------------------------------------
+import { createCard } from '../../scripts/create-card.js';
+
+// IMPORT FILLING SECTION ----------------------------------------------------------------------------------
+
+import { fillingSectionDecisions } from '../../scripts/filling-section-decisions.js';
+
+// RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
+
+project.createNavigationsHeader();
+project.createNavigationsFooter();
+project.createNavigationsDecisions();
+project.createNavigationsIndustries();
+
+// RUN FILLING ---------------------------------------------------------------------------------------------
+
+fillingSectionDecisions(decisions, createCard);
+
+// END -----------------------------------------------------------------------------------------------------

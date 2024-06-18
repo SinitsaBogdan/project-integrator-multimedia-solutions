@@ -1,19 +1,19 @@
-import { dataIndustriesElements} from '../data/data-industries.js';
-import { dataDecisionsElements} from '../data/data-decisions.js';
+import { dataIndustries } from '../data/data-industries.js';
+import { dataDecisions } from '../data/data-decisions.js';
 import { dataHeaderMenu, dataFooterMenu } from '../data/data-navigations.js';
 
 const lang = 'nameRu';
 
-const menuHeaderList = document.querySelector('#Header__menu')
-const menuFooterGlobalList = document.querySelector('#Footer__menu_global')
-const menuFooterDecisionsList = document.querySelector('#Header__menu_decisions')
-const menuFooterIndustriesList = document.querySelector('#Header__menu_industries')
+const menuHeaderList = document.querySelector('#Header__menu');
+const menuFooterGlobalList = document.querySelector('#Footer__menu_global');
+const menuFooterDecisionsList = document.querySelector('#Header__menu_decisions');
+const menuFooterIndustriesList = document.querySelector('#Header__menu_industries');
 
 // Комментарий :
 export function createNavigationsHeader() {
 	dataHeaderMenu.forEach((el) => {
 		const item = createLink(el, 'Header');
-		menuHeaderList.append(item)
+		menuHeaderList.append(item);
 	});
 }
 
@@ -21,23 +21,23 @@ export function createNavigationsHeader() {
 export function createNavigationsFooter() {
 	dataFooterMenu.forEach((el) => {
 		const item = createLink(el, 'Footer');
-		menuFooterGlobalList.append(item)
+		menuFooterGlobalList.append(item);
 	});
 }
 
 // Комментарий :
 export function createNavigationsDecisions() {
-	dataDecisionsElements.forEach((el) => {
+	dataDecisions.forEach((el) => {
 		const item = createLink(el, 'Footer');
-		menuFooterDecisionsList.append(item)
+		menuFooterDecisionsList.append(item);
 	});
 }
 
 // Комментарий :
 export function createNavigationsIndustries() {
-	dataIndustriesElements.forEach((el) => {
+	dataIndustries.forEach((el) => {
 		const item = createLink(el, 'Footer');
-		menuFooterIndustriesList.append(item)
+		menuFooterIndustriesList.append(item);
 	});
 }
 
@@ -49,11 +49,6 @@ function createLink(el, name) {
 	a.classList.add('Link', name + '__link');
 	a.textContent = el[lang];
 	a.href = el.href;
-	li.append(a)
+	li.append(a);
 	return li;
 }
-
-// const span = document.createElement('span');
-// span.classList.add('Stage__num', 'text__style__isTransparent');
-// span.textContent = element.number;
-// span.append(article);

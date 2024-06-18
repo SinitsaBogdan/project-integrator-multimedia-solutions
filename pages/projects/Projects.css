@@ -29,7 +29,7 @@
 @import url(../../components/shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../components/widgets/listCards/ListCards.css);
+@import url(../../components/widgets/drafts/Drafts.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../components/widgets/footer/Footer.css);

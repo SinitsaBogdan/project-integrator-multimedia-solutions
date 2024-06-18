@@ -1,15 +1,27 @@
-// import { createMenuElements } from '../../scripts/create-menu-element.js';
-// import { searchSimilarProject } from '../../scripts/search-similar-project.js';
-// import { dataElementsProjects as list } from '../../data/data-projects.js';
+// IMPORT PROJECT ------------------------------------------------------------------------------------------
 
-// createMenuElements();
-// searchSimilarProject(2, list);
+import * as project from '../../scripts/general-project.js';
 
-// ----------------------------------------------------------------------
+// IMPORT DATA ---------------------------------------------------------------------------------------------
 
-import * as project from '../../scripts/general-project.js'
+import { dataDrafts as drafts } from '../../data/data-drafts.js';
 
-project.createNavigationsHeader()
-project.createNavigationsFooter()
-project.createNavigationsDecisions()
-project.createNavigationsIndustries()
+// IMPORT CREATE -------------------------------------------------------------------------------------------
+import { createCard } from '../../scripts/create-card.js';
+
+// IMPORT FILLING SECTION ----------------------------------------------------------------------------------
+
+import { fillingSectionSimilar } from '../../scripts/filling-section-similar.js';
+
+// RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
+
+project.createNavigationsHeader();
+project.createNavigationsFooter();
+project.createNavigationsDecisions();
+project.createNavigationsIndustries();
+
+// RUN FILLING ---------------------------------------------------------------------------------------------
+
+fillingSectionSimilar(drafts, createCard, 'fillter');
+
+// END -----------------------------------------------------------------------------------------------------

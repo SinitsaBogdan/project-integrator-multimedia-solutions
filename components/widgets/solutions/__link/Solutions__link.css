@@ -1,0 +1,14 @@
+.Solutions__link {
+	display: flex;
+	align-items: end;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding-inline: 2rem;
+	padding-block: 1rem;
+	inline-size: auto;
+	block-size: auto;
+}
+
+.Solutions__link:hover {
+	background-image: var(--gradient-accent);
+}

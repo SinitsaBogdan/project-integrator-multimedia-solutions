@@ -1,4 +1,4 @@
-export const dataIndustriesElements = [
+export const dataIndustries = [
 	{
 		nameRu: 'Корпоративный сектор',
 		nameEng: '',

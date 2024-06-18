@@ -9,7 +9,7 @@
 	row-gap: 12px;
 	border: 1px solid #383838;
 	border-radius: 10px;
-	padding-inline: 27px;
+	padding-inline: 2vw;
 	padding-block: 36px;
 	transition: opacity 0.5s;
 }

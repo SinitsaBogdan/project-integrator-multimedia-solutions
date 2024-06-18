@@ -1,4 +1,4 @@
-export const stageElementsAdvantages = [
+export const stagesElementsAdvantages = [
 	{
 		number: '01',
 		title: 'Сначала аудит',
@@ -67,24 +67,5 @@ export const stageElementsIntegration = [
 		title: 'Сопровождение',
 		content: 'Сопровождаем проект на условиях аутстаффа или аутсорса сотрудников.',
 		style: 'normal',
-	},
-];
-
-export const stageElementsSolutions = [
-	{
-		title: 'Ситуационные центры',
-		img: '../../assets/image/Card/card__situation_center.png',
-	},
-	{
-		title: 'Конференц залы',
-		img: '../../assets/image/Card/card__conference_hall.png',
-	},
-	{
-		title: 'Диспетчерский пункт',
-		img: '../../assets/image/Card/card__control_center.png',
-	},
-	{
-		title: 'Зал совещаний',
-		img: '../../assets/image/Card/card__meeting_room.png',
 	},
 ];

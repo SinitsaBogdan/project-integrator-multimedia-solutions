@@ -1,4 +1,5 @@
 @import url(./__img/Galery__img.css);
+@import url(./__wrapper/Galery__wrapper.css);
 
 .Galery {
 	inline-size: 100%;

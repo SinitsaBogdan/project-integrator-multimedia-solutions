@@ -1,7 +1,4 @@
-@import url(./__header/Solutions__header.css);
+@import url(./__wrapper/Solutions__wrapper.css);
 @import url(./__item/Solutions__item.css);
 @import url(./__list/Solutions__list.css);
-@import url(./__sub/Solutions__sub.css);
-@import url(./__text/Solutions__text.css);
-@import url(./__title/Solutions__title.css);
-@import url(./__wrapper/Solutions__wrapper.css);
+@import url(./__link/Solutions__link.css);

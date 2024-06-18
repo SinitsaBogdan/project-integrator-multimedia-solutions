@@ -1,12 +1,20 @@
-// import { createMenuElements } from '../../scripts/create-menu-element.js';
+// IMPORT PROJECT ------------------------------------------------------------------------------------------
 
-// createMenuElements();
+import * as project from '../../scripts/general-project.js';
 
-// ----------------------------------------------------------------------
+// IMPORT DATA ---------------------------------------------------------------------------------------------
 
-import * as project from '../../scripts/general-project.js'
+// IMPORT CREATE -------------------------------------------------------------------------------------------
 
-project.createNavigationsHeader()
-project.createNavigationsFooter()
-project.createNavigationsDecisions()
-project.createNavigationsIndustries()
+// IMPORT FILLING SECTION ----------------------------------------------------------------------------------
+
+// RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
+
+project.createNavigationsHeader();
+project.createNavigationsFooter();
+project.createNavigationsDecisions();
+project.createNavigationsIndustries();
+
+// RUN FILLING ---------------------------------------------------------------------------------------------
+
+// END -----------------------------------------------------------------------------------------------------

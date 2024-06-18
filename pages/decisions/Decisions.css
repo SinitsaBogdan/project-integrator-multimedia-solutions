@@ -11,6 +11,9 @@
 @import url(../../components/shared/logo/Logo.css);
 @import url(../../components/shared/page/Page.css);
 @import url(../../components/shared/main/Main.css);
+@import url(../../components/shared/link/Link.css);
+@import url(../../components/shared/list/List.css);
+@import url(../../components/entities/card/Card.css);
 @import url(../../components/shared/section/Section.css);
 @import url(../../components/shared/form/Form.css);
 @import url(../../components/shared/separator/Separator.css);
@@ -25,7 +28,7 @@
 @import url(../../components/shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../components/project/Project.css);
+@import url(../../components/widgets/decisions/Decisions.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../components/widgets/footer/Footer.css);

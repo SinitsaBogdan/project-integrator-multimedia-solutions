@@ -2,9 +2,25 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border-radius: 10px;
-	border-bottom: 1px solid #191919;
 	padding-block-end: 20px;
 	cursor: pointer;
-	inline-size: 37%;
+}
+
+.Solutions__item:nth-child(1) {
+	inline-size: 20%;
+}
+
+.Solutions__item:nth-child(2) {
+	order: 6;
+	inline-size: auto;
+}
+
+.Solutions__item:nth-child(3),
+.Solutions__item:nth-child(4) {
+	inline-size: 38%;
+}
+
+.Solutions__item:nth-child(5),
+.Solutions__item:nth-child(6) {
+	inline-size: 38%;
 }

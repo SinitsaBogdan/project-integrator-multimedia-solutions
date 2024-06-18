@@ -5,7 +5,6 @@
 @import url(./__line/Slider__line.css);
 
 .Slider {
-	margin-block-start: 4vh;
 	padding-block-end: 4vh;
 	inline-size: 100%;
 	position: relative;

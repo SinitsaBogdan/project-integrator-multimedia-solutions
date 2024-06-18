@@ -1,15 +1,27 @@
-// import { createMenuElements } from '../../scripts/create-menu-element.js';
-// import { dataElementsIndustries as list } from '../../data/data-industries.js';
-// import { createElementsCard } from '../../scripts/create-elements-card.js';
+// IMPORT PROJECT ------------------------------------------------------------------------------------------
 
-// createMenuElements();
-// createElementsCard('List', list);
+import * as project from '../../scripts/general-project.js';
 
-// ----------------------------------------------------------------------
+// IMPORT DATA ---------------------------------------------------------------------------------------------
 
-import * as project from '../../scripts/general-project.js'
+import { dataIndustries as industries } from '../../data/data-industries.js';
 
-project.createNavigationsHeader()
-project.createNavigationsFooter()
-project.createNavigationsDecisions()
-project.createNavigationsIndustries()
+// IMPORT CREATE -------------------------------------------------------------------------------------------
+import { createCard } from '../../scripts/create-card.js';
+
+// IMPORT FILLING SECTION ----------------------------------------------------------------------------------
+
+import { fillingSectionIndustries } from '../../scripts/filling-section-industries.js';
+
+// RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
+
+project.createNavigationsHeader();
+project.createNavigationsFooter();
+project.createNavigationsDecisions();
+project.createNavigationsIndustries();
+
+// RUN FILLING ---------------------------------------------------------------------------------------------
+
+fillingSectionIndustries(industries, createCard);
+
+// END -----------------------------------------------------------------------------------------------------

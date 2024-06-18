@@ -1,4 +1,4 @@
-export const dataDecisionsElements = [
+export const dataDecisions = [
 	{
 		nameRu: 'Ситуационный центр',
 		nameEng: '',
@@ -12,7 +12,7 @@ export const dataDecisionsElements = [
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
-	},	
+	},
 	{
 		nameRu: 'Зал совещаний',
 		nameEng: '',
@@ -20,7 +20,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Конференц зал',
 		nameEng: '',
@@ -28,7 +28,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Переговорная комната',
 		nameEng: '',
@@ -36,7 +36,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Видеоконференцсвязь',
 		nameEng: '',
@@ -44,7 +44,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Кабинет руководителя',
 		nameEng: '',
@@ -52,7 +52,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Digital Signage',
 		nameEng: '',
@@ -60,7 +60,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Медиафасады',
 		nameEng: '',
@@ -68,7 +68,7 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
+
 	{
 		nameRu: 'Учебные аудитории',
 		nameEng: '',
@@ -76,5 +76,4 @@ export const dataDecisionsElements = [
 		image: '../../assets/image/Industries/item-01.jpg',
 		href: '../decision/Decision.html',
 	},
-	
 ];
