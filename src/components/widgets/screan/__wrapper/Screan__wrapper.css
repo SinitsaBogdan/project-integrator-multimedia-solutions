@@ -1,4 +1,4 @@
 .Screan__wrapper {
-    block-size: var(--section-screan-size);
 	justify-content: end;
+	block-size: var(--section-screan-size);
 }

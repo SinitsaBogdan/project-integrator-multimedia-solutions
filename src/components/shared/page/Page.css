@@ -1,9 +1,9 @@
 .Page {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: stretch;
 	color: var(--color-text-basic);
 	font-family: 'Gilroy', sans-serif;
 	font-weight: 400;
-	display: flex;
-	align-items: stretch;
-	flex-direction: column;
-	justify-content: start;
 }

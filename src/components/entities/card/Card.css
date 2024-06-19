@@ -12,9 +12,9 @@
 }
 
 .Card .Icon_Arrow {
-	transform: rotate(-45deg);
-	transition: all 0.4s;
 	stroke: white;
+	transition: all 0.4s;
+	transform: rotate(-45deg);
 }
 
 .Card:hover {
@@ -22,17 +22,17 @@
 }
 
 .Card:hover .Icon_Arrow {
-	transform: rotate(0deg);
 	stroke: url(#linear-gradient);
+	transform: rotate(0deg);
 }
 
 .Card span {
 	font-weight: bold;
-	animation: outTextShine 0.4s ease-in-out forwards;
+	background-image: var(--gradient-accent);
 	-webkit-background-clip: text;
 	background-clip: text;
+	animation: outTextShine 0.4s ease-in-out forwards;
 	-webkit-text-fill-color: transparent;
-	background-image: var(--gradient-accent);
 }
 
 .Card:hover span {

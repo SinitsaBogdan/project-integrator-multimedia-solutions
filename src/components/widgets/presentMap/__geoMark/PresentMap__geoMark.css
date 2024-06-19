@@ -6,8 +6,8 @@
 }
 
 .PresentMap__geoMark::after {
+	content: url(../../../../assets/svg/geo-mark.svg);
 	position: absolute;
-    content: url(../../../../assets/svg/geo-mark.svg);
 }
 
 .PresentMap:hover .PresentMap__geoMark {

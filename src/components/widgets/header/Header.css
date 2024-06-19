@@ -12,7 +12,7 @@
 }
 
 #Header__menu {
-    display: flex;
-    column-gap: 2vw;
-    font-size: 14px;
+	display: flex;
+	column-gap: 2vw;
+	font-size: 14px;
 }

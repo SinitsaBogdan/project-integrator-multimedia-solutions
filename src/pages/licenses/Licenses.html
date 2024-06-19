@@ -12,12 +12,11 @@
         <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
         -->
-
 	</head>
 	<body class="Page">
 		<header class="Header">
 			<div class="Header__wrapper blur">
-				<a class="Logo" href="../home/Home.html">
+				<a class="Logo" href="./home.html">
 					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
 				</a>
 				<menu id="Header__menu"></menu>
@@ -42,10 +41,10 @@
 					<div class="Footer__info">
 						<menu id="Footer__menu_global" class="Footer__column"></menu>
 						<menu id="Header__menu_decisions" class="Footer__column">
-							<h2 class="Footer__title">Решения</h2>
+							<h2 class="Footer__title"><a href="./decisions.html">Решения</a></h2>
 						</menu>
 						<menu id="Header__menu_industries" class="Footer__column">
-							<h2 class="Footer__title">Отрасли</h2>
+							<h2 class="Footer__title"><a href="./sectors.html">Отрасли</a></h2>
 						</menu>
 						<div class="Footer__column">
 							<address class="Contacts">
@@ -96,9 +95,8 @@
 			</form>
 			<p class="Dialog__agreement">
 				Нажимая на кнопку, Вы принимаете
-				<a class="underline" target="_blank" href="../../pages/agreement/Agreement.html">условия обработки персональных данных</a>
+				<a class="underline" target="_blank" href="./agreement.html">условия обработки персональных данных</a>
 			</p>
 		</dialog>
-
 	</body>
 </html>

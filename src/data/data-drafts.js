@@ -4,7 +4,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: ['fillter'],
 	},
 	{
@@ -12,7 +12,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: ['fillter'],
 	},
 	{
@@ -20,7 +20,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -28,7 +28,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -36,7 +36,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -44,7 +44,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -52,7 +52,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -60,7 +60,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -68,7 +68,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -76,7 +76,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -84,7 +84,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 	{
@@ -92,7 +92,7 @@ export const dataDrafts = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/project/Project.html', import.meta.url).href,
+		href: '../pages/project.html',
 		tags: [],
 	},
 ];

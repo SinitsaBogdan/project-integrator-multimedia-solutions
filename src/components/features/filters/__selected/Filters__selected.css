@@ -1,9 +1,9 @@
 .Filters__selected {
 	border-radius: 20px;
 	padding-inline: 1.6rem 4rem;
-	inline-size: max-content;
 	padding-block: 1rem;
 	font-size: 14px;
+	inline-size: max-content;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;

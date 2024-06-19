@@ -5,6 +5,6 @@
 }
 
 .Footer__column:last-child {
-	inline-size: 30%;
 	row-gap: 2rem;
+	inline-size: 30%;
 }

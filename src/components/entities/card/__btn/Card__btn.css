@@ -1,7 +1,7 @@
 .Card__btn {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	column-gap: 0.6rem;
 	font-size: 18px;
 }

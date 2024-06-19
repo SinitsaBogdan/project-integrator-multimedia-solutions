@@ -1,6 +1,6 @@
 .ButtonVideo__content {
-	padding-inline-start: 30px;
-	display: flex;
 	position: relative;
+	display: flex;
 	align-items: center;
+	padding-inline-start: 30px;
 }

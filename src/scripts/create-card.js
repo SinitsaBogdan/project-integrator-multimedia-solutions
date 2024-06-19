@@ -2,7 +2,6 @@ import { iconArrow } from '../constant/arrow.js';
 const lang = 'nameRu';
 
 export function createCard(elements) {
-
 	const article = document.createElement('article');
 	const image = document.createElement('img');
 	const content = document.createElement('div');

@@ -1,6 +1,6 @@
 :root {
 	--gradient-accent: linear-gradient(to right, #6ddcff, #7f60f9);
-	--background-color-main: #0D0D0D;
+	--background-color-main: #0d0d0d;
 
 	--color-text-basic: #fff;
 	--color-text-secondary: #a1a1aa;
@@ -16,5 +16,5 @@
 	--dialog-padding-size: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
 
 	--section-screan-size: 100vh;
-    --section-screan-img-size: 100%;
+	--section-screan-img-size: 100%;
 }

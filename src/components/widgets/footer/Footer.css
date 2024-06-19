@@ -6,17 +6,16 @@
 @import url(./__politics/Footer__politics.css);
 @import url(./__content/Footer__content.css);
 
-
 .Footer {
 	display: flex;
 	align-items: end;
-	block-size: 100vh;
 	padding-block-end: 4vh;
+	block-size: 100vh;
 }
 
 #Footer__menu_global {
-	text-transform: uppercase;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 #Footer__menu_global a {

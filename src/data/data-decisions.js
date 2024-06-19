@@ -4,21 +4,21 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 	{
 		nameRu: 'Диспетчерский пункт',
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 	{
 		nameRu: 'Зал совещаний',
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -26,7 +26,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -34,7 +34,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -42,7 +42,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -50,7 +50,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -58,7 +58,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -66,7 +66,7 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 
 	{
@@ -74,6 +74,6 @@ export const dataDecisions = [
 		nameEng: '',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 		img: new URL('../assets/image/Industries/item-01.jpg', import.meta.url).href,
-		href: new URL('../pages/decision/Decision.html', import.meta.url).href,
+		href: '../pages/decision.html',
 	},
 ];

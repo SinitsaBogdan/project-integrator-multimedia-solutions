@@ -22,7 +22,9 @@ const htmlPlugins = multipage.pages.map((page) => {
 
 result.plugins = [
 	new MiniCssExtractPlugin({
-		filename: 'css/[name].css',
+		filename: 'css/[name].[chunkhash:5].css',
+		chunkFilename: '[name].chunk.[chunkhash:5].css',
+		ignoreOrder: true,
 	}),
 	...htmlPlugins,
 	new CleanWebpackPlugin(),
@@ -31,19 +33,13 @@ result.plugins = [
 result.module = {
 	rules: [
 		// TODO : Проблемный код
-		// не формируются ссылки на другие html документы после запуска сервера
-		{
-			test: /\.html$/,
-			use: [
-				{
-					loader: 'file-loader',
-					options: {
-						name: 'pages/[name].[ext]'
-					}
-				}
-			],
-			exclude: path.resolve(__dirname, 'src/pages/home/Home.html'),
-		},
+		// {
+		// 	test: /\.(html)$/i,
+		// 	loader: 'file-loader',
+		// 	options: {
+		// 		publicPath: 'some/path',
+		// 	},
+		// },
 		// TODO : -----------------
 		{
 			test: /\.js$/,

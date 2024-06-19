@@ -1,6 +1,6 @@
 .Form__file {
-	inline-size: max-content;
 	cursor: pointer;
+	inline-size: max-content;
 }
 
 .Form__file span {

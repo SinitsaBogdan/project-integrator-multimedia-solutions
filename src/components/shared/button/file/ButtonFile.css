@@ -1,9 +1,8 @@
-/* LoadFile */
 .ButtonFile {
-	padding-block: 20px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 1rem;
+	padding-block: 20px;
 }
 
 .ButtonFile p {
