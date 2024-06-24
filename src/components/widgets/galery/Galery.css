@@ -2,7 +2,12 @@
 @import url(./__wrapper/Galery__wrapper.css);
 
 .Galery {
-	justify-content: end;
-	inline-size: 100%;
-	block-size: 60vh;
+	display: flex;
+	column-gap: 1rem;
+	border-radius: 10px;
+	overflow: scroll;
+}
+
+.Galery::-webkit-scrollbar {
+	display: none;
 }

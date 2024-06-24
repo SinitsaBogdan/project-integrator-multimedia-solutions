@@ -17,4 +17,6 @@
 
 	--section-screan-size: 100vh;
 	--section-screan-img-size: 100%;
+
+	--section-slider-size: min-content;
 }

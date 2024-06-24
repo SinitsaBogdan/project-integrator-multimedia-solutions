@@ -32,15 +32,6 @@ result.plugins = [
 
 result.module = {
 	rules: [
-		// TODO : Проблемный код
-		// {
-		// 	test: /\.(html)$/i,
-		// 	loader: 'file-loader',
-		// 	options: {
-		// 		publicPath: 'some/path',
-		// 	},
-		// },
-		// TODO : -----------------
 		{
 			test: /\.js$/,
 			use: 'babel-loader',

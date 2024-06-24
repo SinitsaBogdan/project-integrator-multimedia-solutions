@@ -1,0 +1,6 @@
+.Slider__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	block-size: var(--section-slider-size);
+}

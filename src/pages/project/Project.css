@@ -15,6 +15,7 @@
 @import url(../../components/shared/main/Main.css);
 @import url(../../components/shared/section/Section.css);
 @import url(../../components/shared/form/Form.css);
+@import url(../../components/widgets/galery/Galery.css);
 @import url(../../components/shared/separator/Separator.css);
 
 /* POPUP ----------------------------------------------------- */
@@ -29,7 +30,6 @@
 /* SECTIONS -------------------------------------------------- */
 @import url(../../components/widgets/screan/Screan.css);
 @import url(../../components/widgets/indicators/Indicators.css);
-@import url(../../components/widgets/galery/Galery.css);
 @import url(../../components/widgets/applications/Applications.css);
 @import url(../../components/features/forms/paymentRequest/PaymentRequest.css);
 @import url(../../components/shared/button/file/ButtonFile.css);
@@ -38,6 +38,7 @@
 @import url(../../components/features/controller/Controller.css);
 @import url(../../components/shared/list/List.css);
 @import url(../../components/shared/logo/Logo.css);
+@import url(../../components/widgets/projectSlider/ProjectSlider.css);
 @import url(../../components/features/slider/Slider.css);
 
 /* FOOTER ---------------------------------------------------- */
