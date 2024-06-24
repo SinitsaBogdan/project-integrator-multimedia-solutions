@@ -74,5 +74,5 @@
 ## **[WiKi - Документация](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki)**
 
 ```
-npm install webpack webpack-cli webpack-dev-server html-webpack-plugin clean-webpack-plugin @babel/core @babel/preset-env core-js babel-loader css-loader mini-css-extract-plugin postcss-loader autoprefixer cssnano terser-webpack-plugin file-loader@6.2.0 --save-dev
+npm install webpack webpack-cli webpack-dev-server html-webpack-plugin clean-webpack-plugin @babel/core @babel/preset-env core-js babel-loader css-loader mini-css-extract-plugin postcss-loader autoprefixer cssnano terser-webpack-plugin file-loader@6.2.0 pug pug-loader --save-dev
 ```

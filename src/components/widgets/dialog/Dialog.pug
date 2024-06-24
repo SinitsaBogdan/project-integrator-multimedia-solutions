@@ -1,0 +1,20 @@
+dialog(class='Dialog' id='Dialog-get-price')
+
+	h2.Dialog__heading Получить расчет
+
+	button(type='button' class='Dialog__close' onclick="window['Dialog-get-price'].close();")
+		img(src=require("../../../assets/svg/Close.svg"), alt='Закрыть окно')
+
+	p.Dialog__prompt Оставьте ваши контактные данные и получите полный расчет стоимости
+
+	form.Form.Feedback
+		input(type="text" class="Form__input" placeholder="Ваше имя")
+		input(type="tel" class="Form__input" placeholder="+7 (999)-999-99-99")
+		input(type="email" class="Form__input" placeholder="Ваш email")
+		button(type='submit' class='Button Button__isNormal Feedback__button' onclic="window['Dialog-get-price'].close();") 
+			| Получить консультацию
+
+
+	p.Dialog__agreement 
+		| Нажимая на кнопку, Вы принимаете 
+		a(href="./agreement.html" class="Link underline" target="_blank") условия обработки персональных данных

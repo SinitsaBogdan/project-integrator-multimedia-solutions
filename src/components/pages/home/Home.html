@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
+		<title>IT trader Soft - Home</title>
+		<!--
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+        -->
+	</head>
+	<body class="Page">
+		<header class="Header">
+			<div class="Header__wrapper blur">
+				<a class="Link Logo" href="./home.html">
+					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+				</a>
+				<menu id="Header__menu"></menu>
+				<address class="Contacts">
+					<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button type="button" class="Button Button__isBorder Header__button" onclick="window['Dialog-get-price'].showModal();">
+					Обсудить проект
+				</button>
+			</div>
+		</header>
+		<main class="Main">
+			<section class="Section HomeScrean">
+				<div class="Slider">
+					<div class="Wrapper Slider__wrapper">
+						<img class="Slider__img" src="<%=require('../../assets/image/HomeScrean/background-image-01.png')%>" alt="" />
+						<div class="Slider__content">
+							<h1 class="Title Slider__title">
+								<p>
+									<span class="Title__isPre">Системный интегратор мультимедийных решений</span>
+								</p>
+								<p>внедрение мультимедийных решений для конференц залов</p>
+							</h1>
+							<p class="Text Slider__text">
+								Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.
+							</p>
+							<div class="Slider__controller">
+								<button
+									type="button"
+									class="Button Button__isBorder Slider__button"
+									onclick="window['Dialog-get-price'].showModal();"
+								>
+									Обсудить проект
+								</button>
+								<input type="text" class="Slider__input blur" placeholder="Поиск решений. Например: Переговорные" />
+							</div>
+						</div>
+						<div class="Slider__controller">
+							<button type="button" class="Slider__arrow Slider__arrow_previous">
+								<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z"
+										fill="#d9d9d9"
+									></path>
+									<path
+										d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z"
+										fill="#d9d9d9"
+									></path>
+								</svg>
+							</button>
+							<button type="button" class="Slider__arrow Slider__arrow_next">
+								<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z"
+										fill="#d9d9d9"
+									></path>
+									<path
+										d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z"
+										fill="#d9d9d9"
+									></path>
+								</svg>
+							</button>
+						</div>
+						<div class="Slider__line">
+							<span class="Slider__line__left"></span>
+							<span class="Slider__line__accent"></span>
+							<span class="Slider__line__right"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--
+            <section class="Section Features">
+				<div class="Wrapper Features__wrapper">
+					<span class="Separator" data-number="01"></span>
+					<h2 class="Title Features__title" data-title-sub="как мы работаем">
+						<p># 5 простых шагов</p>
+						<p>
+							<span class="Title__isTransparent">от расчета</span>
+							<span class="Title__isGradient">до внедрения</span>
+						</p>
+					</h2>
+					<ul id="advantages" class="Features__list">
+						<li class="Features__item">
+							<p class="Text Features__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+            -->
+			<!--
+			<section class="Section ForWhom">
+				<div class="Wrapper ForWhom__wrapper">
+					<span class="Separator" data-number="02"></span>
+					<div class="ForWhom__content">
+						<h2 class="Title ForWhom__title" data-title-sub="для кого">
+							<p># имеем готовые решения</p>
+							<p>
+								<span class="Title__isGradient">для всех основных сфер</span>
+								<span>производств</span>
+							</p>
+						</h2>
+						<p class="Text ForWhom__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua. Ut enim ad minim veniam
+						</p>
+					</div>
+					<div class="ForWhom__rows">
+						<ul id="ForWhom__rows_one" class="List ForWhom__list Title__isTransparent"></ul>
+						<ul id="ForWhom__rows_second" class="List ForWhom__list"></ul>
+						<ul id="ForWhom__rows_third" class="List ForWhom__list Title__isTransparent"></ul>
+					</div>
+				</div>
+			</section>
+            -->
+			<!--
+            <section class="Section Solutions">
+				<div class="Wrapper Solutions__wrapper">
+					<span class="Separator" data-number="03"></span>
+					<h2 class="Title Solutions__title" data-title-sub="решения">
+						<p># найдите свое</p>
+						<p>
+							<span class="Title__isGradient">идеальное решение</span>
+						</p>
+						<p>в пару кликов</p>
+					</h2>
+					<ul class="List Solutions__list">
+						<li class="Solutions__item">
+							<p class="Text Solutions__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam
+							</p>
+						</li>
+						<li class="Solutions__item">
+							<a class="Link Solutions__link" href="#!">Смотреть все услуги</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+            -->
+			<!--
+			<section class="Section Conclusion">
+				<div class="Wrapper Conclusion__wrapper">
+					<span class="Separator" data-number="04"></span>
+					<div class="Conclusion__content">
+						<div class="Conclusion__list">
+							<div class="InfoBar InfoBar__isGradient">
+								<h3 class="Title InfoBar__title">5 лет</h3>
+								<p class="Text InfoBar__text">Успешной работы</p>
+							</div>
+							<div class="InfoBar InfoBar__isGray">
+								<h3 class="Title InfoBar__title">3 467</h3>
+								<p class="Text InfoBar__text">Довольных клиентов</p>
+							</div>
+							<div class="InfoBar">
+								<h3 class="Title InfoBar__title">30</h3>
+								<p class="Text InfoBar__text">партнеров-поставщиков оборудования</p>
+							</div>
+						</div>
+						<div class="Conclusion__info">
+							<h2 class="Title Conclusion__title">
+								<p># О компании</p>
+							</h2>
+							<p class="Text Conclusion__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+								incididunt ut labore et dolore magna aliqua.
+							</p>
+							<p class="Text Conclusion__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+            -->
+			<!--
+            <section class="Section PresentMap">
+				<div class="Wrapper PresentMap__wrapper">
+					<span class="Separator" data-number="05"></span>
+					<h2 class="Title PresentMap__title">
+						<p># реализуем</p>
+						<p>проекты <span class="Title__isGradient">во всех</span></p>
+						<p>
+							<span class="Title__isGradient">регионах </span>
+							<span class="Title__isTransparent">России</span>
+						</p>
+					</h2>
+					<a class="Link PresentMap__link" href="#!">
+						<div class="PresentMap__count">14</div>
+						<p class="Text PresentMap__text">регионов, где реализовали проекты</p>
+					</a>
+					<div class="PresentMap__content">
+						<div class="PresentMap__list">
+							<img src="<%=require('../../assets/image/maps.png')%>" alt="" />
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</section>
+            -->
+			<!--
+			<section class="Section Clients">
+				<div class="Wrapper">
+					<span class="Separator" data-number="06"></span>
+					<h2 class="Title Clients__title" data-title-sub="клиенты">
+						<p>
+							<span class="Title__isTransparent">></span>
+							<span class="Title__isGradient">200 отзывов</span>
+						</p>
+						<p>от лиднров рынка</p>
+					</h2>
+					<ul class="List Clients__list"></ul>
+					<div class="Slider__line">
+						<span class="Slider__line__left"></span>
+						<span class="Slider__line__accent"></span>
+						<span class="Slider__line__right"></span>
+					</div>
+				</div>
+			</section>
+			-->
+			<!--
+			<section class="Section Licenses">
+				<div class="Wrapper Licenses__wrapper">
+					<span class="Separator" data-number="07"></span>
+					<h2 class="Title Licenses__title">
+						<p>Лицензии</p>
+					</h2>
+					<ul class="Galery Licenses__list"></ul>
+				</div>
+			</section>
+			-->
+			<section class="Section Applications">
+				<div class="Wrapper Applications__wrapper">
+					<span class="Separator" data-number="08"></span>
+					<div class="Applications__content">
+						<div class="Applications__info">
+							<h2 class="Title Applications__title">
+								<p>Расчитайте стоимость проекта</p>
+							</h2>
+							<p class="Text Applications__text">
+								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
+							</p>
+						</div>
+						<form class="Form PaymentRequest blur" action="">
+							<input class="Form__input" type="text" placeholder="Ваше имя" />
+							<input class="Form__input" type="text" placeholder="+7 (999)-999-99-99" />
+							<input class="Form__input" type="text" placeholder="Ваш email" />
+							<div class="ButtonFile">
+								<p class="Text">Прикрепите файлы с техническим заданием (необязательно)</p>
+								<label class="Form__file">
+									<input type="file" name="file" />
+									<span>Выберите файл</span>
+								</label>
+							</div>
+							<div class="PaymentRequest__controller">
+								<button class="Button Button__isNormal" type="submit">Расчитать стоимость</button>
+								<p>
+									Нажимая на кнопку, Вы принимаете
+									<a class="Link PaymentRequest__link" href="#!">условия обработки персональных данных</a>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="Footer">
+			<div class="Wrapper Footer__wrapper">
+				<span class="Separator"></span>
+				<div class="Footer__content">
+					<img class="Logo" src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+					<div class="Footer__info">
+						<menu id="Footer__menu_global" class="Footer__column"></menu>
+						<menu id="Header__menu_decisions" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./decisions.html">Решения</a></h2>
+						</menu>
+						<menu id="Header__menu_industries" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./sectors.html">Отрасли</a></h2>
+						</menu>
+						<div class="Footer__column">
+							<address class="Contacts">
+								<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+							</address>
+							<article class="Social">
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/WhatsApp.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/YouTube.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/Telegram App.png')%>" alt="" />
+								</a>
+							</article>
+							<address class="Contacts__address">
+								<p class="Contacts__info">Центральный офис</p>
+								<a class="Link" href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+							</address>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
+								Остались вопросы
+							</button>
+						</div>
+					</div>
+					<div class="Footer__politics">
+						<a class="Link" href="#!">Политика конфиденциальности</a>
+						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
+				<img src="<%=require('../../assets/svg/Close.svg')%>" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
+			<form class="Form Feedback">
+				<input type="text" class="Form__input" placeholder="Ваше имя" />
+				<input type="tel" class="Form__input" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="Form__input" placeholder="Ваш email" />
+				<button type="submit" onclick="window['Dialog-get-price'].close();" class="Button Button__isNormal Feedback__button">
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a class="Link underline" target="_blank" href="./agreement.html">условия обработки персональных данных</a>
+			</p>
+		</dialog>
+	</body>
+</html>

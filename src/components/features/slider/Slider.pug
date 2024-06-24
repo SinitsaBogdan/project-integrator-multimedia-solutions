@@ -1,0 +1,36 @@
+.Slider
+    img(src=require("../../../assets/image/Screan/background-image-01.png") class="Slider__img" alt='логотип')
+    .Wrapper.Slider__wrapper
+        .Slider__content
+            //- TODO : Сделать миксином
+            h1(class="Title Slider__title")
+                p
+                    span.Title__isPre Системный интегратор мультимедийных решений
+                p внедрение мультимедийных решений для конференц залов
+
+            p.Text.Slider__text
+                | Комплексное оснащение конференц-залов, ситуационных центров,
+                | переговорных комнат, учебных центров и пр.
+
+            .Slider__controller
+                button(type='button' class='Button Button__isBorder Slider__button' onclic="window['Dialog-get-price'].showModal();")
+                    | Обсудить проект
+                input(type="text" class="Slider__input blur" placeholder="Поиск решений. Например: Переговорные")
+
+        .Slider__controller
+
+            button(type='button' class='Slider__arrow Slider__arrow_previous')
+                svg(viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg")
+                    path(d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z" fill="#d9d9d9")
+                    path(d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z" fill="#d9d9d9")
+
+            button(type='button' class='Slider__arrow Slider__arrow_next')
+                svg(viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg")
+                    path(d="m32 62a30 30 0 1 1 30-30 30 30 0 0 1 -30 30zm0-56a26 26 0 1 0 26 26 26 26 0 0 0 -26-26z" fill="#d9d9d9")
+                    path(d="m38.84 51.68a2 2 0 0 1 -1.41-.59l-17.68-17.68a2 2 0 0 1 0-2.83l17.67-17.67a2 2 0 0 1 2.83 2.83l-16.25 16.26 16.25 16.26a2 2 0 0 1 -1.41 3.41z" fill="#d9d9d9")
+
+
+        .Slider__line
+            span.Slider__line__left
+            span.Slider__line__accent
+            span.Slider__line__right

@@ -1,0 +1,27 @@
+footer.Footer
+    .Wrapper.Footer__wrapper
+        span.Separator
+        .Footer__content
+            include ../../shared/logo/Logo.pug
+            .Footer__info
+                menu(id="Footer__menu_global" class="Footer__column")
+                menu(id="Header__menu_decisions" class="Footer__column")
+                    h2(class="Footer__title")
+                        a(href="./decisions.html" class="Link") Решения
+                menu(id="Header__menu_industries" class="Footer__column")
+                    h2(class="Footer__title")
+                        a(href="./sectors.html" class="Link") Отрасли
+                .Footer__column
+                    include ../../features/contacts/Contacts.pug
+                    include ../../shared/social/Social.pug
+                    address.Contacts__address
+                        p.Contacts__info Центральный офис
+                        a(href="#!" class="Link") г. Самара, ул. Ленина, стр. 1, офис 101
+                    button(
+                        type="button", 
+                        class="Button Button__isBorder", 
+                        onclick="window['Dialog-get-price'].showModal();"
+                    ) Остались вопросы
+            .Footer__politics
+                a(href="#!" class="Link") Политика конфиденциальности
+                p ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000

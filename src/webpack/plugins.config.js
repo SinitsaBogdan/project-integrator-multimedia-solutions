@@ -33,6 +33,10 @@ result.plugins = [
 result.module = {
 	rules: [
 		{
+			test: /\.pug$/,
+			loader: 'pug-loader',
+		},
+		{
 			test: /\.js$/,
 			use: 'babel-loader',
 			exclude: /node_modules/,

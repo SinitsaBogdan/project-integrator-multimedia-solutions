@@ -1,0 +1,34 @@
+/* GLOBAL ---------------------------------------------------- */
+@import url(../../../style/normalize.css);
+@import url(../../../style/fonts.css);
+@import url(../../../style/variables.css);
+@import url(../../../style/global.css);
+
+/* PAGE ------------------------------------------------------ */
+@import url(./root.css);
+
+/* COMPONENTS ------------------------------------------------ */
+@import url(../../shared/title/Title.css);
+@import url(../../shared/text/Text.css);
+@import url(../../shared/logo/Logo.css);
+@import url(../../shared/page/Page.css);
+@import url(../../shared/main/Main.css);
+@import url(../../shared/section/Section.css);
+@import url(../../shared/form/Form.css);
+@import url(../../features/slider/Slider.css);
+@import url(../../shared/separator/Separator.css);
+
+/* POPUP ----------------------------------------------------- */
+@import url(../../widgets/dialog/Dialog.css);
+@import url(../../features/forms/feedback/Feedback.css);
+
+/* HEADER ---------------------------------------------------- */
+@import url(../../widgets/header/Header.css);
+@import url(../../features/contacts/Contacts.css);
+@import url(../../shared/button/Button.css);
+
+/* SECTIONS -------------------------------------------------- */
+
+/* FOOTER ---------------------------------------------------- */
+@import url(../../widgets/footer/Footer.css);
+@import url(../../shared/social/Social.css);
