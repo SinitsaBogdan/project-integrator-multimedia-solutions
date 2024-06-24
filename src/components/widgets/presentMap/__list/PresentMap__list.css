@@ -1,55 +1,68 @@
-.PresentMap__geoMark {
+.PresentMap__list {
+	position: relative;
+	aspect-ratio: 1 / 0.5;
+}
+
+.PresentMap__list img {
+	position: absolute;
+	z-index: -1;
+	opacity: 20%;
+	filter: contrast(2) brightness(0.7);
+	inline-size: 105%;
+}
+
+.PresentMap__list span {
 	position: absolute;
 	opacity: 0;
 	animation: appear 0.7s linear forwards paused;
 	inline-size: 3.5%;
 }
 
-.PresentMap__geoMark::after {
+.PresentMap__list span::after {
 	content: url(../../../../assets/svg/geo-mark.svg);
 	position: absolute;
 }
 
-.PresentMap:hover .PresentMap__geoMark {
+.PresentMap:hover .PresentMap__list span {
 	animation-play-state: running;
 }
 
-.PresentMap__geoMark:nth-child(2) {
+.PresentMap__list span:nth-child(2) {
 	top: 65.2%;
 	left: 4%;
 }
 
-.PresentMap__geoMark:nth-child(3) {
+.PresentMap__list span:nth-child(3) {
 	top: 70%;
 	left: 8%;
 	animation-delay: 0.7s;
 }
 
-.PresentMap__geoMark:nth-child(4) {
+.PresentMap__list span:nth-child(4) {
 	top: 67.2%;
 	left: 20%;
 	animation-delay: 1.4s;
 }
 
-.PresentMap__geoMark:nth-child(5) {
+.PresentMap__list span:nth-child(5) {
 	top: 63%;
 	left: 28.5%;
 	animation-delay: 2.1s;
 }
 
-.PresentMap__geoMark:nth-child(6) {
+.PresentMap__list span:nth-child(6) {
 	top: 73%;
 	left: 37.2%;
 	animation-delay: 2.8s;
 }
 
-.PresentMap__geoMark:nth-child(7) {
+.PresentMap__list span:nth-child(7) {
 	top: 82%;
 	left: 42.2%;
 	animation-delay: 3.5s;
 }
 
-.PresentMap__geoMark:nth-child(8) {
+.PresentMap__list span:nth-child(8) {
 	top: 83%;
 	left: 52%;
 	animation-delay: 4.2s;

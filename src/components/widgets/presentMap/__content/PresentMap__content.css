@@ -1,0 +1,7 @@
+.PresentMap__content {
+	position: absolute;
+	top: 0;
+	left: 30%;
+	z-index: -1;
+	inline-size: 100%;
+}
