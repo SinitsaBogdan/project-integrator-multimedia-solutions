@@ -16,13 +16,13 @@
 	<body class="Page">
 		<header class="Header">
 			<div class="Header__wrapper blur">
-				<a class="Logo" href="./home.html">
+				<a class="Link Logo" href="./home.html">
 					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
 				</a>
 				<menu id="Header__menu"></menu>
 				<address class="Contacts">
-					<a href="tel:79999999999">+7 (999)-999-99-99</a>
-					<a href="mailto:test@mail.ru">test@mail.ru</a>
+					<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
 				</address>
 				<button type="button" class="Button Button__isBorder Header__button" onclick="window['Dialog-get-price'].showModal();">
 					Обсудить проект
@@ -41,30 +41,30 @@
 					<div class="Footer__info">
 						<menu id="Footer__menu_global" class="Footer__column"></menu>
 						<menu id="Header__menu_decisions" class="Footer__column">
-							<h2 class="Footer__title"><a href="./decisions.html">Решения</a></h2>
+							<h2 class="Footer__title"><a class="Link" href="./decisions.html">Решения</a></h2>
 						</menu>
 						<menu id="Header__menu_industries" class="Footer__column">
-							<h2 class="Footer__title"><a href="./sectors.html">Отрасли</a></h2>
+							<h2 class="Footer__title"><a class="Link" href="./sectors.html">Отрасли</a></h2>
 						</menu>
 						<div class="Footer__column">
 							<address class="Contacts">
-								<a href="tel:79999999999">+7 (999)-999-99-99</a>
-								<a href="mailto:test@mail.ru">test@mail.ru</a>
+								<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
 							</address>
 							<article class="Social">
-								<a href="#!">
+								<a class="Link" href="#!">
 									<img class="Social__img" src="<%=require('../../assets/image/Social/WhatsApp.png')%>" alt="" />
 								</a>
-								<a href="#!">
+								<a class="Link" href="#!">
 									<img class="Social__img" src="<%=require('../../assets/image/Social/YouTube.png')%>" alt="" />
 								</a>
-								<a href="#!">
+								<a class="Link" href="#!">
 									<img class="Social__img" src="<%=require('../../assets/image/Social/Telegram App.png')%>" alt="" />
 								</a>
 							</article>
 							<address class="Contacts__address">
 								<p class="Contacts__info">Центральный офис</p>
-								<a href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+								<a class="Link" href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
 							</address>
 							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
 								Остались вопросы
@@ -72,7 +72,7 @@
 						</div>
 					</div>
 					<div class="Footer__politics">
-						<a href="#!">Политика конфиденциальности</a>
+						<a class="Link" href="#!">Политика конфиденциальности</a>
 						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 			</form>
 			<p class="Dialog__agreement">
 				Нажимая на кнопку, Вы принимаете
-				<a class="underline" target="_blank" href="./agreement.html">условия обработки персональных данных</a>
+				<a class="Link underline" target="_blank" href="./agreement.html">условия обработки персональных данных</a>
 			</p>
 		</dialog>
 	</body>

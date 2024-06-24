@@ -1,5 +1,4 @@
-/*  TODO: Оптимизация
-    Описать общие стили ссылок по проекту
-*/
 .Link {
+    color: inherit;
+    font-size: inherit;
 }
