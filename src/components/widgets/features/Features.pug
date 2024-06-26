@@ -1,16 +1,5 @@
 section.Section.Features
     .Wrapper.Features__wrapper
-        span(class="Separator" data-number="01")
-
-        //- TODO : Сделать миксином
-        h2(class="Title Features__title" data-title-sub="как мы работаем")
-            p # 5 простых шагов
-            p
-                span.Title__isTransparent от расчета
-                span.Title__isGradient до внедрения
-
-        ul(id="advantages" class="Features__list")
-            li.Features__item
-                p.Text.Features__text
-                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    | aliqua. Ut enim ad minim veniam
+        block featuresSeparator
+        block featuresTitle
+        block featuresList

@@ -12,7 +12,7 @@
         -->
 	</head>
 	<body class="Page">
-		<header class="Header">
+        <header class="Header">
 			<div class="Header__wrapper blur">
 				<a class="Link Logo" href="./home.html">
 					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
@@ -33,16 +33,16 @@
 					<div class="Wrapper Slider__wrapper">
 						<img class="Slider__img" src="<%=require('../../assets/image/HomeScrean/background-image-01.png')%>" alt="" />
 						<div class="Slider__content">
-							<h1 class="Title Slider__title">
+							<h1 class="Title Slider__content_title">
 								<p>
 									<span class="Title__isPre">Системный интегратор мультимедийных решений</span>
 								</p>
 								<p>внедрение мультимедийных решений для конференц залов</p>
 							</h1>
-							<p class="Text Slider__text">
+							<p class="Text Slider__content_text">
 								Комплексное оснащение конференц-залов, ситуационных центров, переговорных комнат, учебных центров и пр.
 							</p>
-							<div class="Slider__controller">
+							<div class="Slider__content_controller">
 								<button
 									type="button"
 									class="Button Button__isBorder Slider__button"
@@ -87,7 +87,6 @@
 					</div>
 				</div>
 			</section>
-			<!--
             <section class="Section Features">
 				<div class="Wrapper Features__wrapper">
 					<span class="Separator" data-number="01"></span>
@@ -108,8 +107,6 @@
 					</ul>
 				</div>
 			</section>
-            -->
-			<!--
 			<section class="Section ForWhom">
 				<div class="Wrapper ForWhom__wrapper">
 					<span class="Separator" data-number="02"></span>
@@ -133,8 +130,6 @@
 					</div>
 				</div>
 			</section>
-            -->
-			<!--
             <section class="Section Solutions">
 				<div class="Wrapper Solutions__wrapper">
 					<span class="Separator" data-number="03"></span>
@@ -158,8 +153,6 @@
 					</ul>
 				</div>
 			</section>
-            -->
-			<!--
 			<section class="Section Conclusion">
 				<div class="Wrapper Conclusion__wrapper">
 					<span class="Separator" data-number="04"></span>
@@ -195,8 +188,6 @@
 					</div>
 				</div>
 			</section>
-            -->
-			<!--
             <section class="Section PresentMap">
 				<div class="Wrapper PresentMap__wrapper">
 					<span class="Separator" data-number="05"></span>
@@ -226,8 +217,6 @@
 					</div>
 				</div>
 			</section>
-            -->
-			<!--
 			<section class="Section Clients">
 				<div class="Wrapper">
 					<span class="Separator" data-number="06"></span>
@@ -246,8 +235,6 @@
 					</div>
 				</div>
 			</section>
-			-->
-			<!--
 			<section class="Section Licenses">
 				<div class="Wrapper Licenses__wrapper">
 					<span class="Separator" data-number="07"></span>
@@ -257,7 +244,6 @@
 					<ul class="Galery Licenses__list"></ul>
 				</div>
 			</section>
-			-->
 			<section class="Section Applications">
 				<div class="Wrapper Applications__wrapper">
 					<span class="Separator" data-number="08"></span>
@@ -293,7 +279,6 @@
 				</div>
 			</section>
 		</main>
-
 		<footer class="Footer">
 			<div class="Wrapper Footer__wrapper">
 				<span class="Separator"></span>
@@ -339,8 +324,7 @@
 				</div>
 			</div>
 		</footer>
-
-		<dialog class="Dialog" id="Dialog-get-price">
+        <dialog class="Dialog" id="Dialog-get-price">
 			<h2 class="Dialog__heading">Получить расчет</h2>
 			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
 				<img src="<%=require('../../assets/svg/Close.svg')%>" alt="Закрыть окно" />
@@ -361,4 +345,3 @@
 		</dialog>
 	</body>
 </html>
-

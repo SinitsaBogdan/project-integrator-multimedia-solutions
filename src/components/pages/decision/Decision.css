@@ -31,7 +31,7 @@
 @import url(../../shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-/* @import url(../../widgets/screan/Screan.css); */
+@import url(../../widgets/decisionScrean/DecisionScrean.css);
 @import url(../../widgets/features/Features.css);
 @import url(../../widgets/applications/Applications.css);
 @import url(../../features/forms/paymentRequest/PaymentRequest.css);

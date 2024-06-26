@@ -1,0 +1,15 @@
+section.Section.Applications
+    .Wrapper.Applications__wrapper
+        span(class="Separator" data-number="08")
+
+        .Applications__content
+            .Applications__info
+                //- TODO : Сделать миксином
+                h2(class="Title Applications__title")
+                    p Расчитайте стоимость проекта
+
+                p.Text.Applications__text
+                    | Оставьте заявку и приложите к форме файл с
+                    | техническим заданием для оценки вашего проекта.
+
+            include ../../features/forms/paymentRequest/PaymentRequest.pug

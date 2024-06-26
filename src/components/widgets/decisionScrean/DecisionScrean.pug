@@ -1,0 +1,21 @@
+//- TODO: Рефактор стилей
+//- Переопределить стили DecisionScrean
+//- Создать общий класс стилей Screan
+
+section.Section.DecisionScrean
+    .Wrapper.DecisionScrean__wrapper
+        img(class="DecisionScrean__img" src=require('../../../assets/image/ScreanProject/item-01.png') alt="")
+
+        include ../../shared/crumbs/Crumbs.pug
+
+        h1.Title.DecisionScrean__title
+            p CОЗДАНИЕ И ОСНАЩЕНИЕ СИТУАЦИОННОГО ЦЕНТРА
+
+        p.Text.DecisionScrean__text
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+        //- TODO: Сделать миксином
+        include ../../features/controller/Controller.pug
+
+

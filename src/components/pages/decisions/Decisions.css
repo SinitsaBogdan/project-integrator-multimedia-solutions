@@ -30,7 +30,7 @@
 @import url(../../shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-@import url(../../widgets/decisions/Decisions.css);
+@import url(../../widgets/decisionsItems/DecisionsItems.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../widgets/footer/Footer.css);

@@ -28,7 +28,7 @@
 @import url(../../shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
-/* @import url(../../widgets/screan/Screan.css); */
+@import url(../../widgets/projectScrean/ProjectScrean.css);
 @import url(../../widgets/indicators/Indicators.css);
 @import url(../../widgets/applications/Applications.css);
 @import url(../../features/forms/paymentRequest/PaymentRequest.css);

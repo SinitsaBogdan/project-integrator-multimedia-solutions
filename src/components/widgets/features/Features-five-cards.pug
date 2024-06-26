@@ -1,0 +1,19 @@
+extends ../../widgets/features/Features
+
+block featuresSeparator
+    span(class="Separator" data-number="01")
+
+block featuresTitle
+    //- TODO : Сделать миксином
+    h2(class="Title Features__title" data-title-sub="как мы работаем")
+        p преимущества
+        p
+            span.Title__isTransparent находятся
+            span здесь
+
+block featuresList
+    ul(id="advantages" class="Features__list")
+        li.Features__item
+            p.Text.Features__text
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                | aliqua. Ut enim ad minim veniam
