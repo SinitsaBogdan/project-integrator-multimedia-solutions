@@ -1,8 +1,0 @@
-.Slider__arrow {
-	inline-size: 30px;
-	block-size: 30px;
-}
-
-.Slider__arrow:last-child {
-	transform: rotate(180deg);
-}

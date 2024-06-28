@@ -1,0 +1,5 @@
+.ForWhom__list {
+	display: flex;
+	column-gap: 16rem;
+	inline-size: max-content;
+}

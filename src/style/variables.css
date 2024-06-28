@@ -1,0 +1,22 @@
+:root {
+	--gradient-accent: linear-gradient(to right, #6ddcff, #7f60f9);
+	--background-color-main: #0d0d0d;
+
+	--color-text-basic: #fff;
+	--color-text-secondary: #a1a1aa;
+	--color-text-secondary-input: #71717a;
+	--color-scroll-line: #d9d9d9;
+
+	--max-margin-inline: 160px;
+
+	--form-field-border-color: rgba(255, 255, 255, 0.1);
+	--form-padding-size: clamp(14px, calc(23px - (600px - 40vw) / 26), 24px);
+
+	--dialog-heading-font-size: clamp(24px, calc(30px - (600px - 40vw) / 40), 30px);
+	--dialog-padding-size: clamp(20px, calc(40px - (600px - 40vw) / 12), 40px);
+
+	--section-screan-size: 100vh;
+	--section-screan-img-size: 100%;
+
+	--section-slider-size: min-content;
+}

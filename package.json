@@ -1,11 +1,33 @@
 {
-  "name": "project-integrator-multimedia-solutions",
-  "version": "1.0.0",
-  "description": "<p align=\"right\">\r   <samp>\r     <a href=\"https://www.figma.com/design/ZJsMPspRHxOqR2OkoRcmyu/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0?node-id=16-802&t=Gg3pXcFxL82EeLOF-0\">figma</a>✨ \r     <a href=\"#!\">file</a>📜 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki\">wiki</a>📚 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions\">discussions</a>📫 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/issues\">issues</a>💡 \r     <a href=\"#!\">metrics</a>🚀 \r     <a href=\"https://github.com/users/SinitsaBogdan/projects/34\">task-board</a>💻 \r     <a href=\"#!\">doc</a>🌱\r   </samp>\r </p>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "project-integrator-multimedia-solutions",
+	"version": "1.0.0",
+	"description": "<p align=\"right\">\r   <samp>\r     <a href=\"https://www.figma.com/design/ZJsMPspRHxOqR2OkoRcmyu/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B5%D0%B4%D0%B8%D0%B0?node-id=16-802&t=Gg3pXcFxL82EeLOF-0\">figma</a>✨ \r     <a href=\"#!\">file</a>📜 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki\">wiki</a>📚 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions\">discussions</a>📫 \r     <a href=\"https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/issues\">issues</a>💡 \r     <a href=\"#!\">metrics</a>🚀 \r     <a href=\"https://github.com/users/SinitsaBogdan/projects/34\">task-board</a>💻 \r     <a href=\"#!\">doc</a>🌱\r   </samp>\r </p>",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"dev": "webpack serve"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.24.7",
+		"@babel/preset-env": "^7.24.7",
+		"autoprefixer": "^10.4.19",
+		"babel-loader": "^9.1.3",
+		"clean-webpack-plugin": "^4.0.0",
+		"core-js": "^3.37.1",
+		"css-loader": "^7.1.2",
+		"cssnano": "^7.0.3",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.6.0",
+		"mini-css-extract-plugin": "^2.9.0",
+		"postcss-loader": "^8.1.1",
+		"pug": "^2.0.4",
+		"pug-loader": "^2.4.0",
+		"terser-webpack-plugin": "^5.3.10",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.4"
+	},
+	"sideEffects": true
 }

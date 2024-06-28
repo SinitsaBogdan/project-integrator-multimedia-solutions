@@ -1,0 +1,23 @@
+section.Section.ProjectScrean
+    .Wrapper.ProjectScrean__wrapper
+        img(class="ProjectScrean__img" src=require('../../../assets/image/ScreanProject/item-01.png') alt="")
+
+        include ../../shared/crumbs/Crumbs.pug
+
+        //- TODO: Сделать миксином
+        include ../../features/controller/Controller.pug
+
+        //- TODO: Дать дополнительный индивидуальный класс
+        ul.List
+            li
+                img(src=require('../../../assets/svg/sber.svg') alt="Sber")
+
+        //- TODO : Сделать миксином
+        h1(class="Title ProjectScrean__title")
+            p Название проекта по интеграции находится здесь
+
+        p.Text.ProjectScrean__text
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+        include ../../shared/button/video/ButtonVideo.pug

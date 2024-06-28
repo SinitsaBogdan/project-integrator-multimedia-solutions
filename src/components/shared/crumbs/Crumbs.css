@@ -1,0 +1,9 @@
+@import url(./__link/Crumbs__link.css);
+@import url(./__link__activ/Crumbs__link__activ.css);
+
+.Crumbs {
+	display: flex;
+	column-gap: 30px;
+	opacity: 80%;
+	font-size: 16px;
+}

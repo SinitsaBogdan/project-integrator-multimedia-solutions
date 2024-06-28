@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
+
+		<title>IT trader Soft - About</title>
+
+		<!--
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+        -->
+	</head>
+	<body class="Page">
+		<header class="Header">
+			<div class="Header__wrapper blur">
+				<a class="Link Logo" href="./home.html">
+					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+				</a>
+				<menu id="Header__menu"></menu>
+				<address class="Contacts">
+					<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button type="button" class="Button Button__isBorder Header__button" onclick="window['Dialog-get-price'].showModal();">
+					Обсудить проект
+				</button>
+			</div>
+		</header>
+		<main class="Main">
+			<section class="Section Conclusion">
+				<div class="Wrapper Conclusion__wrapper">
+					<span class="Crumbs">
+						<a class="Link Crumbs__link" href="./home.html">Главная</a>
+						<a class="Link Crumbs__link Crumbs__link__activ" href="#!">О компании</a>
+					</span>
+					<div class="Conclusion__content">
+						<div class="Conclusion__info">
+							<h2 class="Title Conclusion__title">
+								<p># О компании</p>
+							</h2>
+							<p class="Text Conclusion__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam.
+							</p>
+							<p class="Text Conclusion__text">
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+								corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
+								officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+								distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+								placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut
+								officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+								Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+								perferendis doloribus asperiores repellat
+							</p>
+						</div>
+						<div class="Conclusion__list">
+							<div class="InfoBar InfoBar__isGradient">
+								<h3 class="Title InfoBar__title">5 лет</h3>
+								<p class="Text InfoBar__text">Успешной работы</p>
+							</div>
+							<div class="InfoBar InfoBar__isGray">
+								<h3 class="Title InfoBar__title">3 467</h3>
+								<p class="Text InfoBar__text">Довольных клиентов</p>
+							</div>
+							<div class="InfoBar">
+								<h3 class="Title InfoBar__title">30</h3>
+								<p class="Text InfoBar__text">партнеров-поставщиков оборудования</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="Section Features">
+				<div class="Wrapper Features__wrapper">
+					<span class="Separator" data-number="01"></span>
+					<h2 class="Title Features__title">
+						<p>преимущества</p>
+						<p>
+							<span class="Title__isTransparent">находятся</span>
+							<span>здесь</span>
+						</p>
+					</h2>
+					<ul id="advantages" class="Features__list">
+						<li class="Features__item">
+							<p class="Text Features__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+								aliqua. Ut enim ad minim veniam
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="Section Clients">
+				<div class="Wrapper">
+					<span class="Separator" data-number="02"></span>
+					<h2 class="Title">
+						<p>более 100</p>
+						<p>
+							<span class="Title__isTransparent">довольных</span>
+							<span class="Title__isGradient">клиентов</span>
+						</p>
+					</h2>
+					<ul class="Clients__list"></ul>
+				</div>
+			</section>
+			<section class="Section Licenses">
+				<div class="Wrapper Licenses__wrapper">
+					<span class="Separator" data-number="03"></span>
+					<h2 class="Title">
+						<p>Лицензии</p>
+					</h2>
+					<div class="Galery Licenses__list"></div>
+				</div>
+			</section>
+			<section class="Section Applications">
+				<div class="Wrapper Applications__wrapper">
+					<span class="Separator" data-number="04"></span>
+					<div class="Applications__content">
+						<div class="Applications__info">
+							<h2 class="Title Applications__title">
+								<p>Расчитайте стоимость проекта</p>
+							</h2>
+							<p class="Text Applications__text">
+								Оставьте заявку и приложите к форме файл с техническим заданием для оценки вашего проекта.
+							</p>
+						</div>
+						<form class="Form PaymentRequest blur" action="">
+							<input class="Form__input" type="text" placeholder="Ваше имя" />
+							<input class="Form__input" type="text" placeholder="+7 (999)-999-99-99" />
+							<input class="Form__input" type="text" placeholder="Ваш email" />
+							<div class="ButtonFile">
+								<p class="Text">Прикрепите файлы с техническим заданием (необязательно)</p>
+								<label class="Form__file">
+									<input type="file" name="file" />
+									<span>Выберите файл</span>
+								</label>
+							</div>
+							<div class="PaymentRequest__controller">
+								<button class="Button Button__isNormal" type="submit">Расчитать стоимость</button>
+								<p>
+									Нажимая на кнопку, Вы принимаете
+									<a class="Link PaymentRequest__link" href="#!">условия обработки персональных данных</a>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="Footer">
+			<div class="Wrapper Footer__wrapper">
+				<span class="Separator"></span>
+				<div class="Footer__content">
+					<img class="Logo" src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+					<div class="Footer__info">
+						<menu id="Footer__menu_global" class="Footer__column"></menu>
+						<menu id="Header__menu_decisions" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./decisions.html">Решения</a></h2>
+						</menu>
+						<menu id="Header__menu_industries" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./sectors.html">Отрасли</a></h2>
+						</menu>
+						<div class="Footer__column">
+							<address class="Contacts">
+								<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+							</address>
+							<article class="Social">
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/WhatsApp.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/YouTube.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/Telegram App.png')%>" alt="" />
+								</a>
+							</article>
+							<address class="Contacts__address">
+								<p class="Contacts__info">Центральный офис</p>
+								<a class="Link" href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+							</address>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
+								Остались вопросы
+							</button>
+						</div>
+					</div>
+					<div class="Footer__politics">
+						<a class="Link" href="#!">Политика конфиденциальности</a>
+						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
+				<img src="<%=require('../../assets/svg/Close.svg')%>" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
+			<form class="Form Feedback">
+				<input type="text" class="Form__input" placeholder="Ваше имя" />
+				<input type="tel" class="Form__input" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="Form__input" placeholder="Ваш email" />
+				<button type="submit" onclick="window['Dialog-get-price'].close();" class="Button Button__isBackground Feedback__button">
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a class="Link underline" target="_blank" href="../../pages/agreement/Agreement.html">условия обработки персональных данных</a>
+			</p>
+		</dialog>
+	</body>
+</html>

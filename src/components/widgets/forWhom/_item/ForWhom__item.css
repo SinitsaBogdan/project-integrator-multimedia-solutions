@@ -1,0 +1,12 @@
+.ForWhom__item {
+	position: relative;
+}
+
+.ForWhom__item::after {
+	content: '# ';
+	position: absolute;
+	bottom: 0;
+	left: -90px;
+	font-weight: bold;
+	font-size: 120px;
+}

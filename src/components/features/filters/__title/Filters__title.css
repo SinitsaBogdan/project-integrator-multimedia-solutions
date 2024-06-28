@@ -1,0 +1,15 @@
+.Filters__title {
+	position: relative;
+	margin-block-end: 2rem;
+	padding-inline-start: 40px;
+	font-size: 20px;
+}
+
+.Filters__title::before {
+	content: url(../../../../assets/image/Funnel.png);
+	position: absolute;
+	top: -4px;
+	left: 0;
+	block-size: 26px;
+	inline-size: 26px;
+}

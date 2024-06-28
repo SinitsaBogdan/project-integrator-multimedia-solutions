@@ -1,0 +1,15 @@
+.PaymentRequest__controller {
+	display: flex;
+	column-gap: 1rem;
+}
+
+.PaymentRequest__controller p {
+	opacity: 30%;
+	font-size: 12px;
+}
+
+.PaymentRequest__controller button {
+	padding-inline: 25px;
+	padding-block: 21px;
+	font-size: 16px;
+}

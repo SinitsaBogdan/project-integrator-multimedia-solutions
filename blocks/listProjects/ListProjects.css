@@ -1,9 +1,0 @@
-@import url(./__wrapper/ListProjects__wrapper.css);
-@import url(./__list/ListProjects__list.css);
-@import url(./__item/ListProjects__item.css);
-
-.ListProjects {
-	display: flex;
-	align-items: center;
-	padding-block: 22vh 2vh;
-}

@@ -1,0 +1,38 @@
+section.Section.Conclusion
+    .Wrapper.Conclusion__wrapper
+        span(class="Separator" data-number="04")
+
+        //- TODO: Рефактор
+        //- Сделать миксином
+        //- Передаются не верные значения
+        include ../../shared/crumbs/Crumbs.pug
+
+        .Conclusion__content
+
+            .Conclusion__list
+                .InfoBar
+                    h3.Title.InfoBar__title 5 лет
+                    p.Text.InfoBar__text Успешной работы
+
+                .InfoBar
+                    h3.Title.InfoBar__title 3 467
+                    p.Text.InfoBar__text Довольных клиентов
+
+                .InfoBar.InfoBar__isGradient
+                    h3.Title.InfoBar__title 30
+                    p.Text.InfoBar__text партнеров-поставщиков оборудования
+
+            .Conclusion__info
+
+                //- TODO : Сделать миксином
+                h2(class="Title Conclusion__title")
+                    p # О компании
+
+                p.Text.Conclusion__text
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    | aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    | incididunt ut labore et dolore magna aliqua.
+
+                p.Text.Conclusion__text
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    | aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet

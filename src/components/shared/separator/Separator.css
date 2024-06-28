@@ -1,0 +1,27 @@
+.Separator {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	border-top: 2px solid #afafaf;
+	padding-block: 2rem;
+	opacity: 20%;
+}
+
+.Separator::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	border: 2px solid #afafaf;
+	border-radius: 50%;
+	background-color: transparent;
+	block-size: 18px;
+	inline-size: 18px;
+}
+
+.Separator::after {
+	content: attr(data-number);
+	position: absolute;
+	top: 20px;
+	font-weight: 500;
+	font-size: 24px;
+}

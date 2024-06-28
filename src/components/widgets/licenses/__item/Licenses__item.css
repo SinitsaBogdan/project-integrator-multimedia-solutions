@@ -1,0 +1,8 @@
+.Licenses__item {
+	filter: saturate(0);
+	transition: filter 0.5s;
+}
+
+.Licenses__item:hover {
+	filter: saturate(1);
+}

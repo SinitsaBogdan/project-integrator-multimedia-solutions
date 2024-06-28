@@ -1,0 +1,13 @@
+.Clients__list {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	row-gap: 14px;
+	column-gap: 14px;
+	margin-block: 36px;
+	overflow: scroll;
+}
+
+.Clients__list::-webkit-scrollbar {
+	display: none;
+}

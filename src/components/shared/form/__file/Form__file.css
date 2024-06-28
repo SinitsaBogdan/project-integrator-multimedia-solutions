@@ -1,0 +1,23 @@
+.Form__file {
+	cursor: pointer;
+	inline-size: max-content;
+}
+
+.Form__file span {
+	position: relative;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding-inline: 20px;
+	padding-block: 12px;
+	outline: none;
+	font-size: 14px;
+	text-align: center;
+}
+
+.Form__file input[type='file'] {
+	position: absolute;
+	inset: 0;
+	z-index: -1;
+	display: block;
+	opacity: 0;
+}

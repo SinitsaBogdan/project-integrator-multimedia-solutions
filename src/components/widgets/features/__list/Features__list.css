@@ -1,0 +1,7 @@
+.Features__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 2vh;
+	padding-block-start: 2rem;
+}

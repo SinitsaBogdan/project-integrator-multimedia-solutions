@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="color-scheme" content="dark light" />
+		<title>Условия обработки персональных данных</title>
+
+		<!--
+        <link rel="icon" href="svg/favicon.ico" />
+        <link rel="icon" href="svg/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="svg/mobile-favicon.png" />
+        -->
+	</head>
+	<body>
+		<header class="Header">
+			<div class="Header__wrapper blur">
+				<a class="Link Logo" href="./home.html">
+					<img src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+				</a>
+				<menu id="Header__menu"></menu>
+				<address class="Contacts">
+					<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+					<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+				</address>
+				<button type="button" class="Button Button__isBorder Header__button" onclick="window['Dialog-get-price'].showModal();">
+					Обсудить проект
+				</button>
+			</div>
+		</header>
+
+		<main class="Main">
+			<section class="Section">
+				<h1>Условия обработки персональных данных</h1>
+			</section>
+		</main>
+
+		<footer class="Footer">
+			<div class="Wrapper Footer__wrapper">
+				<span class="Separator"></span>
+				<div class="Footer__content">
+					<img class="Logo" src="<%=require('../../assets/svg/logo.svg')%>" alt="логотип" />
+					<div class="Footer__info">
+						<menu id="Footer__menu_global" class="Footer__column"></menu>
+						<menu id="Header__menu_decisions" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./decisions.html">Решения</a></h2>
+						</menu>
+						<menu id="Header__menu_industries" class="Footer__column">
+							<h2 class="Footer__title"><a class="Link" href="./sectors.html">Отрасли</a></h2>
+						</menu>
+						<div class="Footer__column">
+							<address class="Contacts">
+								<a class="Link" href="tel:79999999999">+7 (999)-999-99-99</a>
+								<a class="Link" href="mailto:test@mail.ru">test@mail.ru</a>
+							</address>
+							<article class="Social">
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/WhatsApp.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/YouTube.png')%>" alt="" />
+								</a>
+								<a class="Link" href="#!">
+									<img class="Social__img" src="<%=require('../../assets/image/Social/Telegram App.png')%>" alt="" />
+								</a>
+							</article>
+							<address class="Contacts__address">
+								<p class="Contacts__info">Центральный офис</p>
+								<a class="Link" href="#!">г. Самара, ул. Ленина, стр. 1, офис 101</a>
+							</address>
+							<button type="button" class="Button Button__isBorder" onclick="window['Dialog-get-price'].showModal();">
+								Остались вопросы
+							</button>
+						</div>
+					</div>
+					<div class="Footer__politics">
+						<a class="Link" href="#!">Политика конфиденциальности</a>
+						<p>ООО «Айти трейдер софт» ИНН:000000000 ОГРН:000000000</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<dialog class="Dialog" id="Dialog-get-price">
+			<h2 class="Dialog__heading">Получить расчет</h2>
+			<button type="button" onclick="window['Dialog-get-price'].close();" class="Dialog__close">
+				<img src="<%=require('../../assets/svg/Close.svg')%>" alt="Закрыть окно" />
+			</button>
+			<p class="Dialog__prompt">Оставьте ваши контактные данные и получите полный расчет стоимости</p>
+			<form class="Form Feedback">
+				<input type="text" class="Form__input" placeholder="Ваше имя" />
+				<input type="tel" class="Form__input" placeholder="+7 (999)-999-99-99" />
+				<input type="email" class="Form__input" placeholder="Ваш email" />
+				<button type="submit" onclick="window['Dialog-get-price'].close();" class="Button Button__isNormal Feedback__button">
+					Получить консультацию
+				</button>
+			</form>
+			<p class="Dialog__agreement">
+				Нажимая на кнопку, Вы принимаете
+				<a class="Link underline" target="_blank" href="./agreement.html">условия обработки персональных данных</a>
+			</p>
+		</dialog>
+	</body>
+</html>

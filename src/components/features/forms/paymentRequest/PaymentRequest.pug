@@ -1,0 +1,16 @@
+form(class="Form PaymentRequest blur" action="")
+    input(class="Form__input" type="text" placeholder="Ваше имя")
+    input(class="Form__input" type="text" placeholder="+7 (999)-999-99-99")
+    input(class="Form__input" type="text" placeholder="Ваш email")
+
+    .ButtonFile
+        p.Text Прикрепите файлы с техническим заданием (необязательно)
+        label.Form__file
+            input(type="file" name="file")
+            span Выберите файл
+
+    .PaymentRequest__controller
+        button(class="Button Button__isNormal" type="submit") Расчитать стоимость
+        p
+            | Нажимая на кнопку, Вы принимаете 
+            a(class="Link PaymentRequest__link" href="#!") условия обработки персональных данных

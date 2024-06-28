@@ -1,0 +1,4 @@
+.HomeScrean__wrapper {
+	justify-content: end;
+	block-size: var(--section-screan-size);
+}

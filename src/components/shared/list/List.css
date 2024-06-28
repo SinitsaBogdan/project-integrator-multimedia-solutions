@@ -1,0 +1,9 @@
+@import url(./__item/List__item.css);
+
+.List {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-block-start: 2vh;
+}

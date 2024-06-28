@@ -1,7 +1,0 @@
-@import url(./__wrapper/Galery__wrapper.css);
-@import url(./__img/Galery__img.css);
-
-.Galery {
-	margin-block: 2vh 20vh;
-	block-size: 70vh;
-}

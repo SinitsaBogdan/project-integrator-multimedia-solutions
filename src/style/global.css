@@ -1,0 +1,24 @@
+.blur {
+	backdrop-filter: blur(14px);
+}
+
+.Wrapper {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	margin-inline: auto;
+	max-inline-size: 1200px;
+	inline-size: 100%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.isBackground {
+	background-color: #ffffff10;
+}
+
+.isBorder {
+	border: 2px solid #ffffff10;
+}

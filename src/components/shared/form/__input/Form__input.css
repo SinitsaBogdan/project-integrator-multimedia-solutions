@@ -1,0 +1,6 @@
+.Form__input {
+	border: 1px solid var(--form-field-border-color);
+	border-radius: 8px;
+	padding-inline: var(--form-padding-size);
+	block-size: 55px;
+}

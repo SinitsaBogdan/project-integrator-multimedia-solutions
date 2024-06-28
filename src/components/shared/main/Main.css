@@ -1,0 +1,7 @@
+.Main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: stretch;
+	row-gap: 10vh;
+}

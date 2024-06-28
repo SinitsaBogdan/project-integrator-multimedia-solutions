@@ -1,0 +1,8 @@
+.Card__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-inline: 0;
+	margin-block: 1rem;
+	padding-inline: 0;
+}

@@ -1,0 +1,16 @@
+header.Header
+    .Header__wrapper.blur
+
+        //- TODO: Сделать компонентом
+        include ../../shared/logo/Logo.pug
+
+        menu#Header__menu
+
+        include ../../features/contacts/Contacts.pug
+
+        //- TODO: Сделать миксином
+        button(
+            type="button", 
+            class="Button Button__isBorder Header__button", 
+            onclick="window['Dialog-get-price'].showModal();"
+        ) Обсудить проект

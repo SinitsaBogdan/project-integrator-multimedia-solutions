@@ -1,0 +1,10 @@
+.HomeScrean__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	object-fit: cover;
+	object-position: center;
+	inline-size: 100%;
+	block-size: var(--section-screan-img-size);
+}

@@ -1,8 +1,0 @@
-.Crumbs__link {
-	border-bottom: 2px solid transparent;
-	transition: all 0.4s;
-}
-
-.Crumbs__link:hover {
-	border-bottom: 2px solid currentColor;
-}

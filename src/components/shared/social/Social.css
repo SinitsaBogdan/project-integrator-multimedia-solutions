@@ -1,0 +1,6 @@
+@import url(./__img/Social__img.css);
+
+.Social {
+	display: flex;
+	column-gap: 1rem;
+}

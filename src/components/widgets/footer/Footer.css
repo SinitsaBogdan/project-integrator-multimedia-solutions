@@ -1,0 +1,23 @@
+@import url(./__wrapper/Footer__wrapper.css);
+@import url(./__title/Footer__title.css);
+@import url(./__link/Footer__link.css);
+@import url(./__info/Footer__info.css);
+@import url(./__column/Footer__column.css);
+@import url(./__politics/Footer__politics.css);
+@import url(./__content/Footer__content.css);
+
+.Footer {
+	display: flex;
+	align-items: end;
+	padding-block-end: 4vh;
+	block-size: 100vh;
+}
+
+#Footer__menu_global {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#Footer__menu_global a {
+	color: #fff;
+}
