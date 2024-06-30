@@ -20,6 +20,8 @@
 @import url(../../shared/form/Form.css);
 @import url(../../shared/crumbs/Crumbs.css);
 @import url(../../shared/separator/Separator.css);
+@import url(../../shared/list/List.css);
+@import url(../../entities/card/Card.css);
 @import url(../../shared/button/file/ButtonFile.css);
 
 /* POPUP ----------------------------------------------------- */
@@ -34,6 +36,7 @@
 /* SECTIONS -------------------------------------------------- */
 @import url(../../widgets/decisionScrean/DecisionScrean.css);
 @import url(../../widgets/features/Features.css);
+@import url(../../widgets/description/Description.css);
 @import url(../../widgets/applications/Applications.css);
 @import url(../../features/forms/paymentRequest/PaymentRequest.css);
 @import url(../../widgets/clients/Clients.css);

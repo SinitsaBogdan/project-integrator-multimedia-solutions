@@ -1,0 +1,4 @@
+.Description__column {
+	inline-size: calc(50% - 20px);
+	block-size: min-content;
+}

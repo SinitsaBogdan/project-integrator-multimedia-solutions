@@ -5,6 +5,8 @@
 @import url(./__input/Slider__input.css);
 @import url(./__controller/Slider__controller.css);
 @import url(./__line/Slider__line.css);
+@import url(./__content_controller/Slider__content_controller.css);
+
 
 .Slider {
 	position: relative;

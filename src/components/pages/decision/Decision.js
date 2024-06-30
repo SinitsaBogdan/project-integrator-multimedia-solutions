@@ -19,6 +19,7 @@ import { createCard } from '../../../scripts/create-card.js';
 import { fillingSectionFeaturesAdvantages } from '../../../scripts/filling-section-features-advantages.js';
 import { fillingSectionFeaturesIntegration } from '../../../scripts/filling-section-features-integration.js';
 import { fillingSectionClients } from '../../../scripts/filling-section-clients.js';
+import { fillingSectionSimilar } from '../../../scripts/filling-section-similar.js';
 
 // RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
 

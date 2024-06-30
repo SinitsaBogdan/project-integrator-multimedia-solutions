@@ -1,0 +1,7 @@
+@import url(./__wrapper/Description__wrapper.css);
+@import url(./__title/Description__title.css);
+@import url(./__content/Description__content.css);
+@import url(./__column/Description__column.css);
+@import url(./__text/Description__text.css);
+
+.Description {}
