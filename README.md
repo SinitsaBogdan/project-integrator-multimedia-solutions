@@ -11,11 +11,13 @@
   </samp>
 </p>
 
-# FRONTEND-MESTO-PROJECT-FF
+# INTEGRATOR MULTIMEDIA SOLUTIONS
 
 > ## 📜 Описание проета
 >
-> Приложение для публикации карточек с фотографиями.
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
 >
 > ### Что он делает
 >
@@ -39,7 +41,7 @@
 > 4. [Баги](#-баги)
 > 5. [Команды в проекте](#-команды-в-проекте)
 > 6. [История изменений](#-история-изменений)
-> 7. [Документация](https://github.com/SinitsaBogdan/yandex-frontend-mesto-project-ff/wiki)
+> 7. [Документация](#wiki---документация)
 
 ---
 
