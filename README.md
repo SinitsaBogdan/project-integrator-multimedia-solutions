@@ -126,7 +126,14 @@ npm run deploy
 
 ---
 
-## **[WiKi - Документация](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki)**
+## [WiKi - Документация](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki)
+### 1. [Список страниц в проекте](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/1.-%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5)
+### 2. [Список секций в проекте](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/2.-%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA-%D1%81%D0%B5%D0%BA%D1%86%D0%B8%D0%B9-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5)
+### 3. [Стили в проекте](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/3.-%D0%A1%D1%82%D0%B8%D0%BB%D0%B8-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B5)
+### 4. [React Компоненты](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/4.-React-%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B)
+### 5. [API](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/5.-API)
+### 6. [Data Base](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/6.-Data-Base)
+### 7. [GitHub](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki/7.-GitHub)
 
 ---
 
