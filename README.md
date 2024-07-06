@@ -11,68 +11,129 @@
   </samp>
 </p>
 
+# FRONTEND-MESTO-PROJECT-FF
+
+> ## 📜 Описание проета
+>
+> Приложение для публикации карточек с фотографиями.
+>
+> ### Что он делает
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
+>
+> ### Какую задачу решает
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
+
 ---
 
-# Наименование
-
-## Описание
+> ## 📣 Оглавление
+>
+> 1. [Описание проекта](#-описание-проета)
+> 2. [Инструкция по локальному развертыванию](#-инструкция-по-локальному-развертыванию)
+> 3. [Планы и Задачи по доработке проекта](#️-планы-и-задачи-по-доработке-проекта)
+> 4. [Баги](#-баги)
+> 5. [Команды в проекте](#-команды-в-проекте)
+> 6. [История изменений](#-история-изменений)
+> 7. [Документация](https://github.com/SinitsaBogdan/yandex-frontend-mesto-project-ff/wiki)
 
 ---
 
-## Задачи проекта
-
--   [ ] Публикация проекта
--   [ ] Подготовить базовую верстку
+> ## 🚀 Инструкция по локальному развертыванию
+>
+> 1. Склонировать проект с [репозитория](https://github.com/SinitsaBogdan/yandex-frontend-mesto-project-ff).
+> 2. Установить библиотеку npm `npm install -g npm` если её нет и `Node.js`. [Ссылка на документациию](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+> 3. Запустить команду `npm run install-lib`.
+> 4. Запустить локальную сборку и сервер, командой `npm run dev`.
 
 ---
 
-## [Обсуждения](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions)
+> ## 🤹‍♂️ Планы и Задачи по доработке проекта
+>
+> ### _Реализация авторизации в приложении_
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
+>
+> ### _Перенос проекта на Файловую Базу данных_
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
+>
+> ### _Создание микро сервиса для собственного API_
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
+>
+> ### _Реализация мобильной адаптации_
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
 
--   **[Общий канал](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/%D0%BE%D0%B1%D1%89%D0%B8%D0%B9-%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB)**
+---
 
-    ***
+> ## 🐛 Баги
+>
+> ### При просмотре на мобильном не приложение открывается в полном расширении.
+>
+> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+> Accusamus vitae ex praesentium deserunt autem, ut veritatis expedita dolore.
+> Deleniti obcaecati enim dolores odio quos minus corporis nobis eligendi reprehenderit velit.
 
--   **Базовая верстка**
+---
 
-        * [Страницы](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B)
+> ## 💻 Команды в проекте
 
-    -   [Шаблонные блоки](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8)
-    -   [Стили](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/%D1%81%D1%82%D0%B8%D0%BB%D0%B8)
+> Скачивание и установка библиотек и зависимостей
 
-        ***
+```
+npm run install-lib
+```
 
--   **React**
+---
 
-    -   [App - Приложение](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/app-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5)
-    -   [Entities - Сущности](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/entities-%D1%81%D1%83%D1%89%D0%BD%D0%BE%D1%81%D1%82%D0%B8)
-    -   [Features - Фичи](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/features-%D1%84%D0%B8%D1%87%D0%B8)
-    -   [Pages - Страницы](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/pages-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B)
-    -   [Shared - Общие компоненты](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/shared-%D0%BE%D0%B1%D1%89%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%BD%D0%B5%D0%BD%D1%82%D1%8B)
-    -   [Widgets - Виджеты](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/widgets-%D0%B2%D0%B8%D0%B4%D0%B6%D0%B5%D1%82%D1%8B)
+> Локальная сборка проекта в папку build
 
-    ***
+```
+npm run build
+```
 
--   **Data Base**
+---
 
-        * [Таблицы](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%8B)
+> Локальнаый запуск проекта [localhost:8080](http://localhost:8080/pages/home.html)
 
-    ***
+```
+npm run dev
+```
 
--   **API**
+---
 
-    -   [GET](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/get)
-    -   [HEAD](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/head)
-    -   [PATCH](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/patch)
-    -   [POST](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/post)
-    -   [PUT](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/put)
-    -   [DELETE](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/delete)
-    -   [OPTIONS](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/options)
-    -   [Errors - Справочник ошибок](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/discussions/categories/errors-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA)
+> Сборка проекта и публикация на GitHub Pages
+
+```
+npm run deploy
+```
 
 ---
 
 ## **[WiKi - Документация](https://github.com/SinitsaBogdan/project-integrator-multimedia-solutions/wiki)**
 
-```
-npm install webpack webpack-cli webpack-dev-server html-webpack-plugin clean-webpack-plugin @babel/core @babel/preset-env core-js babel-loader css-loader mini-css-extract-plugin postcss-loader autoprefixer cssnano terser-webpack-plugin file-loader@6.2.0 pug pug-loader --save-dev
-```
+---
+
+> ## 📦 История изменений
+>
+> ### V.1.0.0 - Релиз MVP
+>
+> Реализован функционал редактирования профиля, добавления \ удаления карточек а так же изменения афатара пользователя.
+> Внедрен API с внешней Базой данных для демонстрации функционала.
+> Релизована система лайков для карточки и подсчет их количества.
+
+---
