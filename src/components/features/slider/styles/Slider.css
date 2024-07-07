@@ -1,0 +1,9 @@
+.Slider {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	padding-block: 2vh;
+	inline-size: 100%;
+	block-size: 100%;
+}

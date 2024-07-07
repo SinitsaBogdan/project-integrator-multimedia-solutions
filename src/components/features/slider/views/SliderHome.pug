@@ -1,0 +1,21 @@
+extends ../../../features/slider/Slider
+
+block sliderImg
+    img(src=require("../../../assets/image/Screan/background-image-01.png") class="Slider__img" alt='логотип')
+
+block sliderContentTitle
+    h1(class="Title Slider__content_title")
+        p
+            span.Title__isPre Системный интегратор мультимедийных решений
+        p внедрение мультимедийных решений для конференц залов
+
+block sliderContentText
+    p.Text.Slider__content_text
+        | Комплексное оснащение конференц-залов, ситуационных центров,
+        | переговорных комнат, учебных центров и пр
+
+block sliderContentController
+    .Slider__content_controller
+        button(type='button' class='Button Button__isBorder Slider__button' onclic="window['Dialog-get-price'].showModal();")
+            | Обсудить проект
+        input(type="text" class="Slider__input blur" placeholder="Поиск решений. Например: Переговорные")

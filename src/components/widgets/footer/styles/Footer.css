@@ -1,0 +1,15 @@
+.Footer {
+	display: flex;
+	align-items: end;
+	padding-block-end: 4vh;
+	block-size: 100vh;
+}
+
+#Footer__menu_global {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#Footer__menu_global a {
+	color: #fff;
+}

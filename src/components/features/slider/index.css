@@ -1,0 +1,9 @@
+@import url(./styles/Slider.css);
+@import url(./styles/__wrapper/Slider__wrapper.css);
+@import url(./styles/__img/Slider__img.css);
+@import url(./styles/__content/Slider__content.css);
+@import url(./styles/__arrow/Slider__arrow.css);
+@import url(./styles/__input/Slider__input.css);
+@import url(./styles/__controller/Slider__controller.css);
+@import url(./styles/__line/Slider__line.css);
+@import url(./styles/__content_controller/Slider__content_controller.css);

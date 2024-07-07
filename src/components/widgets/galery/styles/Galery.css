@@ -1,0 +1,10 @@
+.Galery {
+	display: flex;
+	column-gap: 1rem;
+	border-radius: 10px;
+	overflow: scroll;
+}
+
+.Galery::-webkit-scrollbar {
+	display: none;
+}

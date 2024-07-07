@@ -1,0 +1,6 @@
+@import url(./styles/Card.css);
+@import url(./styles/__btn/Card__btn.css);
+@import url(./styles/__content/Card__content.css);
+@import url(./styles/__img/Card__img.css);
+@import url(./styles/__title/Card__title.css);
+@import url(./styles/__description/Card__description.css);
