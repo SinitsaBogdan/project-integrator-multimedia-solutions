@@ -1,0 +1,14 @@
+@import url(./style/ContactsInfo.css);
+@import url(./style/__wrapper/ContactsInfo__wrapper.css);
+@import url(./style/__title/ContactsInfo__title.css);
+@import url(./style/__content/ContactsInfo__content.css);
+@import url(./style/__column/ContactsInfo__column.css);
+@import url(./style/__adress/ContactsInfo__adress.css);
+@import url(./style/__phone/ContactsInfo__phone.css);
+@import url(./style/__email/ContactsInfo__email.css);
+@import url(./style/__form/ContactsInfo__form.css);
+@import url(./style/__departments/ContactsInfo__departments.css);
+@import url(./style/__department/ContactsInfo__department.css);
+@import url(./style/__department_name/ContactsInfo__department_name.css);
+@import url(./style/__department_address/ContactsInfo__department_address.css);
+@import url(./style/__map/ContactsInfo__map.css);

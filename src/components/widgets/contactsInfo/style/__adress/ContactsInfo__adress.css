@@ -1,0 +1,6 @@
+.ContactsInfo__adress {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	font-size: 20px;
+}

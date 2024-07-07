@@ -1,0 +1,22 @@
+section.Section.ContactsInfo
+    .Wrapper.ContactsInfo__wrapper
+        include ../../shared/crumbs/Crumbs.pug
+        h2(class="Title ContactsInfo__title")
+            p контакты
+        hr(class="Hr")
+        .ContactsInfo__content
+            .ContactsInfo__column
+                address.ContactsInfo__adress
+                    a.ContactsInfo__phone(href="#!") +7 (999)-999-99-99
+                    a.ContactsInfo__phone(href="#!") +7 (999)-999-99-99
+                    a.ContactsInfo__email(href="#!") test@mail.ru
+                    include ../../shared/social/Social.pug
+
+                include ../../features/forms/views/questions/Questions.pug
+
+            .ContactsInfo__column
+                ul.ContactsInfo__departments
+                    li.ContactsInfo__department
+                        p(class="ContactsInfo__department_name") Центральный офис
+                        p(class="ContactsInfo__department_address") г. Самара, ул. Ленина, стр. 1, офис 101
+                img(class="ContactsInfo__map" src=require("../../../assets/image/contacts-map.png") alt='логотип')

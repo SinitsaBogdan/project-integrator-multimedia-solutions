@@ -22,7 +22,7 @@
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../widgets/dialog/Dialog.css);
-@import url(../../features/forms/feedback/Feedback.css);
+@import url(../../features/forms/views/feedback/Feedback.css);
 
 /* HEADER ---------------------------------------------------- */
 @import url(../../widgets/header/Header.css);
@@ -33,7 +33,7 @@
 @import url(../../widgets/projectScrean/ProjectScrean.css);
 @import url(../../widgets/indicators/Indicators.css);
 @import url(../../widgets/applications/Applications.css);
-@import url(../../features/forms/paymentRequest/PaymentRequest.css);
+@import url(../../features/forms/views/paymentRequest/PaymentRequest.css);
 @import url(../../shared/button/file/ButtonFile.css);
 @import url(../../widgets/similar/Similar.css);
 @import url(../../entities/card/Card.css);

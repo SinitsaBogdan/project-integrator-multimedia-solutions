@@ -17,10 +17,15 @@
 @import url(../../shared/form/Form.css);
 @import url(../../features/slider/Slider.css);
 @import url(../../shared/separator/Separator.css);
+@import url(../../shared/crumbs/Crumbs.css);
+
+/* FORMS ----------------------------------------------------- */
+@import url(../../features/forms/index.css);
+@import url(../../features/forms/views/questions/index.css);
 
 /* POPUP ----------------------------------------------------- */
 @import url(../../widgets/dialog/Dialog.css);
-@import url(../../features/forms/feedback/Feedback.css);
+@import url(../../features/forms/views/feedback/Feedback.css);
 
 /* HEADER ---------------------------------------------------- */
 @import url(../../widgets/header/Header.css);
@@ -28,6 +33,7 @@
 @import url(../../shared/button/Button.css);
 
 /* SECTIONS -------------------------------------------------- */
+@import url(../../widgets/contactsInfo/index.css);
 
 /* FOOTER ---------------------------------------------------- */
 @import url(../../widgets/footer/Footer.css);

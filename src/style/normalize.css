@@ -55,3 +55,8 @@ input:focus {
 	outline: none;
 	opacity: 70%;
 }
+
+fieldset {
+	outline: none;
+	border: none;
+}
