@@ -1,0 +1,15 @@
+.Header {
+	position: fixed;
+	top: 2vh;
+	left: -50px;
+	z-index: 100;
+	display: flex;
+	margin-inline: calc((100% - 1200px) / 2);
+	inline-size: calc(1200px + 100px);
+}
+
+#Header__menu {
+	display: flex;
+	column-gap: 2vw;
+	font-size: 14px;
+}

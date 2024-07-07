@@ -1,0 +1,4 @@
+.Conclusion {
+	justify-content: end;
+	block-size: var(--section-conclusion-size);
+}

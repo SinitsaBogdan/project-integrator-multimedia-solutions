@@ -1,0 +1,6 @@
+.ButtonVideo {
+	border: 1px solid #ffffff20;
+	border-radius: 20px;
+	overflow: hidden;
+	inline-size: max-content;
+}

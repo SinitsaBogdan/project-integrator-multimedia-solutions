@@ -7,28 +7,28 @@
 /* PAGE ------------------------------------------------------ */
 @import url(./root.css);
 
-/* COMPONENTS ------------------------------------------------ */
-@import url(../../shared/title/Title.css);
-@import url(../../shared/text/Text.css);
-@import url(../../shared/logo/Logo.css);
-@import url(../../shared/page/Page.css);
-@import url(../../shared/main/Main.css);
-@import url(../../shared/section/Section.css);
-@import url(../../shared/form/Form.css);
-@import url(../../features/slider/Slider.css);
-@import url(../../shared/separator/Separator.css);
+/* WIDGETS --------------------------------------------------- */
+@import url(../../widgets/footer/index.css);
+@import url(../../widgets/dialog/index.css);
+@import url(../../widgets/header/index.css);
+@import url(../../widgets/contactsInfo/index.css);
 
-/* POPUP ----------------------------------------------------- */
-@import url(../../widgets/dialog/Dialog.css);
-@import url(../../features/forms/feedback/Feedback.css);
+/* FEATURES -------------------------------------------------- */
+@import url(../../features/slider/index.css);
+@import url(../../features/forms/index.css);
+@import url(../../features/forms/views/questions/index.css);
+@import url(../../features/forms/views/feedback/index.css);
+@import url(../../features/contacts/index.css);
 
-/* HEADER ---------------------------------------------------- */
-@import url(../../widgets/header/Header.css);
-@import url(../../features/contacts/Contacts.css);
-@import url(../../shared/button/Button.css);
-
-/* SECTIONS -------------------------------------------------- */
-
-/* FOOTER ---------------------------------------------------- */
-@import url(../../widgets/footer/Footer.css);
-@import url(../../shared/social/Social.css);
+/* SHARED ---------------------------------------------------- */
+@import url(../../shared/title/index.css);
+@import url(../../shared/text/index.css);
+@import url(../../shared/logo/index.css);
+@import url(../../shared/page/index.css);
+@import url(../../shared/main/index.css);
+@import url(../../shared/section/index.css);
+@import url(../../shared/form/index.css);
+@import url(../../shared/separator/index.css);
+@import url(../../shared/crumbs/index.css);
+@import url(../../shared/button/index.css);
+@import url(../../shared/social/index.css);

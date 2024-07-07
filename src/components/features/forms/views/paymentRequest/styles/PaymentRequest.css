@@ -1,0 +1,8 @@
+.PaymentRequest {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	border-radius: 20px;
+	padding-inline: 34px;
+	padding-block: 42px;
+}

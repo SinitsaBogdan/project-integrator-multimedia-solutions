@@ -22,3 +22,7 @@
 .isBorder {
 	border: 2px solid #ffffff10;
 }
+
+.Hr {
+	opacity: 40%;
+}

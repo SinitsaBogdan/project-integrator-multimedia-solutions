@@ -1,0 +1,5 @@
+@import url(./styles/Indicators.css);
+@import url(./styles/__content/Indicators__content.css);
+@import url(./styles/__column/Indicators__column.css);
+@import url(./styles/__title/Indicators__title.css);
+@import url(./styles/__link/Indicators__link.css);

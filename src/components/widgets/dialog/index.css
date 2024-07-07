@@ -1,0 +1,5 @@
+@import url(./styles/Dialog.css);
+@import url(./styles/__heading/Dialog__heading.css);
+@import url(./styles/__close/Dialog__close.css);
+@import url(./styles/__prompt/Dialog__prompt.css);
+@import url(./styles/__agreement/Dialog__agreement.css);

@@ -1,0 +1,6 @@
+.ContactsInfo__departments {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2vh;
+	margin-block-end: 2vh;
+}

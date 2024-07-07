@@ -1,0 +1,12 @@
+block variables
+    - var formTitle = '';
+    - var formDesc = '';
+    - var formClassName = '';
+
+form(class="Form " + formClassName action="")
+    h2(class="Title") #{formTitle}
+    p(class="Text") #{formDesc}
+
+    block fieldset
+
+    block controller

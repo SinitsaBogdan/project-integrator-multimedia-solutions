@@ -1,0 +1,18 @@
+extends ../../../widgets/features/Features
+
+block featuresSeparator
+    span(class="Separator" data-number="06")
+
+block featuresTitle
+    h2(class="Title Features__title" data-title-sub="как мы работаем")
+        p # 5 простых шагов
+        p
+            span.Title__isTransparent от расчета
+            span.Title__isGradient до внедрения
+
+    p.Text.Features__text
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        | aliqua. Ut enim ad minim veniam
+
+block featuresList
+    ul(id="integration" class="Features__list")

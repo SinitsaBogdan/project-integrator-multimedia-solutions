@@ -1,0 +1,4 @@
+@import url(./styles/Title.css);
+@import url(./styles/__isPre/Title__isPre.css);
+@import url(./styles/__isTransparent/Title__isTransparent.css);
+@import url(./styles/__isGradient/Title__isGradient.css);

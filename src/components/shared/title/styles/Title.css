@@ -1,0 +1,17 @@
+.Title {
+	position: relative;
+	margin-block-start: 2vh;
+	font-weight: 800;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.Title::after {
+	content: attr(data-title-sub);
+	position: absolute;
+	top: -20px;
+	color: #cccccc;
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: lowercase;
+}
