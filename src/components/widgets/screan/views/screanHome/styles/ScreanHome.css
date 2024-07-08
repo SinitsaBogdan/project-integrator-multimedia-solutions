@@ -1,0 +1,5 @@
+.ScreanHome {
+	block-size: 100vh;
+	justify-content: end;
+	padding-block-end: 12vh;
+}

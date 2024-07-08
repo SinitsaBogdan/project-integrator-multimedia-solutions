@@ -1,0 +1,23 @@
+extends ../../Screan
+
+block screanVariables
+    - var screanChildClass = 'ScreanDecision';
+    - var screanChildClassContent = 'ScreanDecision__content';
+
+block screan-image
+    img(src=require("../../../assets/image/Screan/background-image-02.png") class="Screan__img ScreanDecision__img" alt='логотип')
+
+block screan-content
+    h1(class="Title ScreanDecision__title")
+        p
+            span CОЗДАНИЕ И ОСНАЩЕНИЕ СИТУАЦИОННОГО ЦЕНТРА
+        p
+
+    p.Text.ScreanDecision__text
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+    //- TODO: Сделать миксином
+    include ../../../../features/controller/Controller.pug
+
+

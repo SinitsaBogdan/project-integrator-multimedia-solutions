@@ -35,9 +35,10 @@
 @import url(../../features/forms/views/paymentRequest/index.css);
 
 /* WIDGETS --------------------------------------------------- */
+@import url(../../widgets/screan/index.css);
+@import url(../../widgets/screan/views/screanDecision/index.css);
 @import url(../../widgets/dialog/index.css);
 @import url(../../widgets/header/index.css);
-@import url(../../widgets/decisionScrean/index.css);
 @import url(../../widgets/features/index.css);
 @import url(../../widgets/decisionSlider/index.css);
 @import url(../../widgets/description/index.css);

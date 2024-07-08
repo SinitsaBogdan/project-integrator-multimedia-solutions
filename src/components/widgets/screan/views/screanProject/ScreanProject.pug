@@ -1,0 +1,25 @@
+extends ../../Screan
+
+block screanVariables
+    - var screanChildClass = 'ScreanProject';
+    - var screanChildClassContent = 'ScreanProject__content';
+
+block screan-image
+    img(class="Screan__img ScreanProject__img" src=require('../../../assets/image/Screan/background-image-13.png') alt="")
+
+block screan-content
+    include ../../../../features/controller/Controller.pug
+
+    //- TODO: Дать дополнительный индивидуальный класс
+    ul.List
+        li
+            img(src=require('../../../assets/svg/sber.svg') alt="Sber")
+
+    h1(class="Title ProjectScrean__title")
+        p Название проекта по интеграции находится здесь
+
+    p.Text.ProjectScrean__text
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        | sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+
+    include ../../../../shared/button/views/video/ButtonVideo.pug

@@ -34,10 +34,11 @@
 @import url(../../features/forms/views/paymentRequest/index.css);
 
 /* WIDGETS --------------------------------------------------- */
+@import url(../../widgets/screan/index.css);
+@import url(../../widgets/screan/views/screanHome/index.css);
 @import url(../../widgets/galery/index.css);
 @import url(../../widgets/dialog/index.css);
 @import url(../../widgets/header/index.css);
-@import url(../../widgets/homeScrean/index.css);
 @import url(../../widgets/presentMap/index.css);
 @import url(../../widgets/features/index.css);
 @import url(../../widgets/licenses/index.css);

@@ -1,0 +1,25 @@
+extends ../../Screan
+
+block screanVariables
+    - var screanChildClass = 'ScreanHome';
+    - var screanChildClassContent = 'ScreanHome__content';
+
+block screan-image
+    img(src=require("../../../assets/image/Screan/background-image-01.png") class="Screan__img ScreanHome__img" alt='логотип')
+
+block screan-content
+    h1(class="Title ScreanHome__title")
+        p
+            span.Title__isPre Системный интегратор мультимедийных решений
+        p внедрение мультимедийных решений для конференц залов
+
+    p.Text.ScreanHome__text
+        | Комплексное оснащение конференц-залов, ситуационных центров,
+        | переговорных комнат, учебных центров и пр
+
+    .ScreanHome__controller
+        button(type='button' class='Button Button__isBorder ScreanHome__button' onclic="window['Dialog-get-price'].showModal();")
+            | Обсудить проект
+        input(type="text" class="ScreanHome__input blur" placeholder="Поиск решений. Например: Переговорные")
+
+
