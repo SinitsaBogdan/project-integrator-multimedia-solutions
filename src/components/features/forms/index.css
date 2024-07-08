@@ -1,2 +1,6 @@
 @import url(./styles/Form.css);
+@import url(./styles/__input/Form__input.css);
+@import url(./styles/__input_name/Form__input_name.css);
+@import url(./styles/__input_phone/Form__input_phone.css);
+@import url(./styles/__input_questions/Form__input_questions.css);
 @import url(./styles/__link/Form__link.css);

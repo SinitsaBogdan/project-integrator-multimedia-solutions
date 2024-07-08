@@ -1,0 +1,5 @@
+.Form__input_questions {
+	block-size: 6rem;
+	display: flex;
+	padding-block-start: 1rem;
+}

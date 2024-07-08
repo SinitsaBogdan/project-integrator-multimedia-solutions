@@ -10,12 +10,12 @@ block fieldset
     fieldset(class="Questions__fieldset")
         input(class="Form__input Form__input_name" type="text" placeholder="Ваше имя")
         input(class="Form__input Form__input_phone" type="text" placeholder="+7 (999)-999-99-99")
-        input(class="Form__input Form__input_questions" type="text" placeholder="Ваш вопрос")
+        textarea(class="Form__input Form__input_questions" type="text" placeholder="Ваш вопрос")
 
 block controller
 
     .Questions__controller
         button(class="Button Button__isNormal" type="submit") ПЕРЕЗВОНИТЕ МНЕ
         p(class="Text")
-            | Нажимая на кнопку, Вы принимаете 
+            | Нажимая на кнопку, Вы принимаете
             a(class="Link Form__link" href="#!") условия обработки персональных данных

@@ -20,7 +20,8 @@ a {
 }
 
 button,
-input {
+input,
+textarea {
 	border: none;
 	outline: none;
 	color: inherit;
@@ -45,13 +46,15 @@ h6 {
 	font-size: inherit;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
 	outline: none;
 	opacity: 70%;
 }

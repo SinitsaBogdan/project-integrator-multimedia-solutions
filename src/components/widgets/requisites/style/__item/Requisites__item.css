@@ -1,0 +1,4 @@
+.Requisites__item {
+	display: flex;
+	column-gap: 4rem;
+}

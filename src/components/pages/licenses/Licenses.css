@@ -7,15 +7,6 @@
 /* PAGE ------------------------------------------------------ */
 @import url(./root.css);
 
-/* WIDGETS --------------------------------------------------- */
-@import url(../../widgets/dialog/index.css);
-@import url(../../widgets/footer/index.css);
-@import url(../../widgets/header/index.css);
-
-/* FEATURES -------------------------------------------------- */
-@import url(../../features/forms/views/feedback/index.css);
-@import url(../../features/contacts/index.css);
-
 /* SHARED ---------------------------------------------------- */
 @import url(../../shared/button/index.css);
 @import url(../../shared/title/index.css);
@@ -27,3 +18,12 @@
 @import url(../../shared/form/index.css);
 @import url(../../shared/separator/index.css);
 @import url(../../shared/social/index.css);
+
+/* FEATURES -------------------------------------------------- */
+@import url(../../features/forms/views/feedback/index.css);
+@import url(../../features/contacts/index.css);
+
+/* WIDGETS --------------------------------------------------- */
+@import url(../../widgets/dialog/index.css);
+@import url(../../widgets/footer/index.css);
+@import url(../../widgets/header/index.css);

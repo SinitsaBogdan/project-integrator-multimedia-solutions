@@ -1,3 +1,4 @@
 @import url(./styles/Questions.css);
+@import url(./styles/__title/Questions__title.css);
 @import url(./styles/__fieldset/Questions__fieldset.css);
 @import url(./styles/__controller/Questions__controller.css);

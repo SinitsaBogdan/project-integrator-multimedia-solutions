@@ -1,4 +1,5 @@
 .ContactsInfo {
+	margin-block-start: 2vh;
 	block-size: 90vh;
 	justify-content: end !important;
 }
