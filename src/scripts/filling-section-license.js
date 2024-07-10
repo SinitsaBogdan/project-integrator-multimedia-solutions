@@ -7,6 +7,5 @@ export function fillingSectionLicense(elements, create) {
 		li.classList.add('Licenses__item');
 		li.append(item);
 		list.append(li);
-		console.log(list)
 	});
 }

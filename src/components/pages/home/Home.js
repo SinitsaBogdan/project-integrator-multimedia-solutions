@@ -10,6 +10,7 @@ import { solutionsElements as solutions } from '../../../data/data-solution.js';
 import { forWhomElements as forWhom } from '../../../data/data-tags.js';
 import { clientsElements as clients } from '../../../data/data-clients.js';
 import { licensesElements as licenses } from '../../../data/data-license.js';
+import { titlesElements as titles } from '../../../data/data-title.js';
 
 // IMPORT CREATE -------------------------------------------------------------------------------------------
 import { createStage } from '../../../scripts/create-stages.js';
@@ -25,6 +26,7 @@ import { fillingSectionForWhom } from '../../../scripts/filling-section-forwhom.
 import { fillingSectionFeaturesAdvantages } from '../../../scripts/filling-section-features-advantages.js';
 import { fillingSectionClients } from '../../../scripts/filling-section-clients.js';
 import { fillingSectionLicense } from '../../../scripts/filling-section-license.js';
+import { fillingPageTitles } from '../../../scripts/filling-page-titles.js';
 
 // RUN PROJECT NAVIGATIONS ---------------------------------------------------------------------------------
 
@@ -40,5 +42,5 @@ fillingSectionForWhom(forWhom, createTag);
 fillingSectionSolution(solutions, createCard);
 fillingSectionClients(clients, createClient);
 fillingSectionLicense(licenses, createLicense);
-
+fillingPageTitles(titles);
 // END -----------------------------------------------------------------------------------------------------

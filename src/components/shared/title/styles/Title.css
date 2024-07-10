@@ -7,7 +7,7 @@
 }
 
 .Title::after {
-	content: attr(data-title-sub);
+	content: attr(sub);
 	position: absolute;
 	top: -20px;
 	color: #cccccc;
